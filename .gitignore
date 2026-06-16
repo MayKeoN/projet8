@@ -1,0 +1,17 @@
+target/
+dbt_packages/
+logs/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Credentials — ne jamais versionner
+profiles.yml
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
