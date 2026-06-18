@@ -14,6 +14,10 @@ clean-targets:
   - "target"
   - "dbt_packages"
 
+dbt-cloud:
+  project-id: "70506183143250"
+  defer-env-id: null
+
 models:
   projet8:
     staging:
