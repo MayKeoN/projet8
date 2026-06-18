@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: stg_students
+    description: "Inscriptions aux parcours Data OCR nettoyees (2022-2025). Nettoyage 1-to-1 depuis students_raw : renommage colonnes, cast annee en integer, genre vide remplace par 'Non renseigne', filtre PATH=Data."
+    columns:
+      - name: user_id
+        description: "Identifiant technique unique de l'etudiant (pseudonymise)."
+        tests:
+          - not_null
+      - name: path_category_name
+        description: "Categorie du parcours. Toujours 'Data' apres filtre staging."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Data']
+      - name: age_group
+        description: "Tranche d'age de l'etudiant au debut du parcours."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - '20-24 ans'
+                  - '25-29 ans'
+                  - '30-34 ans'
+                  - '35-39 ans'
+                  - '40-44 ans'
+                  - '45-49 ans'
+                  - '50-54 ans'
+                  - '55-59 ans'
+                  - '60 ans ou plus'
+      - name: gender
+        description: "Genre declare par l'etudiant. 'Non renseigne' si absent dans la source (~27% en 2022, en baisse sur la periode)."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['M', 'F', 'Non renseigne']
+      - name: region
+        description: "Region de residence de l'etudiant (libelle INSEE ou 'DROM')."
+        tests:
+          - not_null
+      - name: year_path_started
+        description: "Annee de debut du parcours, castee en integer."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [2022, 2023, 2024, 2025]

@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: stg_insee_population
+    description: "Estimations de population INSEE par departement, genre et tranche d'age (2022-2025). Unpivot du format large vers format long. Lignes avec dep_code vide filtrees (France metropolitaine, France entiere). Ligne DOM conservee (dep_code='DOM') car elle correspond a la region DROM du dataset OCR."
+    columns:
+      - name: year
+        description: "Annee de l'estimation, castee en integer."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [2022, 2023, 2024, 2025]
+      - name: dep_code
+        description: "Code departement INSEE (e.g. '01', '2A', '971') ou 'DOM' pour l'agregat des departements d'outre-mer. Jamais vide apres filtre staging."
+        tests:
+          - not_null
+      - name: dep_name
+        description: "Nom du departement. Vide pour la ligne agregat DOM (dep_code='DOM') — comportement normal, pas un defaut de donnee."
+      - name: gender
+        description: "Genre : 'M' pour hommes, 'F' pour femmes."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['M', 'F']
+      - name: age_group_raw
+        description: "Tranche d'age brute issue du nom de colonne INSEE (e.g. 'hommes_20_a_24_ans'). Les colonnes totales (hommes_total, femmes_total) sont exclues de l'unpivot pour eviter le double comptage. Harmonisation vers labels OC effectuee en intermediate."
+        tests:
+          - not_null
+      - name: population
+        description: "Population estimee pour ce departement, genre et tranche d'age. Castee en integer."
+        tests:
+          - not_null

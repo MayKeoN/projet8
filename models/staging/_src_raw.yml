@@ -1,0 +1,40 @@
+version: 2
+
+sources:
+  - name: raw
+    database: PROJET8
+    schema: RAW
+    description: "Donnees brutes chargees via dbt seed depuis les scripts Python de preparation. Quatre tables : etudiants OCR, population INSEE, et referentiels geographiques COG."
+
+    tables:
+      - name: students_raw
+        description: "Inscriptions aux parcours Data d'OpenClassrooms (2022-2025). Source : fichier CSV mission, pseudonymise (USER_ID non nominatif). Charge par prepare_csv_seeds.py puis dbt seed."
+        columns:
+          - name: USER_ID
+            description: "Identifiant technique unique de l'etudiant (pseudonymise)."
+            tests:
+              - not_null
+
+      - name: insee_population_raw
+        description: "Estimations de population par departement, sexe et tranche d'age quinquennale. Source : INSEE, fichier estim-pop-dep-sexe-aq-1975-2025.xlsx (onglets 2022-2025). Charge par prepare_insee_seed.py puis dbt seed. Contient les lignes departementales ET les agregats (France metropolitaine, DOM, total national). Les agregats sont filtres en staging sur la base du dep_code."
+        columns:
+          - name: year
+            description: "Annee de l'estimation (2022, 2023, 2024, 2025)."
+            tests:
+              - not_null
+
+      - name: cog_departement
+        description: "Referentiel geographique INSEE - Code Officiel Geographique 2024. Table de correspondance departement vers region. Source : v_departement_2024.csv. Charge par prepare_csv_seeds.py puis dbt seed."
+        columns:
+          - name: DEP
+            description: "Code departement (e.g. '01', '2A', '976')."
+            tests:
+              - not_null
+
+      - name: cog_region
+        description: "Referentiel geographique INSEE - Code Officiel Geographique 2024. Table de correspondance code region vers libelle. Source : v_region_2024.csv. Charge par prepare_csv_seeds.py puis dbt seed."
+        columns:
+          - name: REG
+            description: "Code region INSEE (e.g. '11' pour Ile-de-France)."
+            tests:
+              - not_null

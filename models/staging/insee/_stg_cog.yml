@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_cog_departement
+    description: "Referentiel COG INSEE 2024 - departements. Passthrough depuis cog_departement avec renommage colonnes et TRIM des codes."
+    columns:
+      - name: dep_code
+        description: "Code departement INSEE (e.g. '01', '2A', '976'). Cle primaire."
+        tests:
+          - not_null
+          - unique
+      - name: reg_code
+        description: "Code region INSEE de rattachement (e.g. '11' pour Ile-de-France)."
+        tests:
+          - not_null
+      - name: dep_name
+        description: "Libelle officiel du departement."
+        tests:
+          - not_null
+
+  - name: stg_cog_region
+    description: "Referentiel COG INSEE 2024 - regions. Passthrough depuis cog_region avec renommage colonnes et TRIM des codes."
+    columns:
+      - name: reg_code
+        description: "Code region INSEE (e.g. '11' pour Ile-de-France). Cle primaire."
+        tests:
+          - not_null
+          - unique
+      - name: reg_name
+        description: "Libelle officiel de la region (e.g. 'Ile-de-France')."
+        tests:
+          - not_null
