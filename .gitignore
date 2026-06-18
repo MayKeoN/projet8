@@ -15,3 +15,4 @@ profiles.yml
 # OS
 .DS_Store
 Thumbs.db
+dbt_internal_packages/
