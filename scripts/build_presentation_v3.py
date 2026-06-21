@@ -208,15 +208,15 @@ def s03_sources(prs):
     ]
     for i, (title, body) in enumerate(cards):
         cx = Inches(0.22) + i * (cw + Inches(0.12))
-        _r(sl, cx, Inches(0.88), cw, Inches(1.6), fill=LB, edge=MB)
-        _r(sl, cx, Inches(0.88), cw, Inches(0.36), fill=MB)
-        _t(sl, cx + Inches(0.1), Inches(0.92), cw - Inches(0.15), Inches(0.3),
-           title, sz=10, bold=True, col=WH)
-        _t(sl, cx + Inches(0.1), Inches(1.3), cw - Inches(0.15), Inches(1.1),
-           body, sz=9.5, col=DB)
+        _r(sl, cx, Inches(0.84), cw, Inches(1.9), fill=LB, edge=MB)
+        _r(sl, cx, Inches(0.84), cw, Inches(0.42), fill=MB)
+        _t(sl, cx + Inches(0.1), Inches(0.88), cw - Inches(0.15), Inches(0.35),
+           title, sz=12, bold=True, col=WH)
+        _t(sl, cx + Inches(0.1), Inches(1.33), cw - Inches(0.15), Inches(1.3),
+           body, sz=11, col=DB)
 
-    _t(sl, Inches(0.22), Inches(2.6), W - Inches(0.35), Inches(0.25),
-       'DICTIONNAIRE DES COLONNES CLÉS (dataset OCR)', sz=8, bold=True, col=MB)
+    _t(sl, Inches(0.22), Inches(2.85), W - Inches(0.35), Inches(0.28),
+       'DICTIONNAIRE DES COLONNES CLÉS (dataset OCR)', sz=10, bold=True, col=MB)
     rows = [
         ['Colonne', 'Description', 'Valeurs / exemple'],
         ['USER_ID', 'Identifiant technique unique (pseudonymisé)', 'hash non nominatif'],
@@ -225,8 +225,8 @@ def s03_sources(prs):
         ['REGION', 'Région de résidence', 'Île-de-France, DROM…'],
         ['YEAR_PATH_STARTED', 'Année de début du parcours', '2022 / 2023 / 2024 / 2025'],
     ]
-    _tbl(sl, rows, Inches(0.22), Inches(2.9), Inches(9.56),
-         [Inches(1.8), Inches(4.36), Inches(3.4)], hfill=MB, fsz=9)
+    _tbl(sl, rows, Inches(0.22), Inches(3.18), Inches(9.56),
+         [Inches(1.8), Inches(4.36), Inches(3.4)], hfill=MB, fsz=10)
 
 
 def s04_methodo(prs):
@@ -243,32 +243,32 @@ def s04_methodo(prs):
         ('03', 'Chargement\nSnowflake (dbt seed)',
          '4 seeds → schéma RAW\nstudents_raw · insee_population_raw\ncog_departement · cog_region'),
         ('04', 'Transformation\ndbt (ELT)',
-         'dbtf build\nStaging → Intermediate → Mart\n69/69 nœuds validés'),
+         'dbtf build\nStaging → Intermediate → Mart\n69/69 réussis'),
     ]
     for i, (num, title, body) in enumerate(steps):
         sx = Inches(0.18) + i * (sw + Inches(0.08))
         fc = DB if i == 3 else LB
-        _r(sl, sx, Inches(0.88), sw, Inches(2.55), fill=fc, edge=MB)
-        _r(sl, sx + Inches(0.1), Inches(0.98), Inches(0.42), Inches(0.42),
+        _r(sl, sx, Inches(0.84), sw, Inches(2.75), fill=fc, edge=MB)
+        _r(sl, sx + Inches(0.1), Inches(0.95), Inches(0.46), Inches(0.46),
            fill=MB if i < 3 else LB)
-        _t(sl, sx + Inches(0.11), Inches(1.0), Inches(0.4), Inches(0.35),
-           num, sz=11, bold=True,
+        _t(sl, sx + Inches(0.11), Inches(0.97), Inches(0.44), Inches(0.38),
+           num, sz=13, bold=True,
            col=WH if i < 3 else DB, align=PP_ALIGN.CENTER)
-        _t(sl, sx + Inches(0.1), Inches(1.52), sw - Inches(0.18), Inches(0.52),
-           title, sz=10, bold=True, col=WH if i == 3 else DB)
-        _t(sl, sx + Inches(0.1), Inches(2.1), sw - Inches(0.18), Inches(1.25),
-           body, sz=8.5, col=LB if i == 3 else GR)
+        _t(sl, sx + Inches(0.1), Inches(1.55), sw - Inches(0.18), Inches(0.58),
+           title, sz=11, bold=True, col=WH if i == 3 else DB)
+        _t(sl, sx + Inches(0.1), Inches(2.22), sw - Inches(0.18), Inches(1.28),
+           body, sz=10, col=LB if i == 3 else GR)
         if i < 3:
-            _t(sl, sx + sw + Inches(0.01), Inches(2.0), Inches(0.09),
-               Inches(0.4), '▶', sz=12, col=MB)
+            _t(sl, sx + sw + Inches(0.01), Inches(2.1), Inches(0.09),
+               Inches(0.4), '▶', sz=14, col=MB)
 
-    _r(sl, 0, Inches(3.6), W, Inches(0.06), fill=MB)
-    _t(sl, Inches(0.2), Inches(3.72), W - Inches(0.35), Inches(0.25),
-       'POURQUOI ELT ?', sz=8, bold=True, col=MB)
-    _mt(sl, Inches(0.2), Inches(4.0), W - Inches(0.35), Inches(1.4), [
+    _r(sl, 0, Inches(3.75), W, Inches(0.07), fill=MB)
+    _t(sl, Inches(0.2), Inches(3.88), W - Inches(0.35), Inches(0.28),
+       'POURQUOI ELT ?', sz=10, bold=True, col=MB)
+    _mt(sl, Inches(0.2), Inches(4.22), W - Inches(0.35), Inches(1.25), [
         "● Python charge d'abord (Load) — puis dbt transforme dans Snowflake (Transform). Toute la logique SQL est versionnée.",
         "● Reproductible : un seul dbtf build reconstruit de bout en bout. Nouveau fichier OCR / INSEE → relancer imports + build.",
-    ], sz=9.5, col=GR, ls=1.3, sb=3)
+    ], sz=11, col=GR, ls=1.3, sb=4)
 
 
 def s05_dag(prs):
@@ -312,8 +312,8 @@ def s07_tests(prs):
     _r(sl, 0, 0, W, H, fill=WH)
     _hdr(sl, 'Tests dbt & garantie de reproductibilité')
 
-    _t(sl, Inches(0.25), Inches(0.88), Inches(5.0), Inches(0.25),
-       'STRATÉGIE PAR COUCHE', sz=8, bold=True, col=MB)
+    _t(sl, Inches(0.25), Inches(0.84), Inches(5.0), Inches(0.3),
+       'STRATÉGIE PAR COUCHE', sz=10, bold=True, col=MB)
     layers = [
         ('Sources (RAW)', 'not_null sur clé primaire — sanity check'),
         ('Staging', 'not_null · unique · accepted_values · relationships'),
@@ -322,17 +322,17 @@ def s07_tests(prs):
         ('Test singulier', 'assert_unique_student_year — 1 étudiant max / année'),
     ]
     for i, (lay, desc) in enumerate(layers):
-        ly = Inches(1.16) + i * Inches(0.68)
-        _r(sl, Inches(0.25), ly, Inches(1.55), Inches(0.54), fill=LB, edge=MB)
-        _t(sl, Inches(0.3), ly + Inches(0.08), Inches(1.48), Inches(0.4),
-           lay, sz=8, bold=True, col=DB)
-        _t(sl, Inches(1.94), ly + Inches(0.1), Inches(3.18), Inches(0.4),
-           desc, sz=9, col=BK)
+        ly = Inches(1.2) + i * Inches(0.74)
+        _r(sl, Inches(0.25), ly, Inches(1.7), Inches(0.6), fill=LB, edge=MB)
+        _t(sl, Inches(0.3), ly + Inches(0.1), Inches(1.62), Inches(0.44),
+           lay, sz=9.5, bold=True, col=DB)
+        _t(sl, Inches(2.08), ly + Inches(0.12), Inches(3.1), Inches(0.44),
+           desc, sz=10, col=BK)
 
-    _r(sl, Inches(5.35), Inches(0.84), Inches(0.04), Inches(4.6), fill=LB)
+    _r(sl, Inches(5.35), Inches(0.8), Inches(0.04), Inches(4.7), fill=LB)
 
-    _t(sl, Inches(5.55), Inches(0.88), Inches(4.2), Inches(0.25),
-       'REPRODUCTIBILITÉ', sz=8, bold=True, col=MB)
+    _t(sl, Inches(5.55), Inches(0.84), Inches(4.2), Inches(0.3),
+       'REPRODUCTIBILITÉ', sz=10, bold=True, col=MB)
     guarantees = [
         ('Si : Nouvelle région apparaît', '→ accepted_values échoue · pipeline bloqué'),
         ('Si : USER_ID dupliqué dans une année', '→ test singulier échoue · pipeline bloqué'),
@@ -340,17 +340,17 @@ def s07_tests(prs):
         ('Si : Nouveau fichier OCR / INSEE', '→ run_all_imports + dbtf build · rebuild complet'),
     ]
     for i, (trigger, effect) in enumerate(guarantees):
-        gy = Inches(1.16) + i * Inches(0.88)
-        _r(sl, Inches(5.55), gy, Inches(4.2), Inches(0.72), fill=LGR, edge=LGR2)
-        _t(sl, Inches(5.65), gy + Inches(0.05), Inches(4.0), Inches(0.28),
-           trigger, sz=8.5, bold=True, col=DB)
-        _t(sl, Inches(5.65), gy + Inches(0.37), Inches(4.0), Inches(0.28),
-           effect, sz=8.5, col=BK)
+        gy = Inches(1.2) + i * Inches(0.9)
+        _r(sl, Inches(5.55), gy, Inches(4.2), Inches(0.76), fill=LGR, edge=LGR2)
+        _t(sl, Inches(5.65), gy + Inches(0.06), Inches(4.0), Inches(0.3),
+           trigger, sz=10, bold=True, col=DB)
+        _t(sl, Inches(5.65), gy + Inches(0.4), Inches(4.0), Inches(0.3),
+           effect, sz=10, col=BK)
 
-    _r(sl, Inches(0.25), Inches(4.93), Inches(9.5), Inches(0.55), fill=DB)
-    _t(sl, Inches(0.35), Inches(5.04), Inches(9.3), Inches(0.38),
-       'dbtf build  ·  seeds + modèles + tests en une commande  ·  69 / 69 nœuds validés',
-       sz=11, bold=True, col=WH, align=PP_ALIGN.CENTER)
+    _r(sl, Inches(0.25), Inches(4.9), Inches(9.5), Inches(0.58), fill=DB)
+    _t(sl, Inches(0.35), Inches(5.03), Inches(9.3), Inches(0.42),
+       'dbtf build  ·  seeds + modèles + tests en une commande  ·  69 / 69 réussis',
+       sz=13, bold=True, col=WH, align=PP_ALIGN.CENTER)
 
 
 def s08_regions(prs):
@@ -359,13 +359,13 @@ def s08_regions(prs):
     _hdr(sl, 'Résultats — Concentration régionale & évolution des inscriptions')
     _img(sl, CHARTS / 'graph_regions.png', Inches(0.18), Inches(0.84), Inches(5.9))
     _img(sl, CHARTS / 'graph_yearly.png',  Inches(6.2),  Inches(0.84), Inches(3.7))
-    _r(sl, Inches(0.18), Inches(4.3), Inches(9.6), Inches(0.06), fill=MB)
-    _mt(sl, Inches(0.18), Inches(4.42), Inches(9.6), Inches(1.1), [
+    _r(sl, Inches(0.18), Inches(4.42), Inches(9.6), Inches(0.06), fill=MB)
+    _mt(sl, Inches(0.18), Inches(4.54), Inches(9.6), Inches(1.0), [
         {'t': '▶ IDF : 45,6 % des inscriptions cumulées 2022–2025.',
-         'b': True, 'sz': 10, 'c': DB},
+         'b': True, 'sz': 12, 'c': DB},
         {'t': '▶ Baisse 2022→2024 (−50 %), rebond 2025 (+12 %).   '
               '▶ DROM : 46 inscrits (1 %) — pas de benchmark INSEE.',
-         'sz': 10, 'c': BK, 'sb': 4},
+         'sz': 12, 'c': BK, 'sb': 5},
     ], ls=1.2)
 
 
@@ -375,23 +375,23 @@ def s09_genre(prs):
     _hdr(sl, 'Résultats — Genre & qualité de la donnée')
     _img(sl, CHARTS / 'graph_nr_rate.png', Inches(0.18), Inches(0.84), Inches(5.7))
 
-    _t(sl, Inches(6.15), Inches(0.95), Inches(3.6), Inches(0.28),
-       'LECTURE', sz=8, bold=True, col=MB)
-    _mt(sl, Inches(6.15), Inches(1.28), Inches(3.6), Inches(2.35), [
+    _t(sl, Inches(6.15), Inches(0.9), Inches(3.6), Inches(0.32),
+       'LECTURE', sz=10, bold=True, col=MB)
+    _mt(sl, Inches(6.15), Inches(1.27), Inches(3.6), Inches(2.5), [
         "● Amélioration spectaculaire de la qualité de collecte du genre sur 4 ans.",
         "",
         "● 41,6 % → 6,7 % : cette tendance est un indicateur de pilotage qualité en soi.",
         "",
         "● À maintenir : incitations à la saisie lors de l'inscription.",
-    ], sz=10, col=BK, ls=1.3, sb=2)
+    ], sz=12, col=BK, ls=1.3, sb=2)
 
-    _r(sl, Inches(6.15), Inches(3.8), Inches(3.6), Inches(1.42), fill=LB, edge=MB)
-    _t(sl, Inches(6.28), Inches(3.9), Inches(3.35), Inches(0.3),
-       'Répartition avec genre renseigné', sz=8, bold=True, col=DB)
-    _mt(sl, Inches(6.28), Inches(4.25), Inches(3.35), Inches(0.88), [
+    _r(sl, Inches(6.15), Inches(3.9), Inches(3.6), Inches(1.55), fill=LB, edge=MB)
+    _t(sl, Inches(6.28), Inches(4.0), Inches(3.35), Inches(0.32),
+       'Répartition avec genre renseigné', sz=10, bold=True, col=DB)
+    _mt(sl, Inches(6.28), Inches(4.38), Inches(3.35), Inches(1.0), [
         '● Hommes : ~69 % des inscrits renseignés',
         '● Femmes : ~31 % — sous-représentation persistante',
-    ], sz=9.5, col=DB, ls=1.35, sb=2)
+    ], sz=11, col=DB, ls=1.35, sb=2)
 
 
 def s10_insee(prs):
@@ -400,9 +400,9 @@ def s10_insee(prs):
     _hdr(sl, "Résultats — Taux d'inscription pour 100 000 habitants")
     _img(sl, CHARTS / 'graph_100k.png', Inches(0.18), Inches(0.84), Inches(6.9))
 
-    _t(sl, Inches(7.28), Inches(0.95), Inches(2.5), Inches(0.28),
-       'LECTURE', sz=8, bold=True, col=MB)
-    _mt(sl, Inches(7.28), Inches(1.28), Inches(2.5), Inches(3.85), [
+    _t(sl, Inches(7.28), Inches(0.9), Inches(2.5), Inches(0.32),
+       'LECTURE', sz=10, bold=True, col=MB)
+    _mt(sl, Inches(7.28), Inches(1.27), Inches(2.5), Inches(4.0), [
         "● IDF domine encore plus après normalisation (~670 / 100k).",
         "",
         "● ARA, 2ème en effectifs bruts, descend à la 7ème place.",
@@ -412,7 +412,7 @@ def s10_insee(prs):
         "● Les effectifs bruts seuls sont trompeurs.",
         "",
         "● DROM exclu : pas de données INSEE métropole.",
-    ], sz=9.5, col=BK, ls=1.3, sb=3)
+    ], sz=11, col=BK, ls=1.3, sb=3)
 
 
 def s11_reco(prs):
