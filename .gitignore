@@ -1,18 +1,26 @@
 target/
 dbt_packages/
+dbt_internal_packages/
 logs/
 
 # Python
 venv/
 __pycache__/
 *.pyc
+*.pyo
 
 # Credentials — ne jamais versionner
 profiles.yml
+dbt_cloud.yml
 .env
 *.env
 
 # OS
 .DS_Store
 Thumbs.db
-dbt_internal_packages/
+
+# Deliverables — generated files, not source
+deliverables/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

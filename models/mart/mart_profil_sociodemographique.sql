@@ -33,7 +33,7 @@ joined as (
             when students.student_count is not null
              and insee.population is not null
              and insee.population > 0
-            then round(students.student_count / insee.population * 100000, 4)
+            then round(students.student_count / insee.population * 100000, 3)
             else null
         end                                                 as students_per_100k
 
