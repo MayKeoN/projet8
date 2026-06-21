@@ -2,33 +2,33 @@ version: 2
 
 models:
   - name: stg_insee_population
-    description: "Estimations de population INSEE par departement, genre et tranche d'age (2022-2025). Unpivot du format large vers format long. Lignes avec dep_code vide filtrees. Ligne DOM conservee (dep_code='DOM') car elle correspond a la region DROM du dataset OCR. Prefixe genre supprime des labels de tranches d'age (redondant avec colonne gender)."
+    description: "Population INSEE par département, genre et tranche d'âge (2022-2025). Pivot inverse format long ; ligne DOM conservée pour DROM."
     columns:
       - name: year
-        description: "Annee de l'estimation, castee en integer."
+        description: "Année de l'estimation."
         tests:
           - not_null
           - accepted_values:
               arguments:
                 values: [2022, 2023, 2024, 2025]
       - name: dep_code
-        description: "Code departement INSEE (e.g. '01', '2A', '971') ou 'DOM' pour l'agregat des departements d'outre-mer."
+        description: "Code département (ex. '01', '2A') ou 'DOM' pour l'agrégat outre-mer."
         tests:
           - not_null
       - name: dep_name
-        description: "Nom du departement. Vide pour la ligne agregat DOM (dep_code='DOM') par design."
+        description: "Nom du département. Vide volontairement pour dep_code = 'DOM'."
       - name: gender
-        description: "Genre : 'M' pour hommes, 'F' pour femmes."
+        description: "'M' ou 'F'."
         tests:
           - not_null
           - accepted_values:
               arguments:
                 values: ['M', 'F']
       - name: age_group_insee
-        description: "Tranche d'age INSEE sans prefixe genre (e.g. '20_a_24_ans', '95_ans_et_plus'). Agregation 60+ et mapping vers labels OC effectues en intermediate."
+        description: "Tranche d'âge INSEE sans préfixe genre (ex. '20_a_24_ans'). Regroupement 60+ en intermediate."
         tests:
           - not_null
       - name: population
-        description: "Population estimee pour ce departement, genre et tranche d'age. Castee en integer."
+        description: "Effectif estimé pour ce département, genre et tranche d'âge."
         tests:
           - not_null

@@ -1,13 +1,6 @@
 -- stg_students.sql
--- Staging model for OpenClassrooms student enrollments.
---
--- Responsibilities (staging layer: 1-to-1 with source, cleaning only):
---   - Rename columns to snake_case
---   - Cast year to integer
---   - Replace empty gender with 'Non renseigne' (not null, not imputed)
---   - Filter to PATH_CATEGORY_NAME = 'Data' (project scope)
---
--- No joins, no aggregations. All business logic in intermediate layer.
+-- Inscriptions parcours Data OCR (2022-2025).
+-- Genre vide remplacé par 'Non renseigne' sans imputation. Filtre PATH_CATEGORY_NAME = 'Data'.
 
 with source as (
 

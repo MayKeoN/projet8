@@ -1,11 +1,5 @@
 -- stg_cog_region.sql
--- Staging model for INSEE COG region reference table.
---
--- Responsibilities (staging layer: 1-to-1 with source, cleaning only):
---   - Rename columns to snake_case lowercase
---   - TRIM reg_code for safety
---
--- No joins, no business logic.
+-- Référentiel COG INSEE 2024 — régions. Renommage et TRIM des codes.
 
 with source as (
 

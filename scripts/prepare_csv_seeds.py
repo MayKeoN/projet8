@@ -1,17 +1,4 @@
-"""
-prepare_csv_seeds.py
---------------------
-Load the three raw CSV sources into seeds/ with normalized column names.
-
-No transformation — raw values preserved as-is.
-dtype=str on read prevents pandas from casting codes like "01" to integer 1.
-All values come out as strings in the CSV regardless (pandas to_csv behaviour).
-
-Sources → Seeds:
-  data/DATASET+-+MAJ+...csv  →  seeds/students_raw.csv
-  data/v_departement_2024.csv  →  seeds/cog_departement.csv
-  data/v_region_2024.csv       →  seeds/cog_region.csv
-"""
+"""Charge les trois CSV sources brutes vers seeds/ avec en-têtes normalisés. dtype=str évite la conversion de codes comme '01' en entier."""
 from __future__ import annotations
 
 from pathlib import Path

@@ -1,17 +1,8 @@
 -- int_insee_by_year_region.sql
--- Intermediate model: INSEE population aggregated by year, region, gender and OC age group.
---
--- Responsibilities:
---   - Map INSEE age band labels to OC age group labels using string functions
---   - Bucket all 60+ bands into a single '60 ans ou plus' group
---   - Join departments to regions via int_cog_departement_region
---   - Map DOM aggregate row (dep_code = 'DOM') to OC region 'DROM'
---   - Exclude individual DOM departments (971-976) — covered by DOM aggregate row
---   - Aggregate population by (year, region, gender, age_group_oc)
---   - Add a 'Total' gender row per (year, region, age_group_oc) = M + F
---
--- gender values: 'M', 'F', 'Total'
--- Note: 'Total' = M + F population only (INSEE has no Non renseigne category)
+-- Population INSEE agrégée par année, région OC, genre et tranche d'âge.
+-- Mapping labels OC par fonctions de chaînes ; tranches 60+ regroupées en '60 ans ou plus'.
+-- DOM → DROM ; départements 971-976 exclus (couverts par l'agrégat DOM).
+-- Ligne Total = M + F uniquement (INSEE sans catégorie Non renseigné).
 
 with insee as (
 

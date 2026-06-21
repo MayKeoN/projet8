@@ -1,15 +1,6 @@
 -- int_students_by_year_region.sql
--- Intermediate model: OC students aggregated by year, region, gender and age group.
---
--- Responsibilities:
---   - Aggregate student headcount from stg_students
---   - Group by all demographic dimensions needed for the mart join
---   - Preserve 'Non renseigne' gender as a valid dimension value
---   - Add a 'Total' gender row per (year, region, age_group) = M + F + Non renseigne
---
--- Output: one row per (year, region, gender, age_group)
--- gender values: 'M', 'F', 'Non renseigne', 'Total'
--- Used by: mart_profil_sociodemographique
+-- Effectifs étudiants par année, région, genre et tranche d'âge.
+-- 'Non renseigne' conservé comme genre valide. Ligne Total = M + F + Non renseigné.
 
 with students as (
 

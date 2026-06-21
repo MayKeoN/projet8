@@ -1,19 +1,4 @@
-"""
-prepare_insee_seed.py
----------------------
-Extract INSEE population estimates from XLSX → seeds/insee_population_raw.csv.
-
-One row per department row per year. Raw values only — no transformation.
-Column names are normalized (accents stripped, spaces → underscores) because
-SQL cannot use "0 à 4 ans" as an identifier. Cell values are untouched.
-
-Note: pandas to_csv() stringifies everything automatically.
-Trailing spaces in dep_name, empty dep_code on aggregate rows, etc.
-are intentionally kept raw — handled in dbt staging.
-
-Input:  data/estim-pop-dep-sexe-aq-1975-2025.xlsx
-Output: seeds/insee_population_raw.csv
-"""
+"""Extrait les estimations INSEE (XLSX) vers seeds/insee_population_raw.csv. Normalise les noms de colonnes pour SQL ; valeurs brutes conservées (nettoyage en staging dbt)."""
 from __future__ import annotations
 
 import unicodedata

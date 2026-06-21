@@ -5,14 +5,14 @@ models:
     description: "{{ doc('ocr_project__mart_layer') }}"
     columns:
       - name: year
-        description: "Annee de debut du parcours / annee estimation INSEE (2022-2025)."
+        description: "Année (2022-2025)."
         tests:
           - not_null
           - accepted_values:
               arguments:
                 values: [2022, 2023, 2024, 2025]
       - name: region
-        description: "Region OC (13 regions metropolitaines + DROM + Corse). Corse apparait avec student_count null."
+        description: "Région OC (13 régions + DROM + Corse). Corse : student_count null."
         tests:
           - not_null
       - name: gender
@@ -39,8 +39,8 @@ models:
                   - '55-59 ans'
                   - '60 ans ou plus'
       - name: student_count
-        description: "Nombre d'etudiants OCR pour ce segment. Null pour Corse (aucun etudiant)."
+        description: "Effectif étudiants OCR. Null pour la Corse."
       - name: population
-        description: "{{ doc('ocr_glossary__insee_penetration') }}"
+        description: "Population INSEE du segment, dénominateur du taux."
       - name: students_per_100k
-        description: "Taux de representation : etudiants OCR pour 100 000 habitants. Null si student_count ou population est null."
+        description: "{{ doc('ocr_glossary__insee_penetration') }}"

@@ -19,7 +19,6 @@ OUT.mkdir(parents=True, exist_ok=True)
 
 df = pd.read_csv(CSV)
 
-# Normalize column names to lower-case for safety
 df.columns = [c.upper() for c in df.columns]
 
 # ── Chart 1 ─ Effectifs par région (barres, toutes années, Gender=Total) ──────
@@ -37,7 +36,6 @@ ax.set_ylabel("Nombre d'étudiants")
 ax.set_xlabel("")
 ax.tick_params(axis="x", rotation=45)
 ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"{int(x):,}".replace(",", " ")))
-# Annotate IDF bar
 for bar, label in zip(bars, region_totals.index):
     if label == "Île-de-France":
         pct = region_totals[label] / region_totals.sum() * 100

@@ -2,21 +2,21 @@ version: 2
 
 models:
   - name: stg_students
-    description: "Inscriptions aux parcours Data OCR nettoyees (2022-2025). Nettoyage 1-to-1 depuis students_raw : renommage colonnes, cast annee en integer, genre vide remplace par 'Non renseigne', filtre PATH=Data."
+    description: "Inscriptions parcours Data OCR (2022-2025). Genre vide remplacé par 'Non renseigne', filtre parcours Data."
     columns:
       - name: user_id
-        description: "Identifiant technique unique de l'etudiant (pseudonymise)."
+        description: "Identifiant technique pseudonymisé."
         tests:
           - not_null
       - name: path_category_name
-        description: "Categorie du parcours. Toujours 'Data' apres filtre staging."
+        description: "Toujours 'Data' après filtre staging."
         tests:
           - not_null
           - accepted_values:
               arguments:
                 values: ['Data']
       - name: age_group
-        description: "Tranche d'age de l'etudiant au debut du parcours."
+        description: "Tranche d'âge au début du parcours."
         tests:
           - not_null
           - accepted_values:
@@ -32,18 +32,18 @@ models:
                   - '55-59 ans'
                   - '60 ans ou plus'
       - name: gender
-        description: "Genre declare par l'etudiant. 'Non renseigne' si absent dans la source (~27% en 2022, en baisse sur la periode)."
+        description: "'Non renseigne' si absent dans la source (~27 % en 2022, en baisse sur la période)."
         tests:
           - not_null
           - accepted_values:
               arguments:
                 values: ['M', 'F', 'Non renseigne']
       - name: region
-        description: "Region de residence de l'etudiant (libelle INSEE ou 'DROM')."
+        description: "Libellé INSEE ou 'DROM'."
         tests:
           - not_null
       - name: year_path_started
-        description: "Annee de debut du parcours, castee en integer."
+        description: "Année de début du parcours."
         tests:
           - not_null
           - accepted_values:

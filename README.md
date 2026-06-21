@@ -24,6 +24,7 @@ projet8/
 │   └── prepare_insee_seed.py
 ├── seeds/              <- CSVs generes par les scripts, charges par dbtf build
 ├── models/
+│   ├── docs/           <- blocs de documentation dbt (ocr_*.md)
 │   ├── staging/
 │   │   ├── _src_raw.yml              <- sources + not_null sur cles primaires
 │   │   ├── openclassrooms/
@@ -55,22 +56,25 @@ projet8/
 
 ```
 seeds/
-  students_raw ──────────────────────────────────────────► stg_students
-                                                                │
-                                                    int_students_by_year_region
-                                                                │
-  cog_departement ──► stg_cog_departement ──┐                  │
-                                            ├─► int_cog_dep_region ──┐
-  cog_region ────────► stg_cog_region ──────┘                  │     │
-                                                                │     │
-  insee_population_raw ──► stg_insee_population                │     │
-                                    │                           │     │
-                            int_insee_by_year_region ◄──────────┘     │
-                                    │                                  │
-                                    └──────────────────────────────────┼──► mart_profil_sociodemographique
-                                                                       │
-                                                                       └──► (export CSV → Google Colab)
+  students_raw ──────────────────────────────► stg_students
+                                                      │
+                                          int_students_by_year_region
+                                                      │
+                                                      ├──────────────────────────────► mart_profil_sociodemographique
+                                                      │                                        │
+  cog_departement ──► stg_cog_departement ──┐           │                                        └──► (export CSV → Colab)
+                                            ├─► int_cog_departement_region
+  cog_region ────────► stg_cog_region ──────┘           │
+                                                        │
+  insee_population_raw ──► stg_insee_population         │
+                                    │                   │
+                            int_insee_by_year_region ◄──┘
+                                    │
+                                    └──────────────────────────────────────────────────────────► mart
 ```
+
+Le référentiel COG sert uniquement à enrichir la branche INSEE (agrégation département → région).
+La branche étudiants ne passe pas par COG : la région est déjà renseignée dans la source OCR.
 
 ## Strategie de tests
 
@@ -78,7 +82,7 @@ seeds/
 |--------|-------|
 | Source (`_src_raw.yml`) | `not_null` sur la cle primaire uniquement |
 | Staging (`_stg_*.yml`) | `not_null`, `unique`, `accepted_values`, `relationships` |
-| Intermediate (`_int_*.yml`) | `not_null`, `unique`, `accepted_values`, `relationships` |
+| Intermediate (`_int_*.yml`) | `not_null`, `unique`, `accepted_values` ; `relationships` sur `_int_cog.yml` |
 | Tests singuliers (`tests/`) | Regles metier complexes |
 
 ## Reproduire le pipeline
@@ -125,16 +129,6 @@ dbtf build
 ```bash
 python scripts/run_all_imports.py
 dbtf build --full-refresh
-```
-
-## Note dbtf Fusion
-
-dbtf requiert `arguments: values:` pour `accepted_values` :
-
-```yaml
-- accepted_values:
-    arguments:
-      values: ['Data']
 ```
 
 ## RGPD

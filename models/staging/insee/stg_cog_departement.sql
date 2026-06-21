@@ -1,11 +1,5 @@
 -- stg_cog_departement.sql
--- Staging model for INSEE COG departement reference table.
---
--- Responsibilities (staging layer: 1-to-1 with source, cleaning only):
---   - Rename columns to snake_case lowercase
---   - TRIM dep_code and reg_code for safety
---
--- No joins, no business logic. Jointure with cog_region in intermediate layer.
+-- Référentiel COG INSEE 2024 — départements. Renommage et TRIM des codes.
 
 with source as (
 

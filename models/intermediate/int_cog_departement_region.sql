@@ -1,12 +1,6 @@
 -- int_cog_departement_region.sql
--- Intermediate model: geographic bridge table.
---
--- Joins COG departement to COG region to produce a single lookup:
---   dep_code → reg_code → reg_name
---
--- Used by:
---   - int_students_enriched (region name matching)
---   - int_insee_by_year_region (dep_code → region aggregation)
+-- Table de correspondance géographique : dep_code → reg_code → reg_name.
+-- Utilisée par int_insee_by_year_region pour agréger la population par région.
 
 with departments as (
 

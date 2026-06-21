@@ -9,11 +9,9 @@ sources:
     tables:
       - name: students_raw
         description: "{{ doc('ocr_source__students_raw') }}"
-        # freshness: null — seeds n'ont pas de colonne timestamp.
-        # En production, remplacer par une table avec loaded_at pour activer dbt source freshness.
         columns:
           - name: USER_ID
-            description: "Identifiant technique unique de l'etudiant (pseudonymise)."
+            description: "Identifiant technique pseudonymisé."
             tests:
               - not_null
 
@@ -21,7 +19,7 @@ sources:
         description: "{{ doc('ocr_source__insee_population_raw') }}"
         columns:
           - name: year
-            description: "Annee de l'estimation (2022, 2023, 2024, 2025)."
+            description: "Année de l'estimation (2022-2025)."
             tests:
               - not_null
 
@@ -29,7 +27,7 @@ sources:
         description: "{{ doc('ocr_source__cog_departement') }}"
         columns:
           - name: DEP
-            description: "Code departement (e.g. '01', '2A', '976')."
+            description: "Code département (ex. '01', '2A', '976')."
             tests:
               - not_null
 
@@ -37,6 +35,6 @@ sources:
         description: "{{ doc('ocr_source__cog_region') }}"
         columns:
           - name: REG
-            description: "Code region INSEE (e.g. '11' pour Ile-de-France)."
+            description: "Code région INSEE (ex. '11')."
             tests:
               - not_null

@@ -1,17 +1,8 @@
 -- stg_insee_population.sql
--- Staging model for INSEE population estimates.
---
--- Responsibilities (staging layer):
---   - Filter out aggregate rows with empty dep_code (France metropolitaine, France entiere)
---   - Keep DOM aggregate row (dep_code = 'DOM') — maps to OCR's DROM region
---   - TRIM dep_code and dep_name
---   - Cast year to integer, population values to integer
---   - Unpivot wide format to long format: one row per (year, dep_code, gender, age_group_insee)
---   - Strip gender prefix from age band labels during unpivot (redundant with gender column)
---   - Keep all age bands intact — 60+ aggregation and OC label mapping in intermediate
---
--- Note: dep_name is empty for the DOM aggregate row (dep_code = 'DOM') by design.
--- Note: hommes_total and femmes_total excluded from unpivot to avoid double-counting.
+-- Estimations INSEE en format long (pivot inverse par genre).
+-- Agrégats France et dep_code vide exclus ; ligne DOM conservée (correspondance DROM côté OCR).
+-- hommes_total et femmes_total exclus pour éviter le double comptage.
+-- Regroupement 60+ et mapping labels OC en intermediate.
 
 with source as (
 

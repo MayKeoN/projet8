@@ -1,25 +1,11 @@
 -- mart_profil_sociodemographique.sql
--- Final analytical table: OC student profile vs French general population.
+-- Table analytique : profil étudiants OCR vs population générale INSEE.
 --
--- Grain: one row per (year, region, gender, age_group)
--- Materialized as table for export and Colab analysis.
---
--- gender values: 'M', 'F', 'Non renseigne', 'Total'
---
--- Join strategy:
---   Full outer join on (year, region, age_group) with CASE on gender:
---     M            → joins INSEE gender = 'M'
---     F            → joins INSEE gender = 'F'
---     Non renseigne→ joins INSEE gender = 'Total' (total pop as denominator)
---     Total        → joins INSEE gender = 'Total' (total pop as denominator)
---
---   Corse appears with null student_count (no OC students)
---   Non renseigne appears with Total population as denominator
---
--- Columns:
---   student_count      : OC students in this segment (null if no students)
---   population         : INSEE population for denominator (null if no INSEE match)
---   students_per_100k  : student_count / population * 100000
+-- Jointure externe complète sur (année, région, tranche d'âge) :
+--   M / F                 → population INSEE du même genre
+--   Non renseigné / Total → population totale M+F (dénominateur conservateur)
+-- Corse : student_count null (aucun étudiant OCR).
+-- Tranches INSEE < 20 ans exclues (hors périmètre OCR).
 
 with students as (
 
@@ -47,7 +33,7 @@ joined as (
             when students.student_count is not null
              and insee.population is not null
              and insee.population > 0
-            then round(students.student_count / insee.population * 100000, 2)
+            then round(students.student_count / insee.population * 100000, 4)
             else null
         end                                                 as students_per_100k
 
