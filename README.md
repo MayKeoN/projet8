@@ -11,28 +11,21 @@ aux parcours Data d'OpenClassrooms sur 4 ans (2022–2025).
 | Transformation | dbt + dbt Fusion Engine (dbtf) |
 | Developpement | Cursor (local) + dbt Cloud (docs, CI) |
 | Versioning | Git + GitHub |
+| Analyse / Visualisation | Google Colab (sur export CSV du mart) |
 
 ## Structure du projet
 
 ```
 projet8/
 ├── data/               <- fichiers sources bruts (versionnés, non modifies)
-│   ├── DATASET+-+MAJ+-+...csv
-│   ├── estim-pop-dep-sexe-aq-1975-2025.xlsx
-│   ├── v_departement_2024.csv
-│   └── v_region_2024.csv
 ├── scripts/            <- conversion des sources brutes en seeds CSV
 │   ├── run_all_imports.py
 │   ├── prepare_csv_seeds.py
 │   └── prepare_insee_seed.py
 ├── seeds/              <- CSVs generes par les scripts, charges par dbtf build
-│   ├── students_raw.csv
-│   ├── insee_population_raw.csv
-│   ├── cog_departement.csv
-│   └── cog_region.csv
 ├── models/
 │   ├── staging/
-│   │   ├── _src_raw.yml              <- declaration sources + not_null sur cles
+│   │   ├── _src_raw.yml              <- sources + not_null sur cles primaires
 │   │   ├── openclassrooms/
 │   │   │   ├── stg_students.sql
 │   │   │   └── _stg_students.yml
@@ -40,23 +33,53 @@ projet8/
 │   │       ├── stg_cog_departement.sql
 │   │       ├── stg_cog_region.sql
 │   │       ├── stg_insee_population.sql
-│   │       └── _stg_cog.yml
+│   │       ├── _stg_cog.yml
+│   │       └── _stg_insee_population.yml
 │   ├── intermediate/
+│   │   ├── int_cog_departement_region.sql
+│   │   ├── int_students_by_year_region.sql
+│   │   ├── int_insee_by_year_region.sql
+│   │   ├── _int_cog.yml
+│   │   ├── _int_students.yml
+│   │   └── _int_insee.yml
 │   └── mart/
+│       ├── mart_profil_sociodemographique.sql
+│       └── _mart.yml
 ├── macros/
-│   └── generate_schema_name.sql     <- schema naming override (RAW_staging -> STAGING)
+│   └── generate_schema_name.sql
 ├── tests/              <- tests singuliers SQL
 └── dbt_project.yml
+```
+
+## DAG (lineage)
+
+```
+seeds/
+  students_raw ──────────────────────────────────────────► stg_students
+                                                                │
+                                                    int_students_by_year_region
+                                                                │
+  cog_departement ──► stg_cog_departement ──┐                  │
+                                            ├─► int_cog_dep_region ──┐
+  cog_region ────────► stg_cog_region ──────┘                  │     │
+                                                                │     │
+  insee_population_raw ──► stg_insee_population                │     │
+                                    │                           │     │
+                            int_insee_by_year_region ◄──────────┘     │
+                                    │                                  │
+                                    └──────────────────────────────────┼──► mart_profil_sociodemographique
+                                                                       │
+                                                                       └──► (export CSV → Google Colab)
 ```
 
 ## Strategie de tests
 
 | Couche | Tests |
 |--------|-------|
-| Source (`_src_raw.yml`) | `not_null` sur la cle primaire de chaque table uniquement |
+| Source (`_src_raw.yml`) | `not_null` sur la cle primaire uniquement |
 | Staging (`_stg_*.yml`) | `not_null`, `unique`, `accepted_values`, `relationships` |
-| Intermediate | `not_null` sur agregats cles |
-| Tests singuliers (`tests/`) | Regles metier complexes (assert_unique_student_year, etc.) |
+| Intermediate (`_int_*.yml`) | `not_null`, `unique`, `accepted_values`, `relationships` |
+| Tests singuliers (`tests/`) | Regles metier complexes |
 
 ## Reproduire le pipeline
 
@@ -68,13 +91,9 @@ venv\Scripts\activate
 pip install dbt-snowflake pandas openpyxl
 ```
 
-Installer le dbt Fusion Engine (dbtf) :
-https://docs.getdbt.com/docs/core/installation-overview
-
 ### 2. Configurer le profil dbt
 
-Le fichier `profiles.yml` n'est **pas versionne** (credentials).
-Le creer manuellement dans `C:\Users\<user>\.dbt\profiles.yml` :
+`C:\Users\<user>\.dbt\profiles.yml` (non versionne) :
 
 ```yaml
 projet8:
@@ -97,19 +116,11 @@ projet8:
 ### 3. Lancer le pipeline complet
 
 ```bash
-# Etape 1 — convertir les sources brutes en seeds CSV
 python scripts/run_all_imports.py
-
-# Etape 2 — seed + modeles + tests (tout en un)
 dbtf build
 ```
 
-> `dbtf build` execute dans l'ordre DAG : seeds -> modeles -> tests.
-> Pas besoin de lancer `dbt seed` separement.
-
 ### 4. Mettre a jour les donnees
-
-Remplacer le fichier concerne dans `data/`, puis relancer :
 
 ```bash
 python scripts/run_all_imports.py
@@ -118,17 +129,12 @@ dbtf build --full-refresh
 
 ## Note dbtf Fusion
 
-dbtf requiert la syntaxe `arguments: values:` pour `accepted_values` :
+dbtf requiert `arguments: values:` pour `accepted_values` :
 
 ```yaml
-# Correct (dbtf Fusion)
 - accepted_values:
     arguments:
       values: ['Data']
-
-# Incorrect (dbt Core ancien)
-- accepted_values:
-    values: ['Data']
 ```
 
 ## RGPD

@@ -4,14 +4,14 @@
 -- Responsibilities (staging layer):
 --   - Filter out aggregate rows with empty dep_code (France metropolitaine, France entiere)
 --   - Keep DOM aggregate row (dep_code = 'DOM') — maps to OCR's DROM region
---   - Keep all real department rows including DOM individual departments (971-976)
 --   - TRIM dep_code and dep_name
 --   - Cast year to integer, population values to integer
---   - Unpivot wide format (63 age band columns) to long format:
---     one row per (year, dep_code, gender, age_group_raw)
---   - Keep all age bands intact — aggregation of 60+ happens in intermediate
+--   - Unpivot wide format to long format: one row per (year, dep_code, gender, age_group_insee)
+--   - Strip gender prefix from age band labels during unpivot (redundant with gender column)
+--   - Keep all age bands intact — 60+ aggregation and OC label mapping in intermediate
 --
 -- Note: dep_name is empty for the DOM aggregate row (dep_code = 'DOM') by design.
+-- Note: hommes_total and femmes_total excluded from unpivot to avoid double-counting.
 
 with source as (
 
@@ -19,7 +19,6 @@ with source as (
 
 ),
 
--- Keep real departments + DOM aggregate, drop France metropolitaine aggregates
 departments_only as (
 
     select *
@@ -29,7 +28,6 @@ departments_only as (
 
 ),
 
--- Unpivot hommes columns
 hommes as (
 
     select
@@ -37,7 +35,7 @@ hommes as (
         trim(dep_code)              as dep_code,
         trim(dep_name)              as dep_name,
         'M'                         as gender,
-        age_group_raw,
+        lower(replace(upper(age_group_raw), 'HOMMES_', '')) as age_group_insee,
         cast(population as integer) as population
     from departments_only
     unpivot (population for age_group_raw in (
@@ -65,7 +63,6 @@ hommes as (
 
 ),
 
--- Unpivot femmes columns
 femmes as (
 
     select
@@ -73,7 +70,7 @@ femmes as (
         trim(dep_code)              as dep_code,
         trim(dep_name)              as dep_name,
         'F'                         as gender,
-        age_group_raw,
+        lower(replace(upper(age_group_raw), 'FEMMES_', '')) as age_group_insee,
         cast(population as integer) as population
     from departments_only
     unpivot (population for age_group_raw in (

@@ -1,0 +1,1743 @@
+YEAR,REGION,GENDER,AGE_GROUP,STUDENT_COUNT,POPULATION,STUDENTS_PER_100K
+2022,Auvergne-Rhône-Alpes,F,20-24 ans,,228531,
+2022,Auvergne-Rhône-Alpes,F,25-29 ans,4,227869,180
+2022,Auvergne-Rhône-Alpes,F,30-34 ans,9,252973,360
+2022,Auvergne-Rhône-Alpes,F,35-39 ans,6,265304,230
+2022,Auvergne-Rhône-Alpes,F,40-44 ans,5,263561,190
+2022,Auvergne-Rhône-Alpes,F,45-49 ans,3,261130,110
+2022,Auvergne-Rhône-Alpes,F,50-54 ans,2,271085,70
+2022,Auvergne-Rhône-Alpes,F,55-59 ans,1,266994,40
+2022,Auvergne-Rhône-Alpes,F,60 ans ou plus,1,1201312,10
+2022,Auvergne-Rhône-Alpes,M,20-24 ans,1,239255,40
+2022,Auvergne-Rhône-Alpes,M,25-29 ans,8,229782,350
+2022,Auvergne-Rhône-Alpes,M,30-34 ans,15,247295,610
+2022,Auvergne-Rhône-Alpes,M,35-39 ans,16,254980,630
+2022,Auvergne-Rhône-Alpes,M,40-44 ans,7,255076,270
+2022,Auvergne-Rhône-Alpes,M,45-49 ans,10,261532,380
+2022,Auvergne-Rhône-Alpes,M,50-54 ans,3,267934,110
+2022,Auvergne-Rhône-Alpes,M,55-59 ans,4,260661,150
+2022,Auvergne-Rhône-Alpes,M,60 ans ou plus,2,963910,20
+2022,Auvergne-Rhône-Alpes,Non renseigne,25-29 ans,11,457651,240
+2022,Auvergne-Rhône-Alpes,Non renseigne,30-34 ans,23,500268,460
+2022,Auvergne-Rhône-Alpes,Non renseigne,35-39 ans,12,520284,230
+2022,Auvergne-Rhône-Alpes,Non renseigne,40-44 ans,14,518637,270
+2022,Auvergne-Rhône-Alpes,Non renseigne,45-49 ans,6,522662,110
+2022,Auvergne-Rhône-Alpes,Non renseigne,50-54 ans,6,539019,110
+2022,Auvergne-Rhône-Alpes,Non renseigne,55-59 ans,1,527655,20
+2022,Auvergne-Rhône-Alpes,Non renseigne,60 ans ou plus,1,2165222,0
+2022,Auvergne-Rhône-Alpes,Total,20-24 ans,1,467786,20
+2022,Auvergne-Rhône-Alpes,Total,25-29 ans,23,457651,500
+2022,Auvergne-Rhône-Alpes,Total,30-34 ans,47,500268,940
+2022,Auvergne-Rhône-Alpes,Total,35-39 ans,34,520284,650
+2022,Auvergne-Rhône-Alpes,Total,40-44 ans,26,518637,500
+2022,Auvergne-Rhône-Alpes,Total,45-49 ans,19,522662,360
+2022,Auvergne-Rhône-Alpes,Total,50-54 ans,11,539019,200
+2022,Auvergne-Rhône-Alpes,Total,55-59 ans,6,527655,110
+2022,Auvergne-Rhône-Alpes,Total,60 ans ou plus,4,2165222,20
+2022,Bourgogne-Franche-Comté,F,20-24 ans,,69439,
+2022,Bourgogne-Franche-Comté,F,25-29 ans,2,68487,290
+2022,Bourgogne-Franche-Comté,F,30-34 ans,1,76666,130
+2022,Bourgogne-Franche-Comté,F,35-39 ans,1,81864,120
+2022,Bourgogne-Franche-Comté,F,40-44 ans,1,83548,120
+2022,Bourgogne-Franche-Comté,F,45-49 ans,,87123,
+2022,Bourgogne-Franche-Comté,F,50-54 ans,,94518,
+2022,Bourgogne-Franche-Comté,F,55-59 ans,,95896,
+2022,Bourgogne-Franche-Comté,F,60 ans ou plus,,474884,
+2022,Bourgogne-Franche-Comté,M,20-24 ans,,77847,
+2022,Bourgogne-Franche-Comté,M,25-29 ans,4,71275,560
+2022,Bourgogne-Franche-Comté,M,30-34 ans,6,76158,790
+2022,Bourgogne-Franche-Comté,M,35-39 ans,,80583,
+2022,Bourgogne-Franche-Comté,M,40-44 ans,,82106,
+2022,Bourgogne-Franche-Comté,M,45-49 ans,2,86369,230
+2022,Bourgogne-Franche-Comté,M,50-54 ans,3,93561,320
+2022,Bourgogne-Franche-Comté,M,55-59 ans,,93211,
+2022,Bourgogne-Franche-Comté,M,60 ans ou plus,,384913,
+2022,Bourgogne-Franche-Comté,Non renseigne,30-34 ans,4,152824,260
+2022,Bourgogne-Franche-Comté,Non renseigne,35-39 ans,3,162447,180
+2022,Bourgogne-Franche-Comté,Total,20-24 ans,,147286,
+2022,Bourgogne-Franche-Comté,Total,25-29 ans,6,139762,430
+2022,Bourgogne-Franche-Comté,Total,30-34 ans,11,152824,720
+2022,Bourgogne-Franche-Comté,Total,35-39 ans,4,162447,250
+2022,Bourgogne-Franche-Comté,Total,40-44 ans,1,165654,60
+2022,Bourgogne-Franche-Comté,Total,45-49 ans,2,173492,120
+2022,Bourgogne-Franche-Comté,Total,50-54 ans,3,188079,160
+2022,Bourgogne-Franche-Comté,Total,55-59 ans,,189107,
+2022,Bourgogne-Franche-Comté,Total,60 ans ou plus,,859797,
+2022,Bretagne,F,20-24 ans,,88059,
+2022,Bretagne,F,25-29 ans,1,83474,120
+2022,Bretagne,F,30-34 ans,4,92960,430
+2022,Bretagne,F,35-39 ans,1,100341,100
+2022,Bretagne,F,40-44 ans,,104997,
+2022,Bretagne,F,45-49 ans,1,108917,90
+2022,Bretagne,F,50-54 ans,,114041,
+2022,Bretagne,F,55-59 ans,,114499,
+2022,Bretagne,F,60 ans ou plus,,572569,
+2022,Bretagne,M,20-24 ans,1,97043,100
+2022,Bretagne,M,25-29 ans,2,86968,230
+2022,Bretagne,M,30-34 ans,5,93119,540
+2022,Bretagne,M,35-39 ans,3,98865,300
+2022,Bretagne,M,40-44 ans,4,103643,390
+2022,Bretagne,M,45-49 ans,4,110035,360
+2022,Bretagne,M,50-54 ans,,113178,
+2022,Bretagne,M,55-59 ans,,111645,
+2022,Bretagne,M,60 ans ou plus,1,453105,20
+2022,Bretagne,Non renseigne,25-29 ans,3,170442,180
+2022,Bretagne,Non renseigne,30-34 ans,5,186079,270
+2022,Bretagne,Non renseigne,35-39 ans,3,199206,150
+2022,Bretagne,Non renseigne,40-44 ans,3,208640,140
+2022,Bretagne,Non renseigne,45-49 ans,3,218952,140
+2022,Bretagne,Non renseigne,50-54 ans,1,227219,40
+2022,Bretagne,Non renseigne,60 ans ou plus,1,1025674,10
+2022,Bretagne,Total,20-24 ans,1,185102,50
+2022,Bretagne,Total,25-29 ans,6,170442,350
+2022,Bretagne,Total,30-34 ans,14,186079,750
+2022,Bretagne,Total,35-39 ans,7,199206,350
+2022,Bretagne,Total,40-44 ans,7,208640,340
+2022,Bretagne,Total,45-49 ans,8,218952,370
+2022,Bretagne,Total,50-54 ans,1,227219,40
+2022,Bretagne,Total,55-59 ans,,226144,
+2022,Bretagne,Total,60 ans ou plus,2,1025674,20
+2022,Centre-Val de Loire,F,20-24 ans,,63649,
+2022,Centre-Val de Loire,F,25-29 ans,,62933,
+2022,Centre-Val de Loire,F,30-34 ans,4,72900,550
+2022,Centre-Val de Loire,F,35-39 ans,,76920,
+2022,Centre-Val de Loire,F,40-44 ans,,77852,
+2022,Centre-Val de Loire,F,45-49 ans,,82218,
+2022,Centre-Val de Loire,F,50-54 ans,,88106,
+2022,Centre-Val de Loire,F,55-59 ans,,87537,
+2022,Centre-Val de Loire,F,60 ans ou plus,,426427,
+2022,Centre-Val de Loire,M,20-24 ans,2,68680,290
+2022,Centre-Val de Loire,M,25-29 ans,1,63579,160
+2022,Centre-Val de Loire,M,30-34 ans,3,70117,430
+2022,Centre-Val de Loire,M,35-39 ans,7,73397,950
+2022,Centre-Val de Loire,M,40-44 ans,5,75290,660
+2022,Centre-Val de Loire,M,45-49 ans,1,80214,120
+2022,Centre-Val de Loire,M,50-54 ans,,85959,
+2022,Centre-Val de Loire,M,55-59 ans,,84364,
+2022,Centre-Val de Loire,M,60 ans ou plus,,344445,
+2022,Centre-Val de Loire,Non renseigne,25-29 ans,2,126512,160
+2022,Centre-Val de Loire,Non renseigne,30-34 ans,5,143017,350
+2022,Centre-Val de Loire,Non renseigne,35-39 ans,5,150317,330
+2022,Centre-Val de Loire,Non renseigne,60 ans ou plus,1,770872,10
+2022,Centre-Val de Loire,Total,20-24 ans,2,132329,150
+2022,Centre-Val de Loire,Total,25-29 ans,3,126512,240
+2022,Centre-Val de Loire,Total,30-34 ans,12,143017,840
+2022,Centre-Val de Loire,Total,35-39 ans,12,150317,800
+2022,Centre-Val de Loire,Total,40-44 ans,5,153142,330
+2022,Centre-Val de Loire,Total,45-49 ans,1,162432,60
+2022,Centre-Val de Loire,Total,50-54 ans,,174065,
+2022,Centre-Val de Loire,Total,55-59 ans,,171901,
+2022,Centre-Val de Loire,Total,60 ans ou plus,1,770872,10
+2022,Corse,F,20-24 ans,,7707,
+2022,Corse,F,25-29 ans,,9075,
+2022,Corse,F,30-34 ans,,10719,
+2022,Corse,F,35-39 ans,,11588,
+2022,Corse,F,40-44 ans,,11895,
+2022,Corse,F,45-49 ans,,12028,
+2022,Corse,F,50-54 ans,,12260,
+2022,Corse,F,55-59 ans,,12194,
+2022,Corse,F,60 ans ou plus,,59061,
+2022,Corse,M,20-24 ans,,8131,
+2022,Corse,M,25-29 ans,,8350,
+2022,Corse,M,30-34 ans,,10433,
+2022,Corse,M,35-39 ans,,10373,
+2022,Corse,M,40-44 ans,,11411,
+2022,Corse,M,45-49 ans,,11263,
+2022,Corse,M,50-54 ans,,12318,
+2022,Corse,M,55-59 ans,,11579,
+2022,Corse,M,60 ans ou plus,,50349,
+2022,Corse,Total,20-24 ans,,15838,
+2022,Corse,Total,25-29 ans,,17425,
+2022,Corse,Total,30-34 ans,,21152,
+2022,Corse,Total,35-39 ans,,21961,
+2022,Corse,Total,40-44 ans,,23306,
+2022,Corse,Total,45-49 ans,,23291,
+2022,Corse,Total,50-54 ans,,24578,
+2022,Corse,Total,55-59 ans,,23773,
+2022,Corse,Total,60 ans ou plus,,109410,
+2022,DROM,F,20-24 ans,,64510,
+2022,DROM,F,25-29 ans,,65404,
+2022,DROM,F,30-34 ans,,73032,
+2022,DROM,F,35-39 ans,,74491,
+2022,DROM,F,40-44 ans,2,72658,280
+2022,DROM,F,45-49 ans,1,73821,140
+2022,DROM,F,50-54 ans,,77630,
+2022,DROM,F,55-59 ans,,77813,
+2022,DROM,F,60 ans ou plus,,242969,
+2022,DROM,M,20-24 ans,,61007,
+2022,DROM,M,25-29 ans,,52227,
+2022,DROM,M,30-34 ans,3,56809,530
+2022,DROM,M,35-39 ans,1,58086,170
+2022,DROM,M,40-44 ans,1,58307,170
+2022,DROM,M,45-49 ans,2,63017,320
+2022,DROM,M,50-54 ans,2,68280,290
+2022,DROM,M,55-59 ans,,70332,
+2022,DROM,M,60 ans ou plus,,201324,
+2022,DROM,Non renseigne,30-34 ans,1,129841,80
+2022,DROM,Non renseigne,40-44 ans,1,130965,80
+2022,DROM,Total,20-24 ans,,125517,
+2022,DROM,Total,25-29 ans,,117631,
+2022,DROM,Total,30-34 ans,4,129841,310
+2022,DROM,Total,35-39 ans,1,132577,80
+2022,DROM,Total,40-44 ans,4,130965,310
+2022,DROM,Total,45-49 ans,3,136838,220
+2022,DROM,Total,50-54 ans,2,145910,140
+2022,DROM,Total,55-59 ans,,148145,
+2022,DROM,Total,60 ans ou plus,,444293,
+2022,Grand Est,F,20-24 ans,,153260,
+2022,Grand Est,F,25-29 ans,2,151462,130
+2022,Grand Est,F,30-34 ans,4,168006,240
+2022,Grand Est,F,35-39 ans,3,175546,170
+2022,Grand Est,F,40-44 ans,2,173190,120
+2022,Grand Est,F,45-49 ans,1,175778,60
+2022,Grand Est,F,50-54 ans,,187809,
+2022,Grand Est,F,55-59 ans,1,193756,50
+2022,Grand Est,F,60 ans ou plus,,856514,
+2022,Grand Est,M,20-24 ans,2,165884,120
+2022,Grand Est,M,25-29 ans,6,156316,380
+2022,Grand Est,M,30-34 ans,10,166340,600
+2022,Grand Est,M,35-39 ans,10,170597,590
+2022,Grand Est,M,40-44 ans,8,170271,470
+2022,Grand Est,M,45-49 ans,2,174486,110
+2022,Grand Est,M,50-54 ans,1,185608,50
+2022,Grand Est,M,55-59 ans,3,187667,160
+2022,Grand Est,M,60 ans ou plus,1,691444,10
+2022,Grand Est,Non renseigne,25-29 ans,7,307778,230
+2022,Grand Est,Non renseigne,30-34 ans,11,334346,330
+2022,Grand Est,Non renseigne,35-39 ans,9,346143,260
+2022,Grand Est,Non renseigne,40-44 ans,6,343461,170
+2022,Grand Est,Non renseigne,45-49 ans,2,350264,60
+2022,Grand Est,Non renseigne,50-54 ans,2,373417,50
+2022,Grand Est,Non renseigne,55-59 ans,2,381423,50
+2022,Grand Est,Total,20-24 ans,2,319144,60
+2022,Grand Est,Total,25-29 ans,15,307778,490
+2022,Grand Est,Total,30-34 ans,25,334346,750
+2022,Grand Est,Total,35-39 ans,22,346143,640
+2022,Grand Est,Total,40-44 ans,16,343461,470
+2022,Grand Est,Total,45-49 ans,5,350264,140
+2022,Grand Est,Total,50-54 ans,3,373417,80
+2022,Grand Est,Total,55-59 ans,6,381423,160
+2022,Grand Est,Total,60 ans ou plus,1,1547958,10
+2022,Hauts-de-France,F,20-24 ans,,180743,
+2022,Hauts-de-France,F,25-29 ans,1,167340,60
+2022,Hauts-de-France,F,30-34 ans,7,184679,380
+2022,Hauts-de-France,F,35-39 ans,12,194611,620
+2022,Hauts-de-France,F,40-44 ans,4,190967,210
+2022,Hauts-de-France,F,45-49 ans,,192319,
+2022,Hauts-de-France,F,50-54 ans,2,194384,100
+2022,Hauts-de-France,F,55-59 ans,,194380,
+2022,Hauts-de-France,F,60 ans ou plus,,853289,
+2022,Hauts-de-France,M,20-24 ans,1,186248,50
+2022,Hauts-de-France,M,25-29 ans,2,167168,120
+2022,Hauts-de-France,M,30-34 ans,17,179837,950
+2022,Hauts-de-France,M,35-39 ans,5,188234,270
+2022,Hauts-de-France,M,40-44 ans,7,186844,370
+2022,Hauts-de-France,M,45-49 ans,4,190618,210
+2022,Hauts-de-France,M,50-54 ans,6,191932,310
+2022,Hauts-de-France,M,55-59 ans,1,186952,50
+2022,Hauts-de-France,M,60 ans ou plus,2,658155,30
+2022,Hauts-de-France,Non renseigne,20-24 ans,1,366991,30
+2022,Hauts-de-France,Non renseigne,25-29 ans,8,334508,240
+2022,Hauts-de-France,Non renseigne,30-34 ans,10,364516,270
+2022,Hauts-de-France,Non renseigne,35-39 ans,5,382845,130
+2022,Hauts-de-France,Non renseigne,40-44 ans,8,377811,210
+2022,Hauts-de-France,Non renseigne,45-49 ans,4,382937,100
+2022,Hauts-de-France,Non renseigne,50-54 ans,4,386316,100
+2022,Hauts-de-France,Non renseigne,55-59 ans,2,381332,50
+2022,Hauts-de-France,Total,20-24 ans,2,366991,50
+2022,Hauts-de-France,Total,25-29 ans,11,334508,330
+2022,Hauts-de-France,Total,30-34 ans,34,364516,930
+2022,Hauts-de-France,Total,35-39 ans,22,382845,570
+2022,Hauts-de-France,Total,40-44 ans,19,377811,500
+2022,Hauts-de-France,Total,45-49 ans,8,382937,210
+2022,Hauts-de-France,Total,50-54 ans,12,386316,310
+2022,Hauts-de-France,Total,55-59 ans,3,381332,80
+2022,Hauts-de-France,Total,60 ans ou plus,2,1511444,10
+2022,Normandie,F,20-24 ans,,88936,
+2022,Normandie,F,25-29 ans,,85394,
+2022,Normandie,F,30-34 ans,,95173,
+2022,Normandie,F,35-39 ans,1,101931,100
+2022,Normandie,F,40-44 ans,,100250,
+2022,Normandie,F,45-49 ans,1,104152,100
+2022,Normandie,F,50-54 ans,1,110009,90
+2022,Normandie,F,55-59 ans,1,112927,90
+2022,Normandie,F,60 ans ou plus,,545498,
+2022,Normandie,M,20-24 ans,,94648,
+2022,Normandie,M,25-29 ans,5,86310,580
+2022,Normandie,M,30-34 ans,6,93536,640
+2022,Normandie,M,35-39 ans,3,98057,310
+2022,Normandie,M,40-44 ans,3,98210,310
+2022,Normandie,M,45-49 ans,1,101654,100
+2022,Normandie,M,50-54 ans,,107430,
+2022,Normandie,M,55-59 ans,,107398,
+2022,Normandie,M,60 ans ou plus,,429398,
+2022,Normandie,Non renseigne,25-29 ans,4,171704,230
+2022,Normandie,Non renseigne,30-34 ans,5,188709,260
+2022,Normandie,Non renseigne,35-39 ans,3,199988,150
+2022,Normandie,Non renseigne,40-44 ans,1,198460,50
+2022,Normandie,Total,20-24 ans,,183584,
+2022,Normandie,Total,25-29 ans,9,171704,520
+2022,Normandie,Total,30-34 ans,11,188709,580
+2022,Normandie,Total,35-39 ans,7,199988,350
+2022,Normandie,Total,40-44 ans,4,198460,200
+2022,Normandie,Total,45-49 ans,2,205806,100
+2022,Normandie,Total,50-54 ans,1,217439,50
+2022,Normandie,Total,55-59 ans,1,220325,50
+2022,Normandie,Total,60 ans ou plus,,974896,
+2022,Nouvelle-Aquitaine,F,20-24 ans,,153766,
+2022,Nouvelle-Aquitaine,F,25-29 ans,1,150191,70
+2022,Nouvelle-Aquitaine,F,30-34 ans,1,169765,60
+2022,Nouvelle-Aquitaine,F,35-39 ans,3,180859,170
+2022,Nouvelle-Aquitaine,F,40-44 ans,7,189218,370
+2022,Nouvelle-Aquitaine,F,45-49 ans,4,198248,200
+2022,Nouvelle-Aquitaine,F,50-54 ans,2,209507,100
+2022,Nouvelle-Aquitaine,F,55-59 ans,1,213254,50
+2022,Nouvelle-Aquitaine,F,60 ans ou plus,,1071718,
+2022,Nouvelle-Aquitaine,M,20-24 ans,,164944,
+2022,Nouvelle-Aquitaine,M,25-29 ans,9,150388,600
+2022,Nouvelle-Aquitaine,M,30-34 ans,16,164607,970
+2022,Nouvelle-Aquitaine,M,35-39 ans,11,173221,640
+2022,Nouvelle-Aquitaine,M,40-44 ans,7,182141,380
+2022,Nouvelle-Aquitaine,M,45-49 ans,5,192658,260
+2022,Nouvelle-Aquitaine,M,50-54 ans,3,201275,150
+2022,Nouvelle-Aquitaine,M,55-59 ans,1,201205,50
+2022,Nouvelle-Aquitaine,M,60 ans ou plus,1,855814,10
+2022,Nouvelle-Aquitaine,Non renseigne,20-24 ans,1,318710,30
+2022,Nouvelle-Aquitaine,Non renseigne,25-29 ans,10,300579,330
+2022,Nouvelle-Aquitaine,Non renseigne,30-34 ans,8,334372,240
+2022,Nouvelle-Aquitaine,Non renseigne,35-39 ans,5,354080,140
+2022,Nouvelle-Aquitaine,Non renseigne,40-44 ans,7,371359,190
+2022,Nouvelle-Aquitaine,Non renseigne,45-49 ans,6,390906,150
+2022,Nouvelle-Aquitaine,Non renseigne,50-54 ans,5,410782,120
+2022,Nouvelle-Aquitaine,Non renseigne,55-59 ans,1,414459,20
+2022,Nouvelle-Aquitaine,Non renseigne,60 ans ou plus,2,1927532,10
+2022,Nouvelle-Aquitaine,Total,20-24 ans,1,318710,30
+2022,Nouvelle-Aquitaine,Total,25-29 ans,20,300579,670
+2022,Nouvelle-Aquitaine,Total,30-34 ans,25,334372,750
+2022,Nouvelle-Aquitaine,Total,35-39 ans,19,354080,540
+2022,Nouvelle-Aquitaine,Total,40-44 ans,21,371359,570
+2022,Nouvelle-Aquitaine,Total,45-49 ans,15,390906,380
+2022,Nouvelle-Aquitaine,Total,50-54 ans,10,410782,240
+2022,Nouvelle-Aquitaine,Total,55-59 ans,3,414459,70
+2022,Nouvelle-Aquitaine,Total,60 ans ou plus,3,1927532,20
+2022,Occitanie,F,20-24 ans,,165787,
+2022,Occitanie,F,25-29 ans,1,159618,60
+2022,Occitanie,F,30-34 ans,5,176199,280
+2022,Occitanie,F,35-39 ans,3,184360,160
+2022,Occitanie,F,40-44 ans,5,190696,260
+2022,Occitanie,F,45-49 ans,1,192843,50
+2022,Occitanie,F,50-54 ans,1,205697,50
+2022,Occitanie,F,55-59 ans,2,208809,100
+2022,Occitanie,F,60 ans ou plus,,1002662,
+2022,Occitanie,M,20-24 ans,2,173775,120
+2022,Occitanie,M,25-29 ans,10,161274,620
+2022,Occitanie,M,30-34 ans,14,169648,830
+2022,Occitanie,M,35-39 ans,12,175287,680
+2022,Occitanie,M,40-44 ans,6,182583,330
+2022,Occitanie,M,45-49 ans,3,185979,160
+2022,Occitanie,M,50-54 ans,,197135,
+2022,Occitanie,M,55-59 ans,2,196716,100
+2022,Occitanie,M,60 ans ou plus,1,812218,10
+2022,Occitanie,Non renseigne,25-29 ans,5,320892,160
+2022,Occitanie,Non renseigne,30-34 ans,17,345847,490
+2022,Occitanie,Non renseigne,35-39 ans,9,359647,250
+2022,Occitanie,Non renseigne,40-44 ans,7,373279,190
+2022,Occitanie,Non renseigne,45-49 ans,4,378822,110
+2022,Occitanie,Non renseigne,50-54 ans,1,402832,20
+2022,Occitanie,Non renseigne,55-59 ans,2,405525,50
+2022,Occitanie,Non renseigne,60 ans ou plus,2,1814880,10
+2022,Occitanie,Total,20-24 ans,2,339562,60
+2022,Occitanie,Total,25-29 ans,16,320892,500
+2022,Occitanie,Total,30-34 ans,36,345847,1040
+2022,Occitanie,Total,35-39 ans,24,359647,670
+2022,Occitanie,Total,40-44 ans,18,373279,480
+2022,Occitanie,Total,45-49 ans,8,378822,210
+2022,Occitanie,Total,50-54 ans,2,402832,50
+2022,Occitanie,Total,55-59 ans,6,405525,150
+2022,Occitanie,Total,60 ans ou plus,3,1814880,20
+2022,Pays de la Loire,F,20-24 ans,,104598,
+2022,Pays de la Loire,F,25-29 ans,2,100624,200
+2022,Pays de la Loire,F,30-34 ans,1,111621,90
+2022,Pays de la Loire,F,35-39 ans,1,119787,80
+2022,Pays de la Loire,F,40-44 ans,3,122673,240
+2022,Pays de la Loire,F,45-49 ans,2,124709,160
+2022,Pays de la Loire,F,50-54 ans,1,125881,80
+2022,Pays de la Loire,F,55-59 ans,2,123747,160
+2022,Pays de la Loire,F,60 ans ou plus,,597045,
+2022,Pays de la Loire,M,20-24 ans,,112221,
+2022,Pays de la Loire,M,25-29 ans,4,102069,390
+2022,Pays de la Loire,M,30-34 ans,7,111092,630
+2022,Pays de la Loire,M,35-39 ans,7,116874,600
+2022,Pays de la Loire,M,40-44 ans,,121601,
+2022,Pays de la Loire,M,45-49 ans,3,125732,240
+2022,Pays de la Loire,M,50-54 ans,2,125268,160
+2022,Pays de la Loire,M,55-59 ans,1,120546,80
+2022,Pays de la Loire,M,60 ans ou plus,,477931,
+2022,Pays de la Loire,Non renseigne,25-29 ans,4,202693,200
+2022,Pays de la Loire,Non renseigne,30-34 ans,7,222713,310
+2022,Pays de la Loire,Non renseigne,35-39 ans,6,236661,250
+2022,Pays de la Loire,Non renseigne,40-44 ans,5,244274,200
+2022,Pays de la Loire,Non renseigne,45-49 ans,3,250441,120
+2022,Pays de la Loire,Non renseigne,50-54 ans,4,251149,160
+2022,Pays de la Loire,Total,20-24 ans,,216819,
+2022,Pays de la Loire,Total,25-29 ans,10,202693,490
+2022,Pays de la Loire,Total,30-34 ans,15,222713,670
+2022,Pays de la Loire,Total,35-39 ans,14,236661,590
+2022,Pays de la Loire,Total,40-44 ans,8,244274,330
+2022,Pays de la Loire,Total,45-49 ans,8,250441,320
+2022,Pays de la Loire,Total,50-54 ans,7,251149,280
+2022,Pays de la Loire,Total,55-59 ans,3,244293,120
+2022,Pays de la Loire,Total,60 ans ou plus,,1074976,
+2022,Provence-Alpes-Côte d'Azur,F,20-24 ans,,133517,
+2022,Provence-Alpes-Côte d'Azur,F,25-29 ans,4,133189,300
+2022,Provence-Alpes-Côte d'Azur,F,30-34 ans,2,153231,130
+2022,Provence-Alpes-Côte d'Azur,F,35-39 ans,1,161490,60
+2022,Provence-Alpes-Côte d'Azur,F,40-44 ans,4,163862,240
+2022,Provence-Alpes-Côte d'Azur,F,45-49 ans,1,165283,60
+2022,Provence-Alpes-Côte d'Azur,F,50-54 ans,1,177411,60
+2022,Provence-Alpes-Côte d'Azur,F,55-59 ans,1,183572,50
+2022,Provence-Alpes-Côte d'Azur,F,60 ans ou plus,,877683,
+2022,Provence-Alpes-Côte d'Azur,M,20-24 ans,,139803,
+2022,Provence-Alpes-Côte d'Azur,M,25-29 ans,4,130652,310
+2022,Provence-Alpes-Côte d'Azur,M,30-34 ans,17,144254,1180
+2022,Provence-Alpes-Côte d'Azur,M,35-39 ans,8,149106,540
+2022,Provence-Alpes-Côte d'Azur,M,40-44 ans,6,154003,390
+2022,Provence-Alpes-Côte d'Azur,M,45-49 ans,4,157331,250
+2022,Provence-Alpes-Côte d'Azur,M,50-54 ans,2,166314,120
+2022,Provence-Alpes-Côte d'Azur,M,55-59 ans,2,168350,120
+2022,Provence-Alpes-Côte d'Azur,M,60 ans ou plus,2,686518,30
+2022,Provence-Alpes-Côte d'Azur,Non renseigne,25-29 ans,8,263841,300
+2022,Provence-Alpes-Côte d'Azur,Non renseigne,30-34 ans,11,297485,370
+2022,Provence-Alpes-Côte d'Azur,Non renseigne,35-39 ans,6,310596,190
+2022,Provence-Alpes-Côte d'Azur,Non renseigne,40-44 ans,8,317865,250
+2022,Provence-Alpes-Côte d'Azur,Non renseigne,45-49 ans,4,322614,120
+2022,Provence-Alpes-Côte d'Azur,Non renseigne,50-54 ans,2,343725,60
+2022,Provence-Alpes-Côte d'Azur,Non renseigne,55-59 ans,1,351922,30
+2022,Provence-Alpes-Côte d'Azur,Non renseigne,60 ans ou plus,1,1564201,10
+2022,Provence-Alpes-Côte d'Azur,Total,20-24 ans,,273320,
+2022,Provence-Alpes-Côte d'Azur,Total,25-29 ans,16,263841,610
+2022,Provence-Alpes-Côte d'Azur,Total,30-34 ans,30,297485,1010
+2022,Provence-Alpes-Côte d'Azur,Total,35-39 ans,15,310596,480
+2022,Provence-Alpes-Côte d'Azur,Total,40-44 ans,18,317865,570
+2022,Provence-Alpes-Côte d'Azur,Total,45-49 ans,9,322614,280
+2022,Provence-Alpes-Côte d'Azur,Total,50-54 ans,5,343725,150
+2022,Provence-Alpes-Côte d'Azur,Total,55-59 ans,4,351922,110
+2022,Provence-Alpes-Côte d'Azur,Total,60 ans ou plus,3,1564201,20
+2022,Île-de-France,F,20-24 ans,5,422554,120
+2022,Île-de-France,F,25-29 ans,12,438011,270
+2022,Île-de-France,F,30-34 ans,37,465599,790
+2022,Île-de-France,F,35-39 ans,31,450961,690
+2022,Île-de-France,F,40-44 ans,34,434771,780
+2022,Île-de-France,F,45-49 ans,16,414197,390
+2022,Île-de-France,F,50-54 ans,4,403221,100
+2022,Île-de-France,F,55-59 ans,6,393487,150
+2022,Île-de-France,F,60 ans ou plus,1,1452302,10
+2022,Île-de-France,M,20-24 ans,1,410020,20
+2022,Île-de-France,M,25-29 ans,41,415647,990
+2022,Île-de-France,M,30-34 ans,69,436749,1580
+2022,Île-de-France,M,35-39 ans,55,418794,1310
+2022,Île-de-France,M,40-44 ans,47,413734,1140
+2022,Île-de-France,M,45-49 ans,22,411669,530
+2022,Île-de-France,M,50-54 ans,21,387897,540
+2022,Île-de-France,M,55-59 ans,15,369531,410
+2022,Île-de-France,M,60 ans ou plus,10,1142183,90
+2022,Île-de-France,Non renseigne,20-24 ans,4,832574,50
+2022,Île-de-France,Non renseigne,25-29 ans,62,853658,730
+2022,Île-de-France,Non renseigne,30-34 ans,90,902348,1000
+2022,Île-de-France,Non renseigne,35-39 ans,69,869755,790
+2022,Île-de-France,Non renseigne,40-44 ans,40,848505,470
+2022,Île-de-France,Non renseigne,45-49 ans,23,825866,280
+2022,Île-de-France,Non renseigne,50-54 ans,24,791118,300
+2022,Île-de-France,Non renseigne,55-59 ans,12,763018,160
+2022,Île-de-France,Non renseigne,60 ans ou plus,11,2594485,40
+2022,Île-de-France,Total,20-24 ans,10,832574,120
+2022,Île-de-France,Total,25-29 ans,115,853658,1350
+2022,Île-de-France,Total,30-34 ans,196,902348,2170
+2022,Île-de-France,Total,35-39 ans,155,869755,1780
+2022,Île-de-France,Total,40-44 ans,121,848505,1430
+2022,Île-de-France,Total,45-49 ans,61,825866,740
+2022,Île-de-France,Total,50-54 ans,49,791118,620
+2022,Île-de-France,Total,55-59 ans,33,763018,430
+2022,Île-de-France,Total,60 ans ou plus,22,2594485,80
+2023,Auvergne-Rhône-Alpes,F,20-24 ans,1,229432,40
+2023,Auvergne-Rhône-Alpes,F,25-29 ans,2,227409,90
+2023,Auvergne-Rhône-Alpes,F,30-34 ans,6,253962,240
+2023,Auvergne-Rhône-Alpes,F,35-39 ans,4,265347,150
+2023,Auvergne-Rhône-Alpes,F,40-44 ans,2,269093,70
+2023,Auvergne-Rhône-Alpes,F,45-49 ans,,255141,
+2023,Auvergne-Rhône-Alpes,F,50-54 ans,,273766,
+2023,Auvergne-Rhône-Alpes,F,55-59 ans,,268450,
+2023,Auvergne-Rhône-Alpes,F,60 ans ou plus,,1214097,
+2023,Auvergne-Rhône-Alpes,M,20-24 ans,2,240349,80
+2023,Auvergne-Rhône-Alpes,M,25-29 ans,8,230913,350
+2023,Auvergne-Rhône-Alpes,M,30-34 ans,9,248724,360
+2023,Auvergne-Rhône-Alpes,M,35-39 ans,6,254929,240
+2023,Auvergne-Rhône-Alpes,M,40-44 ans,7,259368,270
+2023,Auvergne-Rhône-Alpes,M,45-49 ans,5,254865,200
+2023,Auvergne-Rhône-Alpes,M,50-54 ans,1,271042,40
+2023,Auvergne-Rhône-Alpes,M,55-59 ans,,262845,
+2023,Auvergne-Rhône-Alpes,M,60 ans ou plus,1,978328,10
+2023,Auvergne-Rhône-Alpes,Non renseigne,25-29 ans,6,458322,130
+2023,Auvergne-Rhône-Alpes,Non renseigne,30-34 ans,8,502686,160
+2023,Auvergne-Rhône-Alpes,Non renseigne,35-39 ans,4,520276,80
+2023,Auvergne-Rhône-Alpes,Non renseigne,40-44 ans,7,528461,130
+2023,Auvergne-Rhône-Alpes,Non renseigne,45-49 ans,2,510006,40
+2023,Auvergne-Rhône-Alpes,Non renseigne,50-54 ans,2,544808,40
+2023,Auvergne-Rhône-Alpes,Non renseigne,55-59 ans,1,531295,20
+2023,Auvergne-Rhône-Alpes,Total,20-24 ans,3,469781,60
+2023,Auvergne-Rhône-Alpes,Total,25-29 ans,16,458322,350
+2023,Auvergne-Rhône-Alpes,Total,30-34 ans,23,502686,460
+2023,Auvergne-Rhône-Alpes,Total,35-39 ans,14,520276,270
+2023,Auvergne-Rhône-Alpes,Total,40-44 ans,16,528461,300
+2023,Auvergne-Rhône-Alpes,Total,45-49 ans,7,510006,140
+2023,Auvergne-Rhône-Alpes,Total,50-54 ans,3,544808,60
+2023,Auvergne-Rhône-Alpes,Total,55-59 ans,1,531295,20
+2023,Auvergne-Rhône-Alpes,Total,60 ans ou plus,1,2192425,0
+2023,Bourgogne-Franche-Comté,F,20-24 ans,,69402,
+2023,Bourgogne-Franche-Comté,F,25-29 ans,,68509,
+2023,Bourgogne-Franche-Comté,F,30-34 ans,2,75607,260
+2023,Bourgogne-Franche-Comté,F,35-39 ans,,81304,
+2023,Bourgogne-Franche-Comté,F,40-44 ans,,84668,
+2023,Bourgogne-Franche-Comté,F,45-49 ans,1,84446,120
+2023,Bourgogne-Franche-Comté,F,50-54 ans,,94674,
+2023,Bourgogne-Franche-Comté,F,55-59 ans,,95756,
+2023,Bourgogne-Franche-Comté,F,60 ans ou plus,,477652,
+2023,Bourgogne-Franche-Comté,M,20-24 ans,,78562,
+2023,Bourgogne-Franche-Comté,M,25-29 ans,4,71416,560
+2023,Bourgogne-Franche-Comté,M,30-34 ans,2,76146,260
+2023,Bourgogne-Franche-Comté,M,35-39 ans,2,79638,250
+2023,Bourgogne-Franche-Comté,M,40-44 ans,1,83444,120
+2023,Bourgogne-Franche-Comté,M,45-49 ans,1,83446,120
+2023,Bourgogne-Franche-Comté,M,50-54 ans,,93596,
+2023,Bourgogne-Franche-Comté,M,55-59 ans,2,93807,210
+2023,Bourgogne-Franche-Comté,M,60 ans ou plus,,388112,
+2023,Bourgogne-Franche-Comté,Non renseigne,20-24 ans,1,147964,70
+2023,Bourgogne-Franche-Comté,Non renseigne,30-34 ans,1,151753,70
+2023,Bourgogne-Franche-Comté,Total,20-24 ans,1,147964,70
+2023,Bourgogne-Franche-Comté,Total,25-29 ans,4,139925,290
+2023,Bourgogne-Franche-Comté,Total,30-34 ans,5,151753,330
+2023,Bourgogne-Franche-Comté,Total,35-39 ans,2,160942,120
+2023,Bourgogne-Franche-Comté,Total,40-44 ans,1,168112,60
+2023,Bourgogne-Franche-Comté,Total,45-49 ans,2,167892,120
+2023,Bourgogne-Franche-Comté,Total,50-54 ans,,188270,
+2023,Bourgogne-Franche-Comté,Total,55-59 ans,2,189563,110
+2023,Bourgogne-Franche-Comté,Total,60 ans ou plus,,865764,
+2023,Bretagne,F,20-24 ans,,88884,
+2023,Bretagne,F,25-29 ans,,84382,
+2023,Bretagne,F,30-34 ans,2,92742,220
+2023,Bretagne,F,35-39 ans,1,100308,100
+2023,Bretagne,F,40-44 ans,,106924,
+2023,Bretagne,F,45-49 ans,1,106033,90
+2023,Bretagne,F,50-54 ans,,115952,
+2023,Bretagne,F,55-59 ans,,114678,
+2023,Bretagne,F,60 ans ou plus,,579923,
+2023,Bretagne,M,20-24 ans,,97142,
+2023,Bretagne,M,25-29 ans,4,88364,450
+2023,Bretagne,M,30-34 ans,1,93617,110
+2023,Bretagne,M,35-39 ans,,98437,
+2023,Bretagne,M,40-44 ans,1,105237,100
+2023,Bretagne,M,45-49 ans,1,106882,90
+2023,Bretagne,M,50-54 ans,1,115362,90
+2023,Bretagne,M,55-59 ans,1,111701,90
+2023,Bretagne,M,60 ans ou plus,,461689,
+2023,Bretagne,Non renseigne,25-29 ans,6,172746,350
+2023,Bretagne,Non renseigne,30-34 ans,4,186359,210
+2023,Bretagne,Non renseigne,35-39 ans,3,198745,150
+2023,Bretagne,Non renseigne,40-44 ans,4,212161,190
+2023,Bretagne,Non renseigne,45-49 ans,1,212915,50
+2023,Bretagne,Non renseigne,50-54 ans,2,231314,90
+2023,Bretagne,Total,20-24 ans,,186026,
+2023,Bretagne,Total,25-29 ans,10,172746,580
+2023,Bretagne,Total,30-34 ans,7,186359,380
+2023,Bretagne,Total,35-39 ans,4,198745,200
+2023,Bretagne,Total,40-44 ans,5,212161,240
+2023,Bretagne,Total,45-49 ans,3,212915,140
+2023,Bretagne,Total,50-54 ans,3,231314,130
+2023,Bretagne,Total,55-59 ans,1,226379,40
+2023,Bretagne,Total,60 ans ou plus,,1041612,
+2023,Centre-Val de Loire,F,20-24 ans,,64035,
+2023,Centre-Val de Loire,F,25-29 ans,1,63428,160
+2023,Centre-Val de Loire,F,30-34 ans,2,72125,280
+2023,Centre-Val de Loire,F,35-39 ans,1,76632,130
+2023,Centre-Val de Loire,F,40-44 ans,,78967,
+2023,Centre-Val de Loire,F,45-49 ans,,79068,
+2023,Centre-Val de Loire,F,50-54 ans,,88707,
+2023,Centre-Val de Loire,F,55-59 ans,,87891,
+2023,Centre-Val de Loire,F,60 ans ou plus,,429391,
+2023,Centre-Val de Loire,M,20-24 ans,2,68938,290
+2023,Centre-Val de Loire,M,25-29 ans,5,64319,780
+2023,Centre-Val de Loire,M,30-34 ans,2,69682,290
+2023,Centre-Val de Loire,M,35-39 ans,1,73080,140
+2023,Centre-Val de Loire,M,40-44 ans,,76140,
+2023,Centre-Val de Loire,M,45-49 ans,2,77595,260
+2023,Centre-Val de Loire,M,50-54 ans,1,86220,120
+2023,Centre-Val de Loire,M,55-59 ans,1,84737,120
+2023,Centre-Val de Loire,M,60 ans ou plus,1,347476,30
+2023,Centre-Val de Loire,Non renseigne,25-29 ans,2,127747,160
+2023,Centre-Val de Loire,Non renseigne,30-34 ans,2,141807,140
+2023,Centre-Val de Loire,Non renseigne,40-44 ans,1,155107,60
+2023,Centre-Val de Loire,Non renseigne,45-49 ans,1,156663,60
+2023,Centre-Val de Loire,Total,20-24 ans,2,132973,150
+2023,Centre-Val de Loire,Total,25-29 ans,8,127747,630
+2023,Centre-Val de Loire,Total,30-34 ans,6,141807,420
+2023,Centre-Val de Loire,Total,35-39 ans,2,149712,130
+2023,Centre-Val de Loire,Total,40-44 ans,1,155107,60
+2023,Centre-Val de Loire,Total,45-49 ans,3,156663,190
+2023,Centre-Val de Loire,Total,50-54 ans,1,174927,60
+2023,Centre-Val de Loire,Total,55-59 ans,1,172628,60
+2023,Centre-Val de Loire,Total,60 ans ou plus,1,776867,10
+2023,Corse,F,20-24 ans,,8048,
+2023,Corse,F,25-29 ans,,8828,
+2023,Corse,F,30-34 ans,,10824,
+2023,Corse,F,35-39 ans,,11488,
+2023,Corse,F,40-44 ans,,12256,
+2023,Corse,F,45-49 ans,,11710,
+2023,Corse,F,50-54 ans,,12544,
+2023,Corse,F,55-59 ans,,12267,
+2023,Corse,F,60 ans ou plus,,59976,
+2023,Corse,M,20-24 ans,,8181,
+2023,Corse,M,25-29 ans,,8330,
+2023,Corse,M,30-34 ans,,10458,
+2023,Corse,M,35-39 ans,,10441,
+2023,Corse,M,40-44 ans,,11541,
+2023,Corse,M,45-49 ans,,11025,
+2023,Corse,M,50-54 ans,,12404,
+2023,Corse,M,55-59 ans,,11883,
+2023,Corse,M,60 ans ou plus,,51099,
+2023,Corse,Total,20-24 ans,,16229,
+2023,Corse,Total,25-29 ans,,17158,
+2023,Corse,Total,30-34 ans,,21282,
+2023,Corse,Total,35-39 ans,,21929,
+2023,Corse,Total,40-44 ans,,23797,
+2023,Corse,Total,45-49 ans,,22735,
+2023,Corse,Total,50-54 ans,,24948,
+2023,Corse,Total,55-59 ans,,24150,
+2023,Corse,Total,60 ans ou plus,,111075,
+2023,DROM,F,20-24 ans,,65224,
+2023,DROM,F,25-29 ans,,64847,
+2023,DROM,F,30-34 ans,,74264,
+2023,DROM,F,35-39 ans,1,74594,130
+2023,DROM,F,40-44 ans,1,73571,140
+2023,DROM,F,45-49 ans,1,72174,140
+2023,DROM,F,50-54 ans,,76952,
+2023,DROM,F,55-59 ans,,78240,
+2023,DROM,F,60 ans ou plus,,251236,
+2023,DROM,M,20-24 ans,,60563,
+2023,DROM,M,25-29 ans,,51623,
+2023,DROM,M,30-34 ans,,57479,
+2023,DROM,M,35-39 ans,1,58401,170
+2023,DROM,M,40-44 ans,,58283,
+2023,DROM,M,45-49 ans,,60939,
+2023,DROM,M,50-54 ans,1,67830,150
+2023,DROM,M,55-59 ans,,70914,
+2023,DROM,M,60 ans ou plus,,209167,
+2023,DROM,Non renseigne,20-24 ans,1,125787,80
+2023,DROM,Non renseigne,35-39 ans,1,132995,80
+2023,DROM,Total,20-24 ans,1,125787,80
+2023,DROM,Total,25-29 ans,,116470,
+2023,DROM,Total,30-34 ans,,131743,
+2023,DROM,Total,35-39 ans,3,132995,230
+2023,DROM,Total,40-44 ans,1,131854,80
+2023,DROM,Total,45-49 ans,1,133113,80
+2023,DROM,Total,50-54 ans,1,144782,70
+2023,DROM,Total,55-59 ans,,149154,
+2023,DROM,Total,60 ans ou plus,,460403,
+2023,Grand Est,F,20-24 ans,,153559,
+2023,Grand Est,F,25-29 ans,4,150914,270
+2023,Grand Est,F,30-34 ans,1,166240,60
+2023,Grand Est,F,35-39 ans,2,174501,110
+2023,Grand Est,F,40-44 ans,,176650,
+2023,Grand Est,F,45-49 ans,,170113,
+2023,Grand Est,F,50-54 ans,,188776,
+2023,Grand Est,F,55-59 ans,,192436,
+2023,Grand Est,F,60 ans ou plus,,864234,
+2023,Grand Est,M,20-24 ans,1,165962,60
+2023,Grand Est,M,25-29 ans,6,156200,380
+2023,Grand Est,M,30-34 ans,10,165680,600
+2023,Grand Est,M,35-39 ans,3,169548,180
+2023,Grand Est,M,40-44 ans,4,172810,230
+2023,Grand Est,M,45-49 ans,,169185,
+2023,Grand Est,M,50-54 ans,1,186265,50
+2023,Grand Est,M,55-59 ans,1,186427,50
+2023,Grand Est,M,60 ans ou plus,,700403,
+2023,Grand Est,Non renseigne,20-24 ans,1,319521,30
+2023,Grand Est,Non renseigne,25-29 ans,4,307114,130
+2023,Grand Est,Non renseigne,30-34 ans,4,331920,120
+2023,Grand Est,Non renseigne,35-39 ans,2,344049,60
+2023,Grand Est,Non renseigne,40-44 ans,1,349460,30
+2023,Grand Est,Non renseigne,45-49 ans,2,339298,60
+2023,Grand Est,Non renseigne,50-54 ans,1,375041,30
+2023,Grand Est,Non renseigne,55-59 ans,1,378863,30
+2023,Grand Est,Total,20-24 ans,2,319521,60
+2023,Grand Est,Total,25-29 ans,14,307114,460
+2023,Grand Est,Total,30-34 ans,15,331920,450
+2023,Grand Est,Total,35-39 ans,7,344049,200
+2023,Grand Est,Total,40-44 ans,5,349460,140
+2023,Grand Est,Total,45-49 ans,2,339298,60
+2023,Grand Est,Total,50-54 ans,2,375041,50
+2023,Grand Est,Total,55-59 ans,2,378863,50
+2023,Grand Est,Total,60 ans ou plus,,1564637,
+2023,Hauts-de-France,F,20-24 ans,1,181465,60
+2023,Hauts-de-France,F,25-29 ans,4,167276,240
+2023,Hauts-de-France,F,30-34 ans,5,181350,280
+2023,Hauts-de-France,F,35-39 ans,3,193965,150
+2023,Hauts-de-France,F,40-44 ans,2,194079,100
+2023,Hauts-de-France,F,45-49 ans,1,187192,50
+2023,Hauts-de-France,F,50-54 ans,2,196655,100
+2023,Hauts-de-France,F,55-59 ans,,192990,
+2023,Hauts-de-France,F,60 ans ou plus,,860783,
+2023,Hauts-de-France,M,20-24 ans,2,187492,110
+2023,Hauts-de-France,M,25-29 ans,6,166604,360
+2023,Hauts-de-France,M,30-34 ans,9,177744,510
+2023,Hauts-de-France,M,35-39 ans,5,186747,270
+2023,Hauts-de-France,M,40-44 ans,4,189538,210
+2023,Hauts-de-France,M,45-49 ans,2,185847,110
+2023,Hauts-de-France,M,50-54 ans,2,193496,100
+2023,Hauts-de-France,M,55-59 ans,1,186651,50
+2023,Hauts-de-France,M,60 ans ou plus,1,666952,10
+2023,Hauts-de-France,Non renseigne,20-24 ans,1,368957,30
+2023,Hauts-de-France,Non renseigne,25-29 ans,2,333880,60
+2023,Hauts-de-France,Non renseigne,30-34 ans,5,359094,140
+2023,Hauts-de-France,Non renseigne,35-39 ans,6,380712,160
+2023,Hauts-de-France,Non renseigne,40-44 ans,1,383617,30
+2023,Hauts-de-France,Non renseigne,45-49 ans,1,373039,30
+2023,Hauts-de-France,Non renseigne,50-54 ans,3,390151,80
+2023,Hauts-de-France,Total,20-24 ans,4,368957,110
+2023,Hauts-de-France,Total,25-29 ans,12,333880,360
+2023,Hauts-de-France,Total,30-34 ans,19,359094,530
+2023,Hauts-de-France,Total,35-39 ans,14,380712,370
+2023,Hauts-de-France,Total,40-44 ans,7,383617,180
+2023,Hauts-de-France,Total,45-49 ans,4,373039,110
+2023,Hauts-de-France,Total,50-54 ans,7,390151,180
+2023,Hauts-de-France,Total,55-59 ans,1,379641,30
+2023,Hauts-de-France,Total,60 ans ou plus,1,1527735,10
+2023,Normandie,F,20-24 ans,1,89147,110
+2023,Normandie,F,25-29 ans,,85151,
+2023,Normandie,F,30-34 ans,2,94304,210
+2023,Normandie,F,35-39 ans,2,101301,200
+2023,Normandie,F,40-44 ans,1,102550,100
+2023,Normandie,F,45-49 ans,2,100451,200
+2023,Normandie,F,50-54 ans,1,110586,90
+2023,Normandie,F,55-59 ans,,112449,
+2023,Normandie,F,60 ans ou plus,,550303,
+2023,Normandie,M,20-24 ans,,95268,
+2023,Normandie,M,25-29 ans,6,86765,690
+2023,Normandie,M,30-34 ans,2,93525,210
+2023,Normandie,M,35-39 ans,1,97527,100
+2023,Normandie,M,40-44 ans,2,100239,200
+2023,Normandie,M,45-49 ans,1,97880,100
+2023,Normandie,M,50-54 ans,2,108188,180
+2023,Normandie,M,55-59 ans,,107234,
+2023,Normandie,M,60 ans ou plus,,434121,
+2023,Normandie,Non renseigne,30-34 ans,3,187829,160
+2023,Normandie,Non renseigne,35-39 ans,4,198828,200
+2023,Normandie,Non renseigne,40-44 ans,1,202789,50
+2023,Normandie,Non renseigne,45-49 ans,1,198331,50
+2023,Normandie,Non renseigne,50-54 ans,1,218774,50
+2023,Normandie,Total,20-24 ans,1,184415,50
+2023,Normandie,Total,25-29 ans,6,171916,350
+2023,Normandie,Total,30-34 ans,7,187829,370
+2023,Normandie,Total,35-39 ans,7,198828,350
+2023,Normandie,Total,40-44 ans,4,202789,200
+2023,Normandie,Total,45-49 ans,4,198331,200
+2023,Normandie,Total,50-54 ans,4,218774,180
+2023,Normandie,Total,55-59 ans,,219683,
+2023,Normandie,Total,60 ans ou plus,,984424,
+2023,Nouvelle-Aquitaine,F,20-24 ans,,155061,
+2023,Nouvelle-Aquitaine,F,25-29 ans,,150273,
+2023,Nouvelle-Aquitaine,F,30-34 ans,5,169643,290
+2023,Nouvelle-Aquitaine,F,35-39 ans,1,181258,60
+2023,Nouvelle-Aquitaine,F,40-44 ans,3,192386,160
+2023,Nouvelle-Aquitaine,F,45-49 ans,3,193003,160
+2023,Nouvelle-Aquitaine,F,50-54 ans,2,212228,90
+2023,Nouvelle-Aquitaine,F,55-59 ans,,213832,
+2023,Nouvelle-Aquitaine,F,60 ans ou plus,,1082578,
+2023,Nouvelle-Aquitaine,M,20-24 ans,2,166493,120
+2023,Nouvelle-Aquitaine,M,25-29 ans,10,151786,660
+2023,Nouvelle-Aquitaine,M,30-34 ans,9,164722,550
+2023,Nouvelle-Aquitaine,M,35-39 ans,2,173767,120
+2023,Nouvelle-Aquitaine,M,40-44 ans,1,184683,50
+2023,Nouvelle-Aquitaine,M,45-49 ans,4,186993,210
+2023,Nouvelle-Aquitaine,M,50-54 ans,,204474,
+2023,Nouvelle-Aquitaine,M,55-59 ans,,201810,
+2023,Nouvelle-Aquitaine,M,60 ans ou plus,,867301,
+2023,Nouvelle-Aquitaine,Non renseigne,20-24 ans,1,321554,30
+2023,Nouvelle-Aquitaine,Non renseigne,25-29 ans,3,302059,100
+2023,Nouvelle-Aquitaine,Non renseigne,30-34 ans,7,334365,210
+2023,Nouvelle-Aquitaine,Non renseigne,35-39 ans,3,355025,80
+2023,Nouvelle-Aquitaine,Non renseigne,40-44 ans,3,377069,80
+2023,Nouvelle-Aquitaine,Non renseigne,45-49 ans,1,379996,30
+2023,Nouvelle-Aquitaine,Non renseigne,50-54 ans,3,416702,70
+2023,Nouvelle-Aquitaine,Total,20-24 ans,3,321554,90
+2023,Nouvelle-Aquitaine,Total,25-29 ans,13,302059,430
+2023,Nouvelle-Aquitaine,Total,30-34 ans,21,334365,630
+2023,Nouvelle-Aquitaine,Total,35-39 ans,6,355025,170
+2023,Nouvelle-Aquitaine,Total,40-44 ans,7,377069,190
+2023,Nouvelle-Aquitaine,Total,45-49 ans,8,379996,210
+2023,Nouvelle-Aquitaine,Total,50-54 ans,5,416702,120
+2023,Nouvelle-Aquitaine,Total,55-59 ans,,415642,
+2023,Nouvelle-Aquitaine,Total,60 ans ou plus,,1949879,
+2023,Occitanie,F,20-24 ans,,167446,
+2023,Occitanie,F,25-29 ans,,160825,
+2023,Occitanie,F,30-34 ans,4,176683,230
+2023,Occitanie,F,35-39 ans,,184797,
+2023,Occitanie,F,40-44 ans,1,194300,50
+2023,Occitanie,F,45-49 ans,,189138,
+2023,Occitanie,F,50-54 ans,1,207705,50
+2023,Occitanie,F,55-59 ans,1,210139,50
+2023,Occitanie,F,60 ans ou plus,,1015889,
+2023,Occitanie,M,20-24 ans,1,176233,60
+2023,Occitanie,M,25-29 ans,3,162789,180
+2023,Occitanie,M,30-34 ans,7,171167,410
+2023,Occitanie,M,35-39 ans,2,175588,110
+2023,Occitanie,M,40-44 ans,4,185223,220
+2023,Occitanie,M,45-49 ans,3,182452,160
+2023,Occitanie,M,50-54 ans,,199351,
+2023,Occitanie,M,55-59 ans,,198147,
+2023,Occitanie,M,60 ans ou plus,,824784,
+2023,Occitanie,Non renseigne,25-29 ans,8,323614,250
+2023,Occitanie,Non renseigne,30-34 ans,6,347850,170
+2023,Occitanie,Non renseigne,35-39 ans,2,360385,60
+2023,Occitanie,Non renseigne,40-44 ans,3,379523,80
+2023,Occitanie,Non renseigne,55-59 ans,1,408286,20
+2023,Occitanie,Total,20-24 ans,1,343679,30
+2023,Occitanie,Total,25-29 ans,11,323614,340
+2023,Occitanie,Total,30-34 ans,17,347850,490
+2023,Occitanie,Total,35-39 ans,4,360385,110
+2023,Occitanie,Total,40-44 ans,8,379523,210
+2023,Occitanie,Total,45-49 ans,3,371590,80
+2023,Occitanie,Total,50-54 ans,1,407056,20
+2023,Occitanie,Total,55-59 ans,2,408286,50
+2023,Occitanie,Total,60 ans ou plus,,1840673,
+2023,Pays de la Loire,F,20-24 ans,,106230,
+2023,Pays de la Loire,F,25-29 ans,1,101387,100
+2023,Pays de la Loire,F,30-34 ans,,111734,
+2023,Pays de la Loire,F,35-39 ans,,118913,
+2023,Pays de la Loire,F,40-44 ans,1,125434,80
+2023,Pays de la Loire,F,45-49 ans,1,122102,80
+2023,Pays de la Loire,F,50-54 ans,1,128015,80
+2023,Pays de la Loire,F,55-59 ans,1,123676,80
+2023,Pays de la Loire,F,60 ans ou plus,,604434,
+2023,Pays de la Loire,M,20-24 ans,,114036,
+2023,Pays de la Loire,M,25-29 ans,3,103415,290
+2023,Pays de la Loire,M,30-34 ans,8,112074,710
+2023,Pays de la Loire,M,35-39 ans,3,116316,260
+2023,Pays de la Loire,M,40-44 ans,,123473,
+2023,Pays de la Loire,M,45-49 ans,3,122950,240
+2023,Pays de la Loire,M,50-54 ans,2,127720,160
+2023,Pays de la Loire,M,55-59 ans,1,120949,80
+2023,Pays de la Loire,M,60 ans ou plus,,485431,
+2023,Pays de la Loire,Non renseigne,25-29 ans,3,204802,150
+2023,Pays de la Loire,Non renseigne,30-34 ans,3,223808,130
+2023,Pays de la Loire,Non renseigne,35-39 ans,6,235229,260
+2023,Pays de la Loire,Non renseigne,40-44 ans,1,248907,40
+2023,Pays de la Loire,Non renseigne,45-49 ans,1,245052,40
+2023,Pays de la Loire,Total,20-24 ans,,220266,
+2023,Pays de la Loire,Total,25-29 ans,7,204802,340
+2023,Pays de la Loire,Total,30-34 ans,11,223808,490
+2023,Pays de la Loire,Total,35-39 ans,9,235229,380
+2023,Pays de la Loire,Total,40-44 ans,2,248907,80
+2023,Pays de la Loire,Total,45-49 ans,5,245052,200
+2023,Pays de la Loire,Total,50-54 ans,3,255735,120
+2023,Pays de la Loire,Total,55-59 ans,2,244625,80
+2023,Pays de la Loire,Total,60 ans ou plus,,1089865,
+2023,Provence-Alpes-Côte d'Azur,F,20-24 ans,,134201,
+2023,Provence-Alpes-Côte d'Azur,F,25-29 ans,2,133398,150
+2023,Provence-Alpes-Côte d'Azur,F,30-34 ans,4,153822,260
+2023,Provence-Alpes-Côte d'Azur,F,35-39 ans,1,161413,60
+2023,Provence-Alpes-Côte d'Azur,F,40-44 ans,2,166780,120
+2023,Provence-Alpes-Côte d'Azur,F,45-49 ans,,161442,
+2023,Provence-Alpes-Côte d'Azur,F,50-54 ans,1,178024,60
+2023,Provence-Alpes-Côte d'Azur,F,55-59 ans,,184659,
+2023,Provence-Alpes-Côte d'Azur,F,60 ans ou plus,,889463,
+2023,Provence-Alpes-Côte d'Azur,M,20-24 ans,2,140210,140
+2023,Provence-Alpes-Côte d'Azur,M,25-29 ans,7,131426,530
+2023,Provence-Alpes-Côte d'Azur,M,30-34 ans,12,144587,830
+2023,Provence-Alpes-Côte d'Azur,M,35-39 ans,5,149118,340
+2023,Provence-Alpes-Côte d'Azur,M,40-44 ans,2,156764,130
+2023,Provence-Alpes-Côte d'Azur,M,45-49 ans,2,153540,130
+2023,Provence-Alpes-Côte d'Azur,M,50-54 ans,1,168712,60
+2023,Provence-Alpes-Côte d'Azur,M,55-59 ans,1,168791,60
+2023,Provence-Alpes-Côte d'Azur,M,60 ans ou plus,1,696838,10
+2023,Provence-Alpes-Côte d'Azur,Non renseigne,25-29 ans,5,264824,190
+2023,Provence-Alpes-Côte d'Azur,Non renseigne,30-34 ans,6,298409,200
+2023,Provence-Alpes-Côte d'Azur,Non renseigne,35-39 ans,2,310531,60
+2023,Provence-Alpes-Côte d'Azur,Non renseigne,40-44 ans,3,323544,90
+2023,Provence-Alpes-Côte d'Azur,Non renseigne,45-49 ans,1,314982,30
+2023,Provence-Alpes-Côte d'Azur,Non renseigne,55-59 ans,1,353450,30
+2023,Provence-Alpes-Côte d'Azur,Non renseigne,60 ans ou plus,1,1586301,10
+2023,Provence-Alpes-Côte d'Azur,Total,20-24 ans,2,274411,70
+2023,Provence-Alpes-Côte d'Azur,Total,25-29 ans,14,264824,530
+2023,Provence-Alpes-Côte d'Azur,Total,30-34 ans,22,298409,740
+2023,Provence-Alpes-Côte d'Azur,Total,35-39 ans,8,310531,260
+2023,Provence-Alpes-Côte d'Azur,Total,40-44 ans,7,323544,220
+2023,Provence-Alpes-Côte d'Azur,Total,45-49 ans,3,314982,100
+2023,Provence-Alpes-Côte d'Azur,Total,50-54 ans,2,346736,60
+2023,Provence-Alpes-Côte d'Azur,Total,55-59 ans,2,353450,60
+2023,Provence-Alpes-Côte d'Azur,Total,60 ans ou plus,2,1586301,10
+2023,Île-de-France,F,20-24 ans,2,427737,50
+2023,Île-de-France,F,25-29 ans,25,437192,570
+2023,Île-de-France,F,30-34 ans,52,464314,1120
+2023,Île-de-France,F,35-39 ans,30,451905,660
+2023,Île-de-France,F,40-44 ans,20,437677,460
+2023,Île-de-France,F,45-49 ans,13,409558,320
+2023,Île-de-France,F,50-54 ans,4,407088,100
+2023,Île-de-France,F,55-59 ans,2,390975,50
+2023,Île-de-France,F,60 ans ou plus,,1470656,
+2023,Île-de-France,M,20-24 ans,5,416143,120
+2023,Île-de-France,M,25-29 ans,60,417066,1440
+2023,Île-de-France,M,30-34 ans,66,438217,1510
+2023,Île-de-France,M,35-39 ans,46,419535,1100
+2023,Île-de-France,M,40-44 ans,35,414697,840
+2023,Île-de-France,M,45-49 ans,20,404740,490
+2023,Île-de-France,M,50-54 ans,14,395238,350
+2023,Île-de-France,M,55-59 ans,9,369436,240
+2023,Île-de-France,M,60 ans ou plus,8,1159282,70
+2023,Île-de-France,Non renseigne,20-24 ans,1,843880,10
+2023,Île-de-France,Non renseigne,25-29 ans,47,854258,550
+2023,Île-de-France,Non renseigne,30-34 ans,46,902531,510
+2023,Île-de-France,Non renseigne,35-39 ans,37,871440,420
+2023,Île-de-France,Non renseigne,40-44 ans,30,852374,350
+2023,Île-de-France,Non renseigne,45-49 ans,17,814298,210
+2023,Île-de-France,Non renseigne,50-54 ans,16,802326,200
+2023,Île-de-France,Non renseigne,55-59 ans,12,760411,160
+2023,Île-de-France,Non renseigne,60 ans ou plus,5,2629938,20
+2023,Île-de-France,Total,20-24 ans,8,843880,90
+2023,Île-de-France,Total,25-29 ans,132,854258,1550
+2023,Île-de-France,Total,30-34 ans,164,902531,1820
+2023,Île-de-France,Total,35-39 ans,113,871440,1300
+2023,Île-de-France,Total,40-44 ans,85,852374,1000
+2023,Île-de-France,Total,45-49 ans,50,814298,610
+2023,Île-de-France,Total,50-54 ans,34,802326,420
+2023,Île-de-France,Total,55-59 ans,23,760411,300
+2023,Île-de-France,Total,60 ans ou plus,13,2629938,50
+2024,Auvergne-Rhône-Alpes,F,20-24 ans,1,229109,40
+2024,Auvergne-Rhône-Alpes,F,25-29 ans,9,230279,390
+2024,Auvergne-Rhône-Alpes,F,30-34 ans,1,251551,40
+2024,Auvergne-Rhône-Alpes,F,35-39 ans,2,267546,70
+2024,Auvergne-Rhône-Alpes,F,40-44 ans,1,272399,40
+2024,Auvergne-Rhône-Alpes,F,45-49 ans,1,251139,40
+2024,Auvergne-Rhône-Alpes,F,50-54 ans,,274786,
+2024,Auvergne-Rhône-Alpes,F,55-59 ans,,267544,
+2024,Auvergne-Rhône-Alpes,F,60 ans ou plus,,1231228,
+2024,Auvergne-Rhône-Alpes,M,20-24 ans,7,241352,290
+2024,Auvergne-Rhône-Alpes,M,25-29 ans,21,233708,900
+2024,Auvergne-Rhône-Alpes,M,30-34 ans,12,248470,480
+2024,Auvergne-Rhône-Alpes,M,35-39 ans,7,258138,270
+2024,Auvergne-Rhône-Alpes,M,40-44 ans,8,261660,310
+2024,Auvergne-Rhône-Alpes,M,45-49 ans,7,249055,280
+2024,Auvergne-Rhône-Alpes,M,50-54 ans,2,273015,70
+2024,Auvergne-Rhône-Alpes,M,55-59 ans,,262549,
+2024,Auvergne-Rhône-Alpes,M,60 ans ou plus,2,996750,20
+2024,Auvergne-Rhône-Alpes,Non renseigne,20-24 ans,1,470461,20
+2024,Auvergne-Rhône-Alpes,Non renseigne,35-39 ans,1,525684,20
+2024,Auvergne-Rhône-Alpes,Non renseigne,40-44 ans,2,534059,40
+2024,Auvergne-Rhône-Alpes,Non renseigne,50-54 ans,1,547801,20
+2024,Auvergne-Rhône-Alpes,Non renseigne,55-59 ans,1,530093,20
+2024,Auvergne-Rhône-Alpes,Total,20-24 ans,9,470461,190
+2024,Auvergne-Rhône-Alpes,Total,25-29 ans,30,463987,650
+2024,Auvergne-Rhône-Alpes,Total,30-34 ans,13,500021,260
+2024,Auvergne-Rhône-Alpes,Total,35-39 ans,10,525684,190
+2024,Auvergne-Rhône-Alpes,Total,40-44 ans,11,534059,210
+2024,Auvergne-Rhône-Alpes,Total,45-49 ans,8,500194,160
+2024,Auvergne-Rhône-Alpes,Total,50-54 ans,3,547801,50
+2024,Auvergne-Rhône-Alpes,Total,55-59 ans,1,530093,20
+2024,Auvergne-Rhône-Alpes,Total,60 ans ou plus,2,2227978,10
+2024,Bourgogne-Franche-Comté,F,20-24 ans,,69173,
+2024,Bourgogne-Franche-Comté,F,25-29 ans,,68927,
+2024,Bourgogne-Franche-Comté,F,30-34 ans,,74088,
+2024,Bourgogne-Franche-Comté,F,35-39 ans,,82006,
+2024,Bourgogne-Franche-Comté,F,40-44 ans,1,84743,120
+2024,Bourgogne-Franche-Comté,F,45-49 ans,,81853,
+2024,Bourgogne-Franche-Comté,F,50-54 ans,,94337,
+2024,Bourgogne-Franche-Comté,F,55-59 ans,,95436,
+2024,Bourgogne-Franche-Comté,F,60 ans ou plus,,481541,
+2024,Bourgogne-Franche-Comté,M,20-24 ans,4,78362,510
+2024,Bourgogne-Franche-Comté,M,25-29 ans,3,72601,410
+2024,Bourgogne-Franche-Comté,M,30-34 ans,4,75239,530
+2024,Bourgogne-Franche-Comté,M,35-39 ans,2,79900,250
+2024,Bourgogne-Franche-Comté,M,40-44 ans,1,83663,120
+2024,Bourgogne-Franche-Comté,M,45-49 ans,,80928,
+2024,Bourgogne-Franche-Comté,M,50-54 ans,,93416,
+2024,Bourgogne-Franche-Comté,M,55-59 ans,,93527,
+2024,Bourgogne-Franche-Comté,M,60 ans ou plus,,392583,
+2024,Bourgogne-Franche-Comté,Total,20-24 ans,4,147535,270
+2024,Bourgogne-Franche-Comté,Total,25-29 ans,3,141528,210
+2024,Bourgogne-Franche-Comté,Total,30-34 ans,4,149327,270
+2024,Bourgogne-Franche-Comté,Total,35-39 ans,2,161906,120
+2024,Bourgogne-Franche-Comté,Total,40-44 ans,2,168406,120
+2024,Bourgogne-Franche-Comté,Total,45-49 ans,,162781,
+2024,Bourgogne-Franche-Comté,Total,50-54 ans,,187753,
+2024,Bourgogne-Franche-Comté,Total,55-59 ans,,188963,
+2024,Bourgogne-Franche-Comté,Total,60 ans ou plus,,874124,
+2024,Bretagne,F,20-24 ans,1,89502,110
+2024,Bretagne,F,25-29 ans,2,85533,230
+2024,Bretagne,F,30-34 ans,3,92365,320
+2024,Bretagne,F,35-39 ans,1,101772,100
+2024,Bretagne,F,40-44 ans,,107394,
+2024,Bretagne,F,45-49 ans,2,103417,190
+2024,Bretagne,F,50-54 ans,,117320,
+2024,Bretagne,F,55-59 ans,,114677,
+2024,Bretagne,F,60 ans ou plus,,588778,
+2024,Bretagne,M,20-24 ans,3,97516,310
+2024,Bretagne,M,25-29 ans,3,89853,330
+2024,Bretagne,M,30-34 ans,4,93523,430
+2024,Bretagne,M,35-39 ans,2,99723,200
+2024,Bretagne,M,40-44 ans,4,105807,380
+2024,Bretagne,M,45-49 ans,1,103461,100
+2024,Bretagne,M,50-54 ans,,117441,
+2024,Bretagne,M,55-59 ans,1,111660,90
+2024,Bretagne,M,60 ans ou plus,,471265,
+2024,Bretagne,Non renseigne,25-29 ans,1,175386,60
+2024,Bretagne,Non renseigne,30-34 ans,1,185888,50
+2024,Bretagne,Non renseigne,35-39 ans,1,201495,50
+2024,Bretagne,Total,20-24 ans,4,187018,210
+2024,Bretagne,Total,25-29 ans,6,175386,340
+2024,Bretagne,Total,30-34 ans,8,185888,430
+2024,Bretagne,Total,35-39 ans,4,201495,200
+2024,Bretagne,Total,40-44 ans,4,213201,190
+2024,Bretagne,Total,45-49 ans,3,206878,150
+2024,Bretagne,Total,50-54 ans,,234761,
+2024,Bretagne,Total,55-59 ans,1,226337,40
+2024,Bretagne,Total,60 ans ou plus,,1060043,
+2024,Centre-Val de Loire,F,20-24 ans,,63860,
+2024,Centre-Val de Loire,F,25-29 ans,1,64319,160
+2024,Centre-Val de Loire,F,30-34 ans,,70657,
+2024,Centre-Val de Loire,F,35-39 ans,1,77449,130
+2024,Centre-Val de Loire,F,40-44 ans,1,79432,130
+2024,Centre-Val de Loire,F,45-49 ans,,76632,
+2024,Centre-Val de Loire,F,50-54 ans,,88728,
+2024,Centre-Val de Loire,F,55-59 ans,,87682,
+2024,Centre-Val de Loire,F,60 ans ou plus,,433381,
+2024,Centre-Val de Loire,M,20-24 ans,2,69151,290
+2024,Centre-Val de Loire,M,25-29 ans,5,65418,760
+2024,Centre-Val de Loire,M,30-34 ans,3,68747,440
+2024,Centre-Val de Loire,M,35-39 ans,6,73618,820
+2024,Centre-Val de Loire,M,40-44 ans,3,76066,390
+2024,Centre-Val de Loire,M,45-49 ans,1,75392,130
+2024,Centre-Val de Loire,M,50-54 ans,1,86285,120
+2024,Centre-Val de Loire,M,55-59 ans,1,84525,120
+2024,Centre-Val de Loire,M,60 ans ou plus,,351290,
+2024,Centre-Val de Loire,Non renseigne,30-34 ans,1,139404,70
+2024,Centre-Val de Loire,Total,20-24 ans,2,133011,150
+2024,Centre-Val de Loire,Total,25-29 ans,6,129737,460
+2024,Centre-Val de Loire,Total,30-34 ans,4,139404,290
+2024,Centre-Val de Loire,Total,35-39 ans,7,151067,460
+2024,Centre-Val de Loire,Total,40-44 ans,4,155498,260
+2024,Centre-Val de Loire,Total,45-49 ans,1,152024,70
+2024,Centre-Val de Loire,Total,50-54 ans,1,175013,60
+2024,Centre-Val de Loire,Total,55-59 ans,1,172207,60
+2024,Centre-Val de Loire,Total,60 ans ou plus,,784671,
+2024,Corse,F,20-24 ans,,8201,
+2024,Corse,F,25-29 ans,,8911,
+2024,Corse,F,30-34 ans,,10652,
+2024,Corse,F,35-39 ans,,11622,
+2024,Corse,F,40-44 ans,,12438,
+2024,Corse,F,45-49 ans,,11649,
+2024,Corse,F,50-54 ans,,12417,
+2024,Corse,F,55-59 ans,,12391,
+2024,Corse,F,60 ans ou plus,,61085,
+2024,Corse,M,20-24 ans,,8212,
+2024,Corse,M,25-29 ans,,8424,
+2024,Corse,M,30-34 ans,,10359,
+2024,Corse,M,35-39 ans,,10623,
+2024,Corse,M,40-44 ans,,11795,
+2024,Corse,M,45-49 ans,,10880,
+2024,Corse,M,50-54 ans,,12293,
+2024,Corse,M,55-59 ans,,12085,
+2024,Corse,M,60 ans ou plus,,52054,
+2024,Corse,Total,20-24 ans,,16413,
+2024,Corse,Total,25-29 ans,,17335,
+2024,Corse,Total,30-34 ans,,21011,
+2024,Corse,Total,35-39 ans,,22245,
+2024,Corse,Total,40-44 ans,,24233,
+2024,Corse,Total,45-49 ans,,22529,
+2024,Corse,Total,50-54 ans,,24710,
+2024,Corse,Total,55-59 ans,,24476,
+2024,Corse,Total,60 ans ou plus,,113139,
+2024,DROM,F,20-24 ans,,64606,
+2024,DROM,F,25-29 ans,,64757,
+2024,DROM,F,30-34 ans,1,74273,130
+2024,DROM,F,35-39 ans,,75577,
+2024,DROM,F,40-44 ans,1,74185,130
+2024,DROM,F,45-49 ans,1,70810,140
+2024,DROM,F,50-54 ans,,75754,
+2024,DROM,F,55-59 ans,,78432,
+2024,DROM,F,60 ans ou plus,,260746,
+2024,DROM,M,20-24 ans,,59250,
+2024,DROM,M,25-29 ans,1,51814,190
+2024,DROM,M,30-34 ans,2,57072,350
+2024,DROM,M,35-39 ans,,58963,
+2024,DROM,M,40-44 ans,1,58735,170
+2024,DROM,M,45-49 ans,2,59968,330
+2024,DROM,M,50-54 ans,,66573,
+2024,DROM,M,55-59 ans,,70856,
+2024,DROM,M,60 ans ou plus,,217834,
+2024,DROM,Total,20-24 ans,,123856,
+2024,DROM,Total,25-29 ans,1,116571,90
+2024,DROM,Total,30-34 ans,3,131345,230
+2024,DROM,Total,35-39 ans,,134540,
+2024,DROM,Total,40-44 ans,2,132920,150
+2024,DROM,Total,45-49 ans,3,130778,230
+2024,DROM,Total,50-54 ans,,142327,
+2024,DROM,Total,55-59 ans,,149288,
+2024,DROM,Total,60 ans ou plus,,478580,
+2024,Grand Est,F,20-24 ans,1,152653,70
+2024,Grand Est,F,25-29 ans,2,151302,130
+2024,Grand Est,F,30-34 ans,2,163485,120
+2024,Grand Est,F,35-39 ans,1,175809,60
+2024,Grand Est,F,40-44 ans,,177761,
+2024,Grand Est,F,45-49 ans,,165728,
+2024,Grand Est,F,50-54 ans,1,188786,50
+2024,Grand Est,F,55-59 ans,,189493,
+2024,Grand Est,F,60 ans ou plus,,874904,
+2024,Grand Est,M,20-24 ans,4,165252,240
+2024,Grand Est,M,25-29 ans,10,157330,640
+2024,Grand Est,M,30-34 ans,7,164129,430
+2024,Grand Est,M,35-39 ans,11,170903,640
+2024,Grand Est,M,40-44 ans,3,173027,170
+2024,Grand Est,M,45-49 ans,6,165888,360
+2024,Grand Est,M,50-54 ans,1,184599,50
+2024,Grand Est,M,55-59 ans,1,185014,50
+2024,Grand Est,M,60 ans ou plus,,711298,
+2024,Grand Est,Non renseigne,30-34 ans,1,327614,30
+2024,Grand Est,Non renseigne,35-39 ans,3,346712,90
+2024,Grand Est,Non renseigne,45-49 ans,3,331616,90
+2024,Grand Est,Non renseigne,50-54 ans,1,373385,30
+2024,Grand Est,Total,20-24 ans,5,317905,160
+2024,Grand Est,Total,25-29 ans,12,308632,390
+2024,Grand Est,Total,30-34 ans,10,327614,310
+2024,Grand Est,Total,35-39 ans,15,346712,430
+2024,Grand Est,Total,40-44 ans,3,350788,90
+2024,Grand Est,Total,45-49 ans,9,331616,270
+2024,Grand Est,Total,50-54 ans,3,373385,80
+2024,Grand Est,Total,55-59 ans,1,374507,30
+2024,Grand Est,Total,60 ans ou plus,,1586202,
+2024,Hauts-de-France,F,20-24 ans,,180798,
+2024,Hauts-de-France,F,25-29 ans,1,168684,60
+2024,Hauts-de-France,F,30-34 ans,2,178548,110
+2024,Hauts-de-France,F,35-39 ans,2,194351,100
+2024,Hauts-de-France,F,40-44 ans,,194518,
+2024,Hauts-de-France,F,45-49 ans,,183072,
+2024,Hauts-de-France,F,50-54 ans,,197643,
+2024,Hauts-de-France,F,55-59 ans,,190767,
+2024,Hauts-de-France,F,60 ans ou plus,,871036,
+2024,Hauts-de-France,M,20-24 ans,8,187277,430
+2024,Hauts-de-France,M,25-29 ans,12,167593,720
+2024,Hauts-de-France,M,30-34 ans,6,174658,340
+2024,Hauts-de-France,M,35-39 ans,7,187727,370
+2024,Hauts-de-France,M,40-44 ans,2,190633,100
+2024,Hauts-de-France,M,45-49 ans,5,180248,280
+2024,Hauts-de-France,M,50-54 ans,3,195404,150
+2024,Hauts-de-France,M,55-59 ans,3,184923,160
+2024,Hauts-de-France,M,60 ans ou plus,,678088,
+2024,Hauts-de-France,Non renseigne,25-29 ans,1,336277,30
+2024,Hauts-de-France,Non renseigne,30-34 ans,2,353206,60
+2024,Hauts-de-France,Non renseigne,35-39 ans,2,382078,50
+2024,Hauts-de-France,Non renseigne,45-49 ans,1,363320,30
+2024,Hauts-de-France,Non renseigne,50-54 ans,1,393047,30
+2024,Hauts-de-France,Total,20-24 ans,8,368075,220
+2024,Hauts-de-France,Total,25-29 ans,14,336277,420
+2024,Hauts-de-France,Total,30-34 ans,10,353206,280
+2024,Hauts-de-France,Total,35-39 ans,11,382078,290
+2024,Hauts-de-France,Total,40-44 ans,2,385151,50
+2024,Hauts-de-France,Total,45-49 ans,6,363320,170
+2024,Hauts-de-France,Total,50-54 ans,4,393047,100
+2024,Hauts-de-France,Total,55-59 ans,3,375690,80
+2024,Hauts-de-France,Total,60 ans ou plus,,1549124,
+2024,Normandie,F,20-24 ans,,88333,
+2024,Normandie,F,25-29 ans,,86507,
+2024,Normandie,F,30-34 ans,1,92971,110
+2024,Normandie,F,35-39 ans,3,101555,300
+2024,Normandie,F,40-44 ans,1,103530,100
+2024,Normandie,F,45-49 ans,1,97518,100
+2024,Normandie,F,50-54 ans,1,110853,90
+2024,Normandie,F,55-59 ans,,111213,
+2024,Normandie,F,60 ans ou plus,,556982,
+2024,Normandie,M,20-24 ans,3,95488,310
+2024,Normandie,M,25-29 ans,2,87545,230
+2024,Normandie,M,30-34 ans,3,92519,320
+2024,Normandie,M,35-39 ans,2,98730,200
+2024,Normandie,M,40-44 ans,2,100620,200
+2024,Normandie,M,45-49 ans,,95117,
+2024,Normandie,M,50-54 ans,1,108524,90
+2024,Normandie,M,55-59 ans,,106024,
+2024,Normandie,M,60 ans ou plus,,440775,
+2024,Normandie,Non renseigne,30-34 ans,1,185490,50
+2024,Normandie,Non renseigne,35-39 ans,2,200285,100
+2024,Normandie,Non renseigne,45-49 ans,1,192635,50
+2024,Normandie,Total,20-24 ans,3,183821,160
+2024,Normandie,Total,25-29 ans,2,174052,110
+2024,Normandie,Total,30-34 ans,5,185490,270
+2024,Normandie,Total,35-39 ans,7,200285,350
+2024,Normandie,Total,40-44 ans,3,204150,150
+2024,Normandie,Total,45-49 ans,2,192635,100
+2024,Normandie,Total,50-54 ans,2,219377,90
+2024,Normandie,Total,55-59 ans,,217237,
+2024,Normandie,Total,60 ans ou plus,,997757,
+2024,Nouvelle-Aquitaine,F,20-24 ans,2,154708,130
+2024,Nouvelle-Aquitaine,F,25-29 ans,3,152099,200
+2024,Nouvelle-Aquitaine,F,30-34 ans,3,168301,180
+2024,Nouvelle-Aquitaine,F,35-39 ans,4,183666,220
+2024,Nouvelle-Aquitaine,F,40-44 ans,4,193950,210
+2024,Nouvelle-Aquitaine,F,45-49 ans,,187998,
+2024,Nouvelle-Aquitaine,F,50-54 ans,2,214332,90
+2024,Nouvelle-Aquitaine,F,55-59 ans,1,213500,50
+2024,Nouvelle-Aquitaine,F,60 ans ou plus,,1097037,
+2024,Nouvelle-Aquitaine,M,20-24 ans,3,167150,180
+2024,Nouvelle-Aquitaine,M,25-29 ans,13,153734,850
+2024,Nouvelle-Aquitaine,M,30-34 ans,11,164004,670
+2024,Nouvelle-Aquitaine,M,35-39 ans,5,176676,280
+2024,Nouvelle-Aquitaine,M,40-44 ans,3,185604,160
+2024,Nouvelle-Aquitaine,M,45-49 ans,2,181980,110
+2024,Nouvelle-Aquitaine,M,50-54 ans,5,206914,240
+2024,Nouvelle-Aquitaine,M,55-59 ans,1,201878,50
+2024,Nouvelle-Aquitaine,M,60 ans ou plus,,881629,
+2024,Nouvelle-Aquitaine,Non renseigne,35-39 ans,2,360342,60
+2024,Nouvelle-Aquitaine,Non renseigne,45-49 ans,1,369978,30
+2024,Nouvelle-Aquitaine,Total,20-24 ans,5,321858,160
+2024,Nouvelle-Aquitaine,Total,25-29 ans,16,305833,520
+2024,Nouvelle-Aquitaine,Total,30-34 ans,14,332305,420
+2024,Nouvelle-Aquitaine,Total,35-39 ans,11,360342,310
+2024,Nouvelle-Aquitaine,Total,40-44 ans,7,379554,180
+2024,Nouvelle-Aquitaine,Total,45-49 ans,3,369978,80
+2024,Nouvelle-Aquitaine,Total,50-54 ans,7,421246,170
+2024,Nouvelle-Aquitaine,Total,55-59 ans,2,415378,50
+2024,Nouvelle-Aquitaine,Total,60 ans ou plus,,1978666,
+2024,Occitanie,F,20-24 ans,,168591,
+2024,Occitanie,F,25-29 ans,2,163043,120
+2024,Occitanie,F,30-34 ans,6,175509,340
+2024,Occitanie,F,35-39 ans,3,187446,160
+2024,Occitanie,F,40-44 ans,3,195936,150
+2024,Occitanie,F,45-49 ans,,186761,
+2024,Occitanie,F,50-54 ans,1,209112,50
+2024,Occitanie,F,55-59 ans,,209325,
+2024,Occitanie,F,60 ans ou plus,,1032706,
+2024,Occitanie,M,20-24 ans,3,177783,170
+2024,Occitanie,M,25-29 ans,7,164730,420
+2024,Occitanie,M,30-34 ans,11,171554,640
+2024,Occitanie,M,35-39 ans,5,178331,280
+2024,Occitanie,M,40-44 ans,4,185590,220
+2024,Occitanie,M,45-49 ans,2,180337,110
+2024,Occitanie,M,50-54 ans,2,200718,100
+2024,Occitanie,M,55-59 ans,1,197840,50
+2024,Occitanie,M,60 ans ou plus,,840808,
+2024,Occitanie,Non renseigne,25-29 ans,3,327773,90
+2024,Occitanie,Non renseigne,30-34 ans,1,347063,30
+2024,Occitanie,Non renseigne,35-39 ans,1,365777,30
+2024,Occitanie,Non renseigne,40-44 ans,1,381526,30
+2024,Occitanie,Total,20-24 ans,3,346374,90
+2024,Occitanie,Total,25-29 ans,12,327773,370
+2024,Occitanie,Total,30-34 ans,18,347063,520
+2024,Occitanie,Total,35-39 ans,9,365777,250
+2024,Occitanie,Total,40-44 ans,8,381526,210
+2024,Occitanie,Total,45-49 ans,2,367098,50
+2024,Occitanie,Total,50-54 ans,3,409830,70
+2024,Occitanie,Total,55-59 ans,1,407165,20
+2024,Occitanie,Total,60 ans ou plus,,1873514,
+2024,Pays de la Loire,F,20-24 ans,,107083,
+2024,Pays de la Loire,F,25-29 ans,1,103048,100
+2024,Pays de la Loire,F,30-34 ans,4,110656,360
+2024,Pays de la Loire,F,35-39 ans,,120118,
+2024,Pays de la Loire,F,40-44 ans,2,126263,160
+2024,Pays de la Loire,F,45-49 ans,,119912,
+2024,Pays de la Loire,F,50-54 ans,1,129805,80
+2024,Pays de la Loire,F,55-59 ans,1,123456,80
+2024,Pays de la Loire,F,60 ans ou plus,,613439,
+2024,Pays de la Loire,M,20-24 ans,1,115871,90
+2024,Pays de la Loire,M,25-29 ans,4,105648,380
+2024,Pays de la Loire,M,30-34 ans,3,111504,270
+2024,Pays de la Loire,M,35-39 ans,1,117596,90
+2024,Pays de la Loire,M,40-44 ans,2,124062,160
+2024,Pays de la Loire,M,45-49 ans,1,120524,80
+2024,Pays de la Loire,M,50-54 ans,,130086,
+2024,Pays de la Loire,M,55-59 ans,1,121107,80
+2024,Pays de la Loire,M,60 ans ou plus,,494155,
+2024,Pays de la Loire,Non renseigne,25-29 ans,3,208696,140
+2024,Pays de la Loire,Non renseigne,30-34 ans,1,222160,50
+2024,Pays de la Loire,Non renseigne,35-39 ans,1,237714,40
+2024,Pays de la Loire,Total,20-24 ans,1,222954,40
+2024,Pays de la Loire,Total,25-29 ans,8,208696,380
+2024,Pays de la Loire,Total,30-34 ans,8,222160,360
+2024,Pays de la Loire,Total,35-39 ans,2,237714,80
+2024,Pays de la Loire,Total,40-44 ans,4,250325,160
+2024,Pays de la Loire,Total,45-49 ans,1,240436,40
+2024,Pays de la Loire,Total,50-54 ans,1,259891,40
+2024,Pays de la Loire,Total,55-59 ans,2,244563,80
+2024,Pays de la Loire,Total,60 ans ou plus,,1107594,
+2024,Provence-Alpes-Côte d'Azur,F,20-24 ans,,132925,
+2024,Provence-Alpes-Côte d'Azur,F,25-29 ans,7,135599,520
+2024,Provence-Alpes-Côte d'Azur,F,30-34 ans,1,152482,70
+2024,Provence-Alpes-Côte d'Azur,F,35-39 ans,1,163415,60
+2024,Provence-Alpes-Côte d'Azur,F,40-44 ans,2,167875,120
+2024,Provence-Alpes-Côte d'Azur,F,45-49 ans,2,159306,130
+2024,Provence-Alpes-Côte d'Azur,F,50-54 ans,1,178005,60
+2024,Provence-Alpes-Côte d'Azur,F,55-59 ans,1,183582,50
+2024,Provence-Alpes-Côte d'Azur,F,60 ans ou plus,,904351,
+2024,Provence-Alpes-Côte d'Azur,M,20-24 ans,,139432,
+2024,Provence-Alpes-Côte d'Azur,M,25-29 ans,3,133845,220
+2024,Provence-Alpes-Côte d'Azur,M,30-34 ans,9,142919,630
+2024,Provence-Alpes-Côte d'Azur,M,35-39 ans,9,151759,590
+2024,Provence-Alpes-Côte d'Azur,M,40-44 ans,2,156917,130
+2024,Provence-Alpes-Côte d'Azur,M,45-49 ans,3,152441,200
+2024,Provence-Alpes-Côte d'Azur,M,50-54 ans,3,168554,180
+2024,Provence-Alpes-Côte d'Azur,M,55-59 ans,2,168575,120
+2024,Provence-Alpes-Côte d'Azur,M,60 ans ou plus,,709964,
+2024,Provence-Alpes-Côte d'Azur,Non renseigne,25-29 ans,1,269444,40
+2024,Provence-Alpes-Côte d'Azur,Non renseigne,30-34 ans,1,295401,30
+2024,Provence-Alpes-Côte d'Azur,Non renseigne,35-39 ans,2,315174,60
+2024,Provence-Alpes-Côte d'Azur,Total,20-24 ans,,272357,
+2024,Provence-Alpes-Côte d'Azur,Total,25-29 ans,11,269444,410
+2024,Provence-Alpes-Côte d'Azur,Total,30-34 ans,11,295401,370
+2024,Provence-Alpes-Côte d'Azur,Total,35-39 ans,12,315174,380
+2024,Provence-Alpes-Côte d'Azur,Total,40-44 ans,4,324792,120
+2024,Provence-Alpes-Côte d'Azur,Total,45-49 ans,5,311747,160
+2024,Provence-Alpes-Côte d'Azur,Total,50-54 ans,4,346559,120
+2024,Provence-Alpes-Côte d'Azur,Total,55-59 ans,3,352157,90
+2024,Provence-Alpes-Côte d'Azur,Total,60 ans ou plus,,1614315,
+2024,Île-de-France,F,20-24 ans,4,427035,90
+2024,Île-de-France,F,25-29 ans,33,443743,740
+2024,Île-de-France,F,30-34 ans,30,459192,650
+2024,Île-de-France,F,35-39 ans,21,455079,460
+2024,Île-de-France,F,40-44 ans,8,439141,180
+2024,Île-de-France,F,45-49 ans,10,406382,250
+2024,Île-de-France,F,50-54 ans,2,408392,50
+2024,Île-de-France,F,55-59 ans,1,387164,30
+2024,Île-de-France,F,60 ans ou plus,,1492141,
+2024,Île-de-France,M,20-24 ans,12,415708,290
+2024,Île-de-France,M,25-29 ans,57,423707,1350
+2024,Île-de-France,M,30-34 ans,39,435474,900
+2024,Île-de-France,M,35-39 ans,35,424579,820
+2024,Île-de-France,M,40-44 ans,25,412624,610
+2024,Île-de-France,M,45-49 ans,16,401052,400
+2024,Île-de-France,M,50-54 ans,10,399422,250
+2024,Île-de-France,M,55-59 ans,2,367112,50
+2024,Île-de-France,M,60 ans ou plus,1,1180487,10
+2024,Île-de-France,Non renseigne,25-29 ans,2,867450,20
+2024,Île-de-France,Non renseigne,30-34 ans,10,894666,110
+2024,Île-de-France,Non renseigne,35-39 ans,11,879658,130
+2024,Île-de-France,Non renseigne,40-44 ans,8,851765,90
+2024,Île-de-France,Non renseigne,45-49 ans,1,807434,10
+2024,Île-de-France,Non renseigne,50-54 ans,3,807814,40
+2024,Île-de-France,Non renseigne,55-59 ans,4,754276,50
+2024,Île-de-France,Total,20-24 ans,16,842743,190
+2024,Île-de-France,Total,25-29 ans,92,867450,1060
+2024,Île-de-France,Total,30-34 ans,79,894666,880
+2024,Île-de-France,Total,35-39 ans,67,879658,760
+2024,Île-de-France,Total,40-44 ans,41,851765,480
+2024,Île-de-France,Total,45-49 ans,27,807434,330
+2024,Île-de-France,Total,50-54 ans,15,807814,190
+2024,Île-de-France,Total,55-59 ans,7,754276,90
+2024,Île-de-France,Total,60 ans ou plus,1,2672628,0
+2025,Auvergne-Rhône-Alpes,F,20-24 ans,3,229471,130
+2025,Auvergne-Rhône-Alpes,F,25-29 ans,5,231531,220
+2025,Auvergne-Rhône-Alpes,F,30-34 ans,4,250779,160
+2025,Auvergne-Rhône-Alpes,F,35-39 ans,4,269068,150
+2025,Auvergne-Rhône-Alpes,F,40-44 ans,2,274129,70
+2025,Auvergne-Rhône-Alpes,F,45-49 ans,1,251756,40
+2025,Auvergne-Rhône-Alpes,F,50-54 ans,2,272818,70
+2025,Auvergne-Rhône-Alpes,F,55-59 ans,2,266580,80
+2025,Auvergne-Rhône-Alpes,F,60 ans ou plus,,1248519,
+2025,Auvergne-Rhône-Alpes,M,20-24 ans,9,243068,370
+2025,Auvergne-Rhône-Alpes,M,25-29 ans,18,235447,760
+2025,Auvergne-Rhône-Alpes,M,30-34 ans,16,249204,640
+2025,Auvergne-Rhône-Alpes,M,35-39 ans,6,259958,230
+2025,Auvergne-Rhône-Alpes,M,40-44 ans,11,262980,420
+2025,Auvergne-Rhône-Alpes,M,45-49 ans,2,247438,80
+2025,Auvergne-Rhône-Alpes,M,50-54 ans,1,272223,40
+2025,Auvergne-Rhône-Alpes,M,55-59 ans,1,261726,40
+2025,Auvergne-Rhône-Alpes,M,60 ans ou plus,2,1015863,20
+2025,Auvergne-Rhône-Alpes,Non renseigne,20-24 ans,1,472539,20
+2025,Auvergne-Rhône-Alpes,Non renseigne,30-34 ans,2,499983,40
+2025,Auvergne-Rhône-Alpes,Non renseigne,40-44 ans,1,537109,20
+2025,Auvergne-Rhône-Alpes,Total,20-24 ans,13,472539,280
+2025,Auvergne-Rhône-Alpes,Total,25-29 ans,23,466978,490
+2025,Auvergne-Rhône-Alpes,Total,30-34 ans,22,499983,440
+2025,Auvergne-Rhône-Alpes,Total,35-39 ans,10,529026,190
+2025,Auvergne-Rhône-Alpes,Total,40-44 ans,14,537109,260
+2025,Auvergne-Rhône-Alpes,Total,45-49 ans,3,499194,60
+2025,Auvergne-Rhône-Alpes,Total,50-54 ans,3,545041,60
+2025,Auvergne-Rhône-Alpes,Total,55-59 ans,3,528306,60
+2025,Auvergne-Rhône-Alpes,Total,60 ans ou plus,2,2264382,10
+2025,Bourgogne-Franche-Comté,F,20-24 ans,,69717,
+2025,Bourgogne-Franche-Comté,F,25-29 ans,1,69372,140
+2025,Bourgogne-Franche-Comté,F,30-34 ans,2,73041,270
+2025,Bourgogne-Franche-Comté,F,35-39 ans,2,82046,240
+2025,Bourgogne-Franche-Comté,F,40-44 ans,,84835,
+2025,Bourgogne-Franche-Comté,F,45-49 ans,1,80679,120
+2025,Bourgogne-Franche-Comté,F,50-54 ans,,93315,
+2025,Bourgogne-Franche-Comté,F,55-59 ans,,94606,
+2025,Bourgogne-Franche-Comté,F,60 ans ou plus,,485529,
+2025,Bourgogne-Franche-Comté,M,20-24 ans,4,78498,510
+2025,Bourgogne-Franche-Comté,M,25-29 ans,2,73734,270
+2025,Bourgogne-Franche-Comté,M,30-34 ans,4,74506,540
+2025,Bourgogne-Franche-Comté,M,35-39 ans,1,79640,130
+2025,Bourgogne-Franche-Comté,M,40-44 ans,,84049,
+2025,Bourgogne-Franche-Comté,M,45-49 ans,1,79969,130
+2025,Bourgogne-Franche-Comté,M,50-54 ans,,91657,
+2025,Bourgogne-Franche-Comté,M,55-59 ans,1,93347,110
+2025,Bourgogne-Franche-Comté,M,60 ans ou plus,,397082,
+2025,Bourgogne-Franche-Comté,Total,20-24 ans,4,148215,270
+2025,Bourgogne-Franche-Comté,Total,25-29 ans,3,143106,210
+2025,Bourgogne-Franche-Comté,Total,30-34 ans,6,147547,410
+2025,Bourgogne-Franche-Comté,Total,35-39 ans,3,161686,190
+2025,Bourgogne-Franche-Comté,Total,40-44 ans,,168884,
+2025,Bourgogne-Franche-Comté,Total,45-49 ans,2,160648,120
+2025,Bourgogne-Franche-Comté,Total,50-54 ans,,184972,
+2025,Bourgogne-Franche-Comté,Total,55-59 ans,1,187953,50
+2025,Bourgogne-Franche-Comté,Total,60 ans ou plus,,882611,
+2025,Bretagne,F,20-24 ans,,89553,
+2025,Bretagne,F,25-29 ans,,86667,
+2025,Bretagne,F,30-34 ans,4,92821,430
+2025,Bretagne,F,35-39 ans,,102090,
+2025,Bretagne,F,40-44 ans,1,107887,90
+2025,Bretagne,F,45-49 ans,3,102788,290
+2025,Bretagne,F,50-54 ans,,116664,
+2025,Bretagne,F,55-59 ans,,115175,
+2025,Bretagne,F,60 ans ou plus,1,597567,20
+2025,Bretagne,M,20-24 ans,3,97837,310
+2025,Bretagne,M,25-29 ans,3,91559,330
+2025,Bretagne,M,30-34 ans,4,93638,430
+2025,Bretagne,M,35-39 ans,4,100783,400
+2025,Bretagne,M,40-44 ans,4,105656,380
+2025,Bretagne,M,45-49 ans,,102495,
+2025,Bretagne,M,50-54 ans,1,117257,90
+2025,Bretagne,M,55-59 ans,1,111552,90
+2025,Bretagne,M,60 ans ou plus,,481196,
+2025,Bretagne,Non renseigne,60 ans ou plus,1,1078763,10
+2025,Bretagne,Total,20-24 ans,3,187390,160
+2025,Bretagne,Total,25-29 ans,3,178226,170
+2025,Bretagne,Total,30-34 ans,8,186459,430
+2025,Bretagne,Total,35-39 ans,4,202873,200
+2025,Bretagne,Total,40-44 ans,5,213543,230
+2025,Bretagne,Total,45-49 ans,3,205283,150
+2025,Bretagne,Total,50-54 ans,1,233921,40
+2025,Bretagne,Total,55-59 ans,1,226727,40
+2025,Bretagne,Total,60 ans ou plus,2,1078763,20
+2025,Centre-Val de Loire,F,20-24 ans,,63918,
+2025,Centre-Val de Loire,F,25-29 ans,3,65000,460
+2025,Centre-Val de Loire,F,30-34 ans,3,69792,430
+2025,Centre-Val de Loire,F,35-39 ans,1,77328,130
+2025,Centre-Val de Loire,F,40-44 ans,2,79739,250
+2025,Centre-Val de Loire,F,45-49 ans,2,75728,260
+2025,Centre-Val de Loire,F,50-54 ans,1,87594,110
+2025,Centre-Val de Loire,F,55-59 ans,,87508,
+2025,Centre-Val de Loire,F,60 ans ou plus,,437459,
+2025,Centre-Val de Loire,M,20-24 ans,,69952,
+2025,Centre-Val de Loire,M,25-29 ans,6,66381,900
+2025,Centre-Val de Loire,M,30-34 ans,2,68087,290
+2025,Centre-Val de Loire,M,35-39 ans,7,73969,950
+2025,Centre-Val de Loire,M,40-44 ans,3,76229,390
+2025,Centre-Val de Loire,M,45-49 ans,2,73979,270
+2025,Centre-Val de Loire,M,50-54 ans,1,85331,120
+2025,Centre-Val de Loire,M,55-59 ans,,84268,
+2025,Centre-Val de Loire,M,60 ans ou plus,2,355150,60
+2025,Centre-Val de Loire,Total,20-24 ans,,133870,
+2025,Centre-Val de Loire,Total,25-29 ans,9,131381,690
+2025,Centre-Val de Loire,Total,30-34 ans,5,137879,360
+2025,Centre-Val de Loire,Total,35-39 ans,8,151297,530
+2025,Centre-Val de Loire,Total,40-44 ans,5,155968,320
+2025,Centre-Val de Loire,Total,45-49 ans,4,149707,270
+2025,Centre-Val de Loire,Total,50-54 ans,2,172925,120
+2025,Centre-Val de Loire,Total,55-59 ans,,171776,
+2025,Centre-Val de Loire,Total,60 ans ou plus,2,792609,30
+2025,Corse,F,20-24 ans,,8457,
+2025,Corse,F,25-29 ans,,8846,
+2025,Corse,F,30-34 ans,,10633,
+2025,Corse,F,35-39 ans,,11694,
+2025,Corse,F,40-44 ans,,12598,
+2025,Corse,F,45-49 ans,,11706,
+2025,Corse,F,50-54 ans,,12442,
+2025,Corse,F,55-59 ans,,12280,
+2025,Corse,F,60 ans ou plus,,62269,
+2025,Corse,M,20-24 ans,,8377,
+2025,Corse,M,25-29 ans,,8383,
+2025,Corse,M,30-34 ans,,10101,
+2025,Corse,M,35-39 ans,,10998,
+2025,Corse,M,40-44 ans,,11769,
+2025,Corse,M,45-49 ans,,11149,
+2025,Corse,M,50-54 ans,,12118,
+2025,Corse,M,55-59 ans,,12077,
+2025,Corse,M,60 ans ou plus,,53186,
+2025,Corse,Total,20-24 ans,,16834,
+2025,Corse,Total,25-29 ans,,17229,
+2025,Corse,Total,30-34 ans,,20734,
+2025,Corse,Total,35-39 ans,,22692,
+2025,Corse,Total,40-44 ans,,24367,
+2025,Corse,Total,45-49 ans,,22855,
+2025,Corse,Total,50-54 ans,,24560,
+2025,Corse,Total,55-59 ans,,24357,
+2025,Corse,Total,60 ans ou plus,,115455,
+2025,DROM,F,20-24 ans,,64498,
+2025,DROM,F,25-29 ans,,64511,
+2025,DROM,F,30-34 ans,1,74085,130
+2025,DROM,F,35-39 ans,,76270,
+2025,DROM,F,40-44 ans,1,75044,130
+2025,DROM,F,45-49 ans,1,69912,140
+2025,DROM,F,50-54 ans,,75277,
+2025,DROM,F,55-59 ans,,77418,
+2025,DROM,F,60 ans ou plus,,269975,
+2025,DROM,M,20-24 ans,,58887,
+2025,DROM,M,25-29 ans,2,51544,390
+2025,DROM,M,30-34 ans,3,56399,530
+2025,DROM,M,35-39 ans,2,59506,340
+2025,DROM,M,40-44 ans,3,59234,510
+2025,DROM,M,45-49 ans,,59182,
+2025,DROM,M,50-54 ans,,65339,
+2025,DROM,M,55-59 ans,,70273,
+2025,DROM,M,60 ans ou plus,1,226474,40
+2025,DROM,Non renseigne,25-29 ans,1,116055,90
+2025,DROM,Non renseigne,35-39 ans,1,135776,70
+2025,DROM,Total,20-24 ans,,123385,
+2025,DROM,Total,25-29 ans,3,116055,260
+2025,DROM,Total,30-34 ans,4,130484,310
+2025,DROM,Total,35-39 ans,3,135776,220
+2025,DROM,Total,40-44 ans,4,134278,300
+2025,DROM,Total,45-49 ans,1,129094,80
+2025,DROM,Total,50-54 ans,,140616,
+2025,DROM,Total,55-59 ans,,147691,
+2025,DROM,Total,60 ans ou plus,1,496449,20
+2025,Grand Est,F,20-24 ans,,152953,
+2025,Grand Est,F,25-29 ans,2,151291,130
+2025,Grand Est,F,30-34 ans,4,161238,250
+2025,Grand Est,F,35-39 ans,4,176033,230
+2025,Grand Est,F,40-44 ans,1,178994,60
+2025,Grand Est,F,45-49 ans,,164660,
+2025,Grand Est,F,50-54 ans,1,185202,50
+2025,Grand Est,F,55-59 ans,1,187497,50
+2025,Grand Est,F,60 ans ou plus,,885198,
+2025,Grand Est,M,20-24 ans,3,165443,180
+2025,Grand Est,M,25-29 ans,7,158544,440
+2025,Grand Est,M,30-34 ans,6,161770,370
+2025,Grand Est,M,35-39 ans,10,171373,580
+2025,Grand Est,M,40-44 ans,2,174132,110
+2025,Grand Est,M,45-49 ans,2,164164,120
+2025,Grand Est,M,50-54 ans,3,181982,160
+2025,Grand Est,M,55-59 ans,1,182488,50
+2025,Grand Est,M,60 ans ou plus,,722908,
+2025,Grand Est,Non renseigne,20-24 ans,1,318396,30
+2025,Grand Est,Non renseigne,30-34 ans,1,323008,30
+2025,Grand Est,Non renseigne,35-39 ans,1,347406,30
+2025,Grand Est,Non renseigne,45-49 ans,1,328824,30
+2025,Grand Est,Non renseigne,50-54 ans,2,367184,50
+2025,Grand Est,Non renseigne,55-59 ans,1,369985,30
+2025,Grand Est,Total,20-24 ans,4,318396,130
+2025,Grand Est,Total,25-29 ans,9,309835,290
+2025,Grand Est,Total,30-34 ans,11,323008,340
+2025,Grand Est,Total,35-39 ans,15,347406,430
+2025,Grand Est,Total,40-44 ans,3,353126,80
+2025,Grand Est,Total,45-49 ans,3,328824,90
+2025,Grand Est,Total,50-54 ans,6,367184,160
+2025,Grand Est,Total,55-59 ans,3,369985,80
+2025,Grand Est,Total,60 ans ou plus,,1608106,
+2025,Hauts-de-France,F,20-24 ans,1,180304,60
+2025,Hauts-de-France,F,25-29 ans,2,170004,120
+2025,Hauts-de-France,F,30-34 ans,2,175804,110
+2025,Hauts-de-France,F,35-39 ans,1,193135,50
+2025,Hauts-de-France,F,40-44 ans,2,195192,100
+2025,Hauts-de-France,F,45-49 ans,,181398,
+2025,Hauts-de-France,F,50-54 ans,,196962,
+2025,Hauts-de-France,F,55-59 ans,2,189025,110
+2025,Hauts-de-France,F,60 ans ou plus,,881251,
+2025,Hauts-de-France,M,20-24 ans,3,186607,160
+2025,Hauts-de-France,M,25-29 ans,11,168759,650
+2025,Hauts-de-France,M,30-34 ans,12,171899,700
+2025,Hauts-de-France,M,35-39 ans,10,187990,530
+2025,Hauts-de-France,M,40-44 ans,4,190945,210
+2025,Hauts-de-France,M,45-49 ans,4,177828,220
+2025,Hauts-de-France,M,50-54 ans,2,195138,100
+2025,Hauts-de-France,M,55-59 ans,,183544,
+2025,Hauts-de-France,M,60 ans ou plus,,689429,
+2025,Hauts-de-France,Non renseigne,30-34 ans,3,347703,90
+2025,Hauts-de-France,Non renseigne,50-54 ans,1,392100,30
+2025,Hauts-de-France,Total,20-24 ans,4,366911,110
+2025,Hauts-de-France,Total,25-29 ans,13,338763,380
+2025,Hauts-de-France,Total,30-34 ans,17,347703,490
+2025,Hauts-de-France,Total,35-39 ans,11,381125,290
+2025,Hauts-de-France,Total,40-44 ans,6,386137,160
+2025,Hauts-de-France,Total,45-49 ans,4,359226,110
+2025,Hauts-de-France,Total,50-54 ans,3,392100,80
+2025,Hauts-de-France,Total,55-59 ans,2,372569,50
+2025,Hauts-de-France,Total,60 ans ou plus,,1570680,
+2025,Normandie,F,20-24 ans,,88416,
+2025,Normandie,F,25-29 ans,,86690,
+2025,Normandie,F,30-34 ans,,91958,
+2025,Normandie,F,35-39 ans,,101139,
+2025,Normandie,F,40-44 ans,,104630,
+2025,Normandie,F,45-49 ans,,96361,
+2025,Normandie,F,50-54 ans,2,109319,180
+2025,Normandie,F,55-59 ans,1,110493,90
+2025,Normandie,F,60 ans ou plus,,563376,
+2025,Normandie,M,20-24 ans,,95762,
+2025,Normandie,M,25-29 ans,2,88363,230
+2025,Normandie,M,30-34 ans,4,92033,430
+2025,Normandie,M,35-39 ans,2,99446,200
+2025,Normandie,M,40-44 ans,6,100495,600
+2025,Normandie,M,45-49 ans,,94461,
+2025,Normandie,M,50-54 ans,2,107029,190
+2025,Normandie,M,55-59 ans,,105580,
+2025,Normandie,M,60 ans ou plus,,446846,
+2025,Normandie,Non renseigne,30-34 ans,1,183991,50
+2025,Normandie,Non renseigne,35-39 ans,1,200585,50
+2025,Normandie,Non renseigne,45-49 ans,1,190822,50
+2025,Normandie,Total,20-24 ans,,184178,
+2025,Normandie,Total,25-29 ans,2,175053,110
+2025,Normandie,Total,30-34 ans,5,183991,270
+2025,Normandie,Total,35-39 ans,3,200585,150
+2025,Normandie,Total,40-44 ans,6,205125,290
+2025,Normandie,Total,45-49 ans,1,190822,50
+2025,Normandie,Total,50-54 ans,4,216348,180
+2025,Normandie,Total,55-59 ans,1,216073,50
+2025,Normandie,Total,60 ans ou plus,,1010222,
+2025,Nouvelle-Aquitaine,F,20-24 ans,,154879,
+2025,Nouvelle-Aquitaine,F,25-29 ans,,153330,
+2025,Nouvelle-Aquitaine,F,30-34 ans,5,167873,300
+2025,Nouvelle-Aquitaine,F,35-39 ans,2,184929,110
+2025,Nouvelle-Aquitaine,F,40-44 ans,4,194897,210
+2025,Nouvelle-Aquitaine,F,45-49 ans,,187375,
+2025,Nouvelle-Aquitaine,F,50-54 ans,2,213480,90
+2025,Nouvelle-Aquitaine,F,55-59 ans,1,212230,50
+2025,Nouvelle-Aquitaine,F,60 ans ou plus,,1111750,
+2025,Nouvelle-Aquitaine,M,20-24 ans,6,167548,360
+2025,Nouvelle-Aquitaine,M,25-29 ans,6,156062,380
+2025,Nouvelle-Aquitaine,M,30-34 ans,7,164152,430
+2025,Nouvelle-Aquitaine,M,35-39 ans,5,178959,280
+2025,Nouvelle-Aquitaine,M,40-44 ans,1,186005,50
+2025,Nouvelle-Aquitaine,M,45-49 ans,3,180710,170
+2025,Nouvelle-Aquitaine,M,50-54 ans,1,205818,50
+2025,Nouvelle-Aquitaine,M,55-59 ans,3,201904,150
+2025,Nouvelle-Aquitaine,M,60 ans ou plus,,895959,
+2025,Nouvelle-Aquitaine,Non renseigne,25-29 ans,2,309392,60
+2025,Nouvelle-Aquitaine,Non renseigne,35-39 ans,1,363888,30
+2025,Nouvelle-Aquitaine,Non renseigne,45-49 ans,1,368085,30
+2025,Nouvelle-Aquitaine,Non renseigne,60 ans ou plus,1,2007709,0
+2025,Nouvelle-Aquitaine,Total,20-24 ans,6,322427,190
+2025,Nouvelle-Aquitaine,Total,25-29 ans,8,309392,260
+2025,Nouvelle-Aquitaine,Total,30-34 ans,12,332025,360
+2025,Nouvelle-Aquitaine,Total,35-39 ans,8,363888,220
+2025,Nouvelle-Aquitaine,Total,40-44 ans,5,380902,130
+2025,Nouvelle-Aquitaine,Total,45-49 ans,4,368085,110
+2025,Nouvelle-Aquitaine,Total,50-54 ans,3,419298,70
+2025,Nouvelle-Aquitaine,Total,55-59 ans,4,414134,100
+2025,Nouvelle-Aquitaine,Total,60 ans ou plus,1,2007709,0
+2025,Occitanie,F,20-24 ans,1,169997,60
+2025,Occitanie,F,25-29 ans,6,164543,360
+2025,Occitanie,F,30-34 ans,4,176222,230
+2025,Occitanie,F,35-39 ans,3,188441,160
+2025,Occitanie,F,40-44 ans,2,196937,100
+2025,Occitanie,F,45-49 ans,3,187634,160
+2025,Occitanie,F,50-54 ans,2,207751,100
+2025,Occitanie,F,55-59 ans,,208733,
+2025,Occitanie,F,60 ans ou plus,,1049847,
+2025,Occitanie,M,20-24 ans,6,179965,330
+2025,Occitanie,M,25-29 ans,12,167524,720
+2025,Occitanie,M,30-34 ans,7,171837,410
+2025,Occitanie,M,35-39 ans,9,180495,500
+2025,Occitanie,M,40-44 ans,2,185901,110
+2025,Occitanie,M,45-49 ans,5,180443,280
+2025,Occitanie,M,50-54 ans,1,199338,50
+2025,Occitanie,M,55-59 ans,4,197637,200
+2025,Occitanie,M,60 ans ou plus,,857509,
+2025,Occitanie,Non renseigne,30-34 ans,1,348059,30
+2025,Occitanie,Non renseigne,45-49 ans,1,368077,30
+2025,Occitanie,Total,20-24 ans,7,349962,200
+2025,Occitanie,Total,25-29 ans,18,332067,540
+2025,Occitanie,Total,30-34 ans,12,348059,340
+2025,Occitanie,Total,35-39 ans,12,368936,330
+2025,Occitanie,Total,40-44 ans,4,382838,100
+2025,Occitanie,Total,45-49 ans,9,368077,240
+2025,Occitanie,Total,50-54 ans,3,407089,70
+2025,Occitanie,Total,55-59 ans,4,406370,100
+2025,Occitanie,Total,60 ans ou plus,,1907356,
+2025,Pays de la Loire,F,20-24 ans,,107660,
+2025,Pays de la Loire,F,25-29 ans,1,104230,100
+2025,Pays de la Loire,F,30-34 ans,2,110380,180
+2025,Pays de la Loire,F,35-39 ans,1,120736,80
+2025,Pays de la Loire,F,40-44 ans,,126789,
+2025,Pays de la Loire,F,45-49 ans,3,119576,250
+2025,Pays de la Loire,F,50-54 ans,,129924,
+2025,Pays de la Loire,F,55-59 ans,2,123710,160
+2025,Pays de la Loire,F,60 ans ou plus,,622140,
+2025,Pays de la Loire,M,20-24 ans,1,117003,90
+2025,Pays de la Loire,M,25-29 ans,3,108301,280
+2025,Pays de la Loire,M,30-34 ans,4,111252,360
+2025,Pays de la Loire,M,35-39 ans,3,118768,250
+2025,Pays de la Loire,M,40-44 ans,3,123539,240
+2025,Pays de la Loire,M,45-49 ans,3,120204,250
+2025,Pays de la Loire,M,50-54 ans,1,130757,80
+2025,Pays de la Loire,M,55-59 ans,,121539,
+2025,Pays de la Loire,M,60 ans ou plus,,503053,
+2025,Pays de la Loire,Non renseigne,30-34 ans,1,221632,50
+2025,Pays de la Loire,Total,20-24 ans,1,224663,40
+2025,Pays de la Loire,Total,25-29 ans,4,212531,190
+2025,Pays de la Loire,Total,30-34 ans,7,221632,320
+2025,Pays de la Loire,Total,35-39 ans,4,239504,170
+2025,Pays de la Loire,Total,40-44 ans,3,250328,120
+2025,Pays de la Loire,Total,45-49 ans,6,239780,250
+2025,Pays de la Loire,Total,50-54 ans,1,260681,40
+2025,Pays de la Loire,Total,55-59 ans,2,245249,80
+2025,Pays de la Loire,Total,60 ans ou plus,,1125193,
+2025,Provence-Alpes-Côte d'Azur,F,20-24 ans,2,132017,150
+2025,Provence-Alpes-Côte d'Azur,F,25-29 ans,3,137745,220
+2025,Provence-Alpes-Côte d'Azur,F,30-34 ans,9,150811,600
+2025,Provence-Alpes-Côte d'Azur,F,35-39 ans,2,165497,120
+2025,Provence-Alpes-Côte d'Azur,F,40-44 ans,5,168724,300
+2025,Provence-Alpes-Côte d'Azur,F,45-49 ans,2,159828,130
+2025,Provence-Alpes-Côte d'Azur,F,50-54 ans,2,175563,110
+2025,Provence-Alpes-Côte d'Azur,F,55-59 ans,1,181916,50
+2025,Provence-Alpes-Côte d'Azur,F,60 ans ou plus,,920335,
+2025,Provence-Alpes-Côte d'Azur,M,20-24 ans,4,138637,290
+2025,Provence-Alpes-Côte d'Azur,M,25-29 ans,10,136368,730
+2025,Provence-Alpes-Côte d'Azur,M,30-34 ans,14,141704,990
+2025,Provence-Alpes-Côte d'Azur,M,35-39 ans,11,153608,720
+2025,Provence-Alpes-Côte d'Azur,M,40-44 ans,5,157493,320
+2025,Provence-Alpes-Côte d'Azur,M,45-49 ans,5,152654,330
+2025,Provence-Alpes-Côte d'Azur,M,50-54 ans,3,167592,180
+2025,Provence-Alpes-Côte d'Azur,M,55-59 ans,1,167189,60
+2025,Provence-Alpes-Côte d'Azur,M,60 ans ou plus,,724189,
+2025,Provence-Alpes-Côte d'Azur,Non renseigne,25-29 ans,1,274113,40
+2025,Provence-Alpes-Côte d'Azur,Non renseigne,35-39 ans,2,319105,60
+2025,Provence-Alpes-Côte d'Azur,Non renseigne,45-49 ans,1,312482,30
+2025,Provence-Alpes-Côte d'Azur,Total,20-24 ans,6,270654,220
+2025,Provence-Alpes-Côte d'Azur,Total,25-29 ans,14,274113,510
+2025,Provence-Alpes-Côte d'Azur,Total,30-34 ans,23,292515,790
+2025,Provence-Alpes-Côte d'Azur,Total,35-39 ans,15,319105,470
+2025,Provence-Alpes-Côte d'Azur,Total,40-44 ans,10,326217,310
+2025,Provence-Alpes-Côte d'Azur,Total,45-49 ans,8,312482,260
+2025,Provence-Alpes-Côte d'Azur,Total,50-54 ans,5,343155,150
+2025,Provence-Alpes-Côte d'Azur,Total,55-59 ans,2,349105,60
+2025,Provence-Alpes-Côte d'Azur,Total,60 ans ou plus,,1644524,
+2025,Île-de-France,F,20-24 ans,6,426753,140
+2025,Île-de-France,F,25-29 ans,34,451160,750
+2025,Île-de-France,F,30-34 ans,33,454546,730
+2025,Île-de-France,F,35-39 ans,35,456217,770
+2025,Île-de-France,F,40-44 ans,17,440577,390
+2025,Île-de-France,F,45-49 ans,10,406519,250
+2025,Île-de-France,F,50-54 ans,6,407009,150
+2025,Île-de-France,F,55-59 ans,1,383539,30
+2025,Île-de-France,F,60 ans ou plus,,1512916,
+2025,Île-de-France,M,20-24 ans,27,415907,650
+2025,Île-de-France,M,25-29 ans,51,432042,1180
+2025,Île-de-France,M,30-34 ans,50,432616,1160
+2025,Île-de-France,M,35-39 ans,38,428984,890
+2025,Île-de-France,M,40-44 ans,14,412044,340
+2025,Île-de-France,M,45-49 ans,20,397746,500
+2025,Île-de-France,M,50-54 ans,10,400926,250
+2025,Île-de-France,M,55-59 ans,5,364275,140
+2025,Île-de-France,M,60 ans ou plus,3,1202559,20
+2025,Île-de-France,Non renseigne,25-29 ans,8,883202,90
+2025,Île-de-France,Non renseigne,30-34 ans,7,887162,80
+2025,Île-de-France,Non renseigne,35-39 ans,8,885201,90
+2025,Île-de-France,Non renseigne,40-44 ans,1,852621,10
+2025,Île-de-France,Non renseigne,45-49 ans,3,804265,40
+2025,Île-de-France,Non renseigne,50-54 ans,4,807935,50
+2025,Île-de-France,Total,20-24 ans,33,842660,390
+2025,Île-de-France,Total,25-29 ans,93,883202,1050
+2025,Île-de-France,Total,30-34 ans,90,887162,1010
+2025,Île-de-France,Total,35-39 ans,81,885201,920
+2025,Île-de-France,Total,40-44 ans,32,852621,380
+2025,Île-de-France,Total,45-49 ans,33,804265,410
+2025,Île-de-France,Total,50-54 ans,20,807935,250
+2025,Île-de-France,Total,55-59 ans,6,747814,80
+2025,Île-de-France,Total,60 ans ou plus,3,2715475,10
+

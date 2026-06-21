@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: int_insee_by_year_region
+    description: "Population INSEE agregee par annee, region OC, genre et tranche d'age OC. Individus DOM exclus (couverts par agregat DOM->DROM). Tranches 60+ consolidees en '60 ans ou plus'. Labels INSEE convertis au format OC."
+    columns:
+      - name: year
+        description: "Annee de l'estimation (2022-2025)."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [2022, 2023, 2024, 2025]
+      - name: region
+        description: "Region OC (13 regions metropolitaines + DROM). Correspond exactement aux valeurs de stg_students.region."
+        tests:
+          - not_null
+      - name: gender
+        description: "Genre : 'M' pour hommes, 'F' pour femmes."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['M', 'F', 'Total']
+      - name: age_group_oc
+        description: "Tranche d'age au format OC (e.g. '20-24 ans', '60 ans ou plus')."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - '0-4 ans'
+                  - '5-9 ans'
+                  - '10-14 ans'
+                  - '15-19 ans'
+                  - '20-24 ans'
+                  - '25-29 ans'
+                  - '30-34 ans'
+                  - '35-39 ans'
+                  - '40-44 ans'
+                  - '45-49 ans'
+                  - '50-54 ans'
+                  - '55-59 ans'
+                  - '60 ans ou plus'
+      - name: population
+        description: "Population totale pour cette combinaison annee/region/genre/tranche d'age."
+        tests:
+          - not_null

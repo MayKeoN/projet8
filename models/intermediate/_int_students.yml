@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: int_students_by_year_region
+    description: "Etudiants OCR agrege par annee, region, genre et tranche d'age. Preserve 'Non renseigne' comme valeur de genre valide. Alimente directement le mart."
+    columns:
+      - name: year
+        description: "Annee de debut du parcours (2022-2025)."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [2022, 2023, 2024, 2025]
+      - name: region
+        description: "Region de residence de l'etudiant (13 regions OC + DROM)."
+        tests:
+          - not_null
+      - name: gender
+        description: "Genre declare : 'M', 'F', ou 'Non renseigne'."
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['M', 'F', 'Non renseigne', 'Total']
+      - name: age_group
+        description: "Tranche d'age OC (e.g. '20-24 ans', '60 ans ou plus')."
+        tests:
+          - not_null
+      - name: student_count
+        description: "Nombre d'etudiants pour cette combinaison annee/region/genre/tranche d'age."
+        tests:
+          - not_null

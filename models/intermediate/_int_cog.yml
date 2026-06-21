@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: int_cog_departement_region
+    description: "Table de correspondance geographique : dep_code -> reg_code -> reg_name. Jointure COG departement x COG region. Utilise comme bridge dans int_students_enriched et int_insee_by_year_region."
+    columns:
+      - name: dep_code
+        description: "Code departement INSEE (cle primaire)."
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              arguments:
+                to: ref('stg_cog_departement')
+                field: dep_code
+      - name: dep_name
+        description: "Libelle du departement."
+        tests:
+          - not_null
+      - name: reg_code
+        description: "Code region INSEE."
+        tests:
+          - not_null
+      - name: reg_name
+        description: "Libelle officiel de la region. Jamais null apres jointure (toutes les regions COG sont presentes)."
+        tests:
+          - not_null
