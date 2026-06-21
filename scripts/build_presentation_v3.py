@@ -36,7 +36,6 @@ def _blank(prs):
     return prs.slides.add_slide(prs.slide_layouts[0])
 
 def _r(sl, x, y, w, h, fill=None, edge=None, edge_w=Pt(0.75)):
-    """Add a rectangle shape."""
     sh = sl.shapes.add_shape(1, x, y, w, h)
     if fill:
         sh.fill.solid(); sh.fill.fore_color.rgb = fill
@@ -51,7 +50,6 @@ def _r(sl, x, y, w, h, fill=None, edge=None, edge_w=Pt(0.75)):
 
 def _t(sl, x, y, w, h, txt, sz=10, bold=False, col=BK,
        align=PP_ALIGN.LEFT, italic=False):
-    """Add a single-run textbox."""
     bx = sl.shapes.add_textbox(x, y, w, h)
     tf = bx.text_frame; tf.word_wrap = True
     p = tf.paragraphs[0]; p.alignment = align
@@ -63,9 +61,7 @@ def _t(sl, x, y, w, h, txt, sz=10, bold=False, col=BK,
 
 def _mt(sl, x, y, w, h, lines, sz=10, bold=False, col=BK,
         align=PP_ALIGN.LEFT, ls=1.2, sb=2):
-    """Add a multi-line textbox.
-    lines: list of str  OR  dict(t, sz, b, c, al, i, sb, ls)
-    """
+    """Multi-line textbox. lines: list of str OR dict(t,sz,b,c,al,i,sb,ls)."""
     bx = sl.shapes.add_textbox(x, y, w, h)
     tf = bx.text_frame; tf.word_wrap = True
     for i, ln in enumerate(lines):
@@ -92,9 +88,9 @@ def _img(sl, path, x, y, w, h=None):
         sl.shapes.add_picture(str(path), x, y, w)
 
 def _tbl(sl, data, x, y, w, col_ws, hfill=MB, fsz=10):
-    """Add a styled table. data[0] = header row."""
+    """Styled table. data[0] = header row."""
     nr, nc = len(data), len(data[0])
-    rh = Inches(0.32)
+    rh = Inches(0.44)
     tbl = sl.shapes.add_table(nr, nc, x, y, w, rh * nr).table
     for ci, cw in enumerate(col_ws):
         tbl.columns[ci].width = cw
@@ -112,14 +108,13 @@ def _tbl(sl, data, x, y, w, col_ws, hfill=MB, fsz=10):
                     r.font.color.rgb = WH if ri == 0 else BK
 
 def _hdr(sl, title, sub=None):
-    """Standard slide header bar."""
     hh = Inches(0.78)
     _r(sl, 0, 0, W, hh, fill=DB)
-    _t(sl, Inches(0.25), Inches(0.07), W - Inches(0.4), Inches(0.55),
-       title, sz=18, bold=True, col=WH)
+    _t(sl, Inches(0.25), Inches(0.06), W - Inches(0.4), Inches(0.6),
+       title, sz=21, bold=True, col=WH)
     if sub:
         _t(sl, Inches(0.25), Inches(0.56), W - Inches(0.4), Inches(0.25),
-           sub, sz=9, col=LB)
+           sub, sz=8, col=LB)
 
 
 # ── Slide builders ─────────────────────────────────────────────────────────────
@@ -129,15 +124,15 @@ def s01_titre(prs):
     _r(sl, 0, 0, W, H, fill=DB)
     _r(sl, 0, 0, W, Inches(0.1), fill=MB)
     _r(sl, 0, H - Inches(0.7), W, Inches(0.7), fill=MB)
-    _mt(sl, Inches(0.6), Inches(0.9), Inches(8.8), Inches(2.6), [
-        {'t': "Analyse de l'évolution du profil", 'sz': 28, 'b': True, 'c': WH,
+    _mt(sl, Inches(0.6), Inches(0.9), Inches(8.8), Inches(2.7), [
+        {'t': "Analyse de l'évolution du profil", 'sz': 29, 'b': True, 'c': WH,
          'al': PP_ALIGN.LEFT, 'ls': 1.08},
-        {'t': 'sociodémographique des étudiants Data', 'sz': 28, 'b': True, 'c': WH,
+        {'t': 'sociodémographique des étudiants Data', 'sz': 29, 'b': True, 'c': WH,
          'al': PP_ALIGN.LEFT, 'ls': 1.08, 'sb': 0},
-        {'t': 'OpenClassrooms  —  2022–2025', 'sz': 28, 'b': True, 'c': WH,
+        {'t': 'OpenClassrooms  —  2022–2025', 'sz': 29, 'b': True, 'c': WH,
          'al': PP_ALIGN.LEFT, 'ls': 1.08, 'sb': 0},
     ])
-    _t(sl, Inches(0.6), Inches(3.5), Inches(8.8), Inches(0.45),
+    _t(sl, Inches(0.6), Inches(3.75), Inches(8.8), Inches(0.5),
        'Pipeline dbt · Snowflake · INSEE · COG 2024', sz=15, col=LB)
     _t(sl, Inches(0.3), H - Inches(0.58), Inches(9.4), Inches(0.45),
        'Yukel Monfray  ·  Projet 8  ·  Certification Data Analyst OCR  ·  Juin 2026',
@@ -150,46 +145,31 @@ def s02_mission(prs):
     _hdr(sl, 'Mission & contexte')
     Y0 = Inches(0.84)
 
-    _t(sl, Inches(0.25), Y0, Inches(6.35), Inches(0.28),
-       'LA MISSION', sz=10, bold=True, col=MB)
-    _mt(sl, Inches(0.25), Y0 + Inches(0.32), Inches(6.35), Inches(2.6), [
+    _t(sl, Inches(0.25), Y0, Inches(6.35), Inches(0.38),
+       'LA MISSION', sz=14, bold=True, col=MB)
+    _mt(sl, Inches(0.25), Y0 + Inches(0.46), Inches(6.35), Inches(4.5), [
         "● Marie-Neige (Lead Data Analyst OCR) demande une analyse rétrospective",
         "   du profil sociodémographique des étudiants parcours Data (2022–2025).",
         "",
         "● Objectifs : qualifier les données, structurer un pipeline dbt reproductible,",
         "   enrichir avec l'INSEE, livrer des tendances actionnables.",
         "",
-        "● Livrables : CSV consolidé · Workflow dbt commenté · Présentation ~15 min",
-    ], sz=12, col=BK, ls=1.3, sb=1)
+        "● Livrables : CSV consolidé · Workflow dbt commenté · Présentation",
+    ], sz=16, col=BK, ls=1.45, sb=2)
 
-    # RGPD box — full height of top section
-    _r(sl, Inches(6.75), Y0, Inches(3.0), Inches(2.92),
-       fill=LB, edge=MB)
-    _t(sl, Inches(6.9), Y0 + Inches(0.1), Inches(2.75), Inches(0.32),
-       'RGPD', sz=11, bold=True, col=DB)
-    _mt(sl, Inches(6.9), Y0 + Inches(0.48), Inches(2.75), Inches(2.3), [
+    _r(sl, Inches(6.75), Y0, Inches(3.0), Inches(4.7), fill=LB, edge=MB)
+    _t(sl, Inches(6.9), Y0 + Inches(0.15), Inches(2.75), Inches(0.42),
+       'RGPD', sz=14, bold=True, col=DB)
+    _mt(sl, Inches(6.9), Y0 + Inches(0.68), Inches(2.75), Inches(3.85), [
         "● USER_ID pseudonymisé",
         "   (aucune donnée nominative)",
         "",
-        "● Finalité : analyse sociodémographique",
-        "   agrégée uniquement",
+        "● Finalité : analyse",
+        "   sociodémographique agrégée",
         "",
-        "● Minimisation : âge, genre, région",
-        "   et année seulement",
-    ], sz=11, col=DB, ls=1.25, sb=1)
-
-    # Livrables footer
-    _r(sl, 0, Inches(3.84), W, Inches(0.07), fill=MB)
-    _t(sl, Inches(0.25), Inches(3.96), W - Inches(0.4), Inches(0.28),
-       'LIVRABLES ATTENDUS', sz=10, bold=True, col=MB)
-    _mt(sl, Inches(0.25), Inches(4.3), W - Inches(0.4), Inches(1.2), [
-        {'t': 'Livrable 1  ', 'b': True, 'sz': 12, 'c': DB},
-        {'t': 'CSV consolidé — mart_profil_sociodemographique.csv', 'sz': 12, 'c': BK},
-        {'t': 'Livrable 2  ', 'b': True, 'sz': 12, 'c': DB, 'sb': 5},
-        {'t': 'Workflow dbt commenté (GitHub + dbt Cloud job opérationnel)', 'sz': 12, 'c': BK},
-        {'t': 'Livrable 3  ', 'b': True, 'sz': 12, 'c': DB, 'sb': 5},
-        {'t': 'Cette présentation (12 slides · ~15 min)', 'sz': 12, 'c': BK},
-    ], ls=1.2, sb=2)
+        "● Minimisation : âge, genre,",
+        "   région et année seulement",
+    ], sz=14, col=DB, ls=1.4, sb=2)
 
 
 def s03_sources(prs):
@@ -208,15 +188,15 @@ def s03_sources(prs):
     ]
     for i, (title, body) in enumerate(cards):
         cx = Inches(0.22) + i * (cw + Inches(0.12))
-        _r(sl, cx, Inches(0.84), cw, Inches(1.9), fill=LB, edge=MB)
-        _r(sl, cx, Inches(0.84), cw, Inches(0.42), fill=MB)
-        _t(sl, cx + Inches(0.1), Inches(0.88), cw - Inches(0.15), Inches(0.35),
-           title, sz=12, bold=True, col=WH)
-        _t(sl, cx + Inches(0.1), Inches(1.33), cw - Inches(0.15), Inches(1.3),
-           body, sz=11, col=DB)
+        _r(sl, cx, Inches(0.84), cw, Inches(2.1), fill=LB, edge=MB)
+        _r(sl, cx, Inches(0.84), cw, Inches(0.5), fill=MB)
+        _t(sl, cx + Inches(0.1), Inches(0.88), cw - Inches(0.15), Inches(0.44),
+           title, sz=14, bold=True, col=WH)
+        _t(sl, cx + Inches(0.1), Inches(1.45), cw - Inches(0.15), Inches(1.35),
+           body, sz=14, col=DB)
 
-    _t(sl, Inches(0.22), Inches(2.85), W - Inches(0.35), Inches(0.28),
-       'DICTIONNAIRE DES COLONNES CLÉS (dataset OCR)', sz=10, bold=True, col=MB)
+    _t(sl, Inches(0.22), Inches(3.08), W - Inches(0.35), Inches(0.35),
+       'DICTIONNAIRE DES COLONNES CLÉS (dataset OCR)', sz=13, bold=True, col=MB)
     rows = [
         ['Colonne', 'Description', 'Valeurs / exemple'],
         ['USER_ID', 'Identifiant technique unique (pseudonymisé)', 'hash non nominatif'],
@@ -225,8 +205,8 @@ def s03_sources(prs):
         ['REGION', 'Région de résidence', 'Île-de-France, DROM…'],
         ['YEAR_PATH_STARTED', 'Année de début du parcours', '2022 / 2023 / 2024 / 2025'],
     ]
-    _tbl(sl, rows, Inches(0.22), Inches(3.18), Inches(9.56),
-         [Inches(1.8), Inches(4.36), Inches(3.4)], hfill=MB, fsz=10)
+    _tbl(sl, rows, Inches(0.22), Inches(3.5), Inches(9.56),
+         [Inches(1.8), Inches(4.36), Inches(3.4)], hfill=MB, fsz=12)
 
 
 def s04_methodo(prs):
@@ -248,34 +228,39 @@ def s04_methodo(prs):
     for i, (num, title, body) in enumerate(steps):
         sx = Inches(0.18) + i * (sw + Inches(0.08))
         fc = DB if i == 3 else LB
-        _r(sl, sx, Inches(0.84), sw, Inches(2.75), fill=fc, edge=MB)
-        _r(sl, sx + Inches(0.1), Inches(0.95), Inches(0.46), Inches(0.46),
+        _r(sl, sx, Inches(0.84), sw, Inches(2.85), fill=fc, edge=MB)
+        _r(sl, sx + Inches(0.1), Inches(0.96), Inches(0.52), Inches(0.52),
            fill=MB if i < 3 else LB)
-        _t(sl, sx + Inches(0.11), Inches(0.97), Inches(0.44), Inches(0.38),
-           num, sz=13, bold=True,
+        _t(sl, sx + Inches(0.11), Inches(0.98), Inches(0.5), Inches(0.44),
+           num, sz=15, bold=True,
            col=WH if i < 3 else DB, align=PP_ALIGN.CENTER)
-        _t(sl, sx + Inches(0.1), Inches(1.55), sw - Inches(0.18), Inches(0.58),
-           title, sz=11, bold=True, col=WH if i == 3 else DB)
-        _t(sl, sx + Inches(0.1), Inches(2.22), sw - Inches(0.18), Inches(1.28),
-           body, sz=10, col=LB if i == 3 else GR)
+        _t(sl, sx + Inches(0.1), Inches(1.62), sw - Inches(0.18), Inches(0.64),
+           title, sz=14, bold=True, col=WH if i == 3 else DB)
+        _t(sl, sx + Inches(0.1), Inches(2.35), sw - Inches(0.18), Inches(1.28),
+           body, sz=12, col=LB if i == 3 else GR)
         if i < 3:
-            _t(sl, sx + sw + Inches(0.01), Inches(2.1), Inches(0.09),
-               Inches(0.4), '▶', sz=14, col=MB)
+            _t(sl, sx + sw + Inches(0.01), Inches(2.18), Inches(0.09),
+               Inches(0.4), '▶', sz=15, col=MB)
 
-    _r(sl, 0, Inches(3.75), W, Inches(0.07), fill=MB)
-    _t(sl, Inches(0.2), Inches(3.88), W - Inches(0.35), Inches(0.28),
-       'POURQUOI ELT ?', sz=10, bold=True, col=MB)
-    _mt(sl, Inches(0.2), Inches(4.22), W - Inches(0.35), Inches(1.25), [
+    _r(sl, 0, Inches(3.86), W, Inches(0.07), fill=MB)
+    _t(sl, Inches(0.2), Inches(3.99), W - Inches(0.35), Inches(0.35),
+       'POURQUOI ELT ?', sz=13, bold=True, col=MB)
+    _mt(sl, Inches(0.2), Inches(4.4), W - Inches(0.35), Inches(1.12), [
         "● Python charge d'abord (Load) — puis dbt transforme dans Snowflake (Transform). Toute la logique SQL est versionnée.",
         "● Reproductible : un seul dbtf build reconstruit de bout en bout. Nouveau fichier OCR / INSEE → relancer imports + build.",
-    ], sz=11, col=GR, ls=1.3, sb=4)
+    ], sz=12, col=GR, ls=1.3, sb=5)
 
 
 def s05_dag(prs):
     sl = _blank(prs)
     _r(sl, 0, 0, W, H, fill=BGS)
     _hdr(sl, 'Architecture du pipeline dbt')
-    _img(sl, CHARTS / 'graph_dag.png', Inches(0.18), Inches(0.84), W - Inches(0.36))
+    # Height-constrained insertion with generous padding keeps image clear of
+    # the header above and the slide edge below.
+    max_h = H - Inches(1.4)
+    pic = sl.shapes.add_picture(str(CHARTS / 'graph_dag.png'),
+                                Inches(0), Inches(0.92), height=max_h)
+    pic.left = int((W - pic.width) / 2)
 
 
 def s06_enjeux(prs):
@@ -287,9 +272,9 @@ def s06_enjeux(prs):
         ['Genre manquant (~27 % en 2022)',
          'Biais dans les ratios',
          "Catégorie 'Non renseigné' — pas d'imputation (RGPD)"],
-        ['DROM sans équivalent INSEE\ndépartemental',
-         'Pas de ratio /100k',
-         "Ligne agrégat DOM → 'DROM' via CASE SQL"],
+        ['DROM sans données INSEE\npar département',
+         'Population agrégée, moins granulaire',
+         "Agrégat DOM INSEE → DROM via CASE SQL — inclus"],
         ['Tranches âge INSEE 60-64, 65-69…\n≠ OCR (60+)',
          'Jointure impossible',
          "Rollup SQL en intermediate → '60 ans ou plus'"],
@@ -303,8 +288,8 @@ def s06_enjeux(prs):
          'Faux doublons',
          'Données longitudinales documentées + test singulier'],
     ]
-    _tbl(sl, rows, Inches(0.22), Inches(0.85), Inches(9.56),
-         [Inches(2.3), Inches(1.86), Inches(5.4)], hfill=DB, fsz=9)
+    _tbl(sl, rows, Inches(0.22), Inches(0.82), Inches(9.56),
+         [Inches(2.3), Inches(1.86), Inches(5.4)], hfill=DB, fsz=12)
 
 
 def s07_tests(prs):
@@ -312,8 +297,8 @@ def s07_tests(prs):
     _r(sl, 0, 0, W, H, fill=WH)
     _hdr(sl, 'Tests dbt & garantie de reproductibilité')
 
-    _t(sl, Inches(0.25), Inches(0.84), Inches(5.0), Inches(0.3),
-       'STRATÉGIE PAR COUCHE', sz=10, bold=True, col=MB)
+    _t(sl, Inches(0.25), Inches(0.84), Inches(5.0), Inches(0.38),
+       'STRATÉGIE PAR COUCHE', sz=13, bold=True, col=MB)
     layers = [
         ('Sources (RAW)', 'not_null sur clé primaire — sanity check'),
         ('Staging', 'not_null · unique · accepted_values · relationships'),
@@ -322,17 +307,17 @@ def s07_tests(prs):
         ('Test singulier', 'assert_unique_student_year — 1 étudiant max / année'),
     ]
     for i, (lay, desc) in enumerate(layers):
-        ly = Inches(1.2) + i * Inches(0.74)
-        _r(sl, Inches(0.25), ly, Inches(1.7), Inches(0.6), fill=LB, edge=MB)
-        _t(sl, Inches(0.3), ly + Inches(0.1), Inches(1.62), Inches(0.44),
-           lay, sz=9.5, bold=True, col=DB)
-        _t(sl, Inches(2.08), ly + Inches(0.12), Inches(3.1), Inches(0.44),
-           desc, sz=10, col=BK)
+        ly = Inches(1.28) + i * Inches(0.74)
+        _r(sl, Inches(0.25), ly, Inches(1.85), Inches(0.62), fill=LB, edge=MB)
+        _t(sl, Inches(0.3), ly + Inches(0.1), Inches(1.76), Inches(0.46),
+           lay, sz=11, bold=True, col=DB)
+        _t(sl, Inches(2.24), ly + Inches(0.12), Inches(2.9), Inches(0.44),
+           desc, sz=12, col=BK)
 
     _r(sl, Inches(5.35), Inches(0.8), Inches(0.04), Inches(4.7), fill=LB)
 
-    _t(sl, Inches(5.55), Inches(0.84), Inches(4.2), Inches(0.3),
-       'REPRODUCTIBILITÉ', sz=10, bold=True, col=MB)
+    _t(sl, Inches(5.55), Inches(0.84), Inches(4.2), Inches(0.38),
+       'REPRODUCTIBILITÉ', sz=13, bold=True, col=MB)
     guarantees = [
         ('Si : Nouvelle région apparaît', '→ accepted_values échoue · pipeline bloqué'),
         ('Si : USER_ID dupliqué dans une année', '→ test singulier échoue · pipeline bloqué'),
@@ -340,17 +325,17 @@ def s07_tests(prs):
         ('Si : Nouveau fichier OCR / INSEE', '→ run_all_imports + dbtf build · rebuild complet'),
     ]
     for i, (trigger, effect) in enumerate(guarantees):
-        gy = Inches(1.2) + i * Inches(0.9)
+        gy = Inches(1.28) + i * Inches(0.88)
         _r(sl, Inches(5.55), gy, Inches(4.2), Inches(0.76), fill=LGR, edge=LGR2)
         _t(sl, Inches(5.65), gy + Inches(0.06), Inches(4.0), Inches(0.3),
-           trigger, sz=10, bold=True, col=DB)
+           trigger, sz=11, bold=True, col=DB)
         _t(sl, Inches(5.65), gy + Inches(0.4), Inches(4.0), Inches(0.3),
-           effect, sz=10, col=BK)
+           effect, sz=11, col=BK)
 
-    _r(sl, Inches(0.25), Inches(4.9), Inches(9.5), Inches(0.58), fill=DB)
-    _t(sl, Inches(0.35), Inches(5.03), Inches(9.3), Inches(0.42),
-       'dbtf build  ·  seeds + modèles + tests en une commande  ·  69 / 69 réussis',
-       sz=13, bold=True, col=WH, align=PP_ALIGN.CENTER)
+    _r(sl, Inches(0.25), Inches(4.88), Inches(9.5), Inches(0.62), fill=DB)
+    _t(sl, Inches(0.35), Inches(5.01), Inches(9.3), Inches(0.48),
+       'dbtf build  ·  seeds + modèles + tests en une commande  ·  69/69 réussis',
+       sz=14, bold=True, col=WH, align=PP_ALIGN.CENTER)
 
 
 def s08_regions(prs):
@@ -362,10 +347,10 @@ def s08_regions(prs):
     _r(sl, Inches(0.18), Inches(4.42), Inches(9.6), Inches(0.06), fill=MB)
     _mt(sl, Inches(0.18), Inches(4.54), Inches(9.6), Inches(1.0), [
         {'t': '▶ IDF : 45,6 % des inscriptions cumulées 2022–2025.',
-         'b': True, 'sz': 12, 'c': DB},
-        {'t': '▶ Baisse 2022→2024 (−50 %), rebond 2025 (+12 %).   '
-              '▶ DROM : 46 inscrits (1 %) — pas de benchmark INSEE.',
-         'sz': 12, 'c': BK, 'sb': 5},
+         'b': True, 'sz': 15, 'c': DB},
+        {'t': '▶ Baisse 2022→2024 (−50 %), rebond 2025 (+12 %). '
+              "▶ Île-de-France concentre ~8× plus d'inscrits que la 2ème région.",
+         'sz': 15, 'c': BK, 'sb': 6},
     ], ls=1.2)
 
 
@@ -375,23 +360,24 @@ def s09_genre(prs):
     _hdr(sl, 'Résultats — Genre & qualité de la donnée')
     _img(sl, CHARTS / 'graph_nr_rate.png', Inches(0.18), Inches(0.84), Inches(5.7))
 
-    _t(sl, Inches(6.15), Inches(0.9), Inches(3.6), Inches(0.32),
-       'LECTURE', sz=10, bold=True, col=MB)
-    _mt(sl, Inches(6.15), Inches(1.27), Inches(3.6), Inches(2.5), [
+    _t(sl, Inches(6.15), Inches(0.9), Inches(3.6), Inches(0.38),
+       'LECTURE', sz=14, bold=True, col=MB)
+    _mt(sl, Inches(6.15), Inches(1.34), Inches(3.6), Inches(2.5), [
         "● Amélioration spectaculaire de la qualité de collecte du genre sur 4 ans.",
         "",
         "● 41,6 % → 6,7 % : cette tendance est un indicateur de pilotage qualité en soi.",
         "",
         "● À maintenir : incitations à la saisie lors de l'inscription.",
-    ], sz=12, col=BK, ls=1.3, sb=2)
+    ], sz=15, col=BK, ls=1.3, sb=2)
 
-    _r(sl, Inches(6.15), Inches(3.9), Inches(3.6), Inches(1.55), fill=LB, edge=MB)
-    _t(sl, Inches(6.28), Inches(4.0), Inches(3.35), Inches(0.32),
-       'Répartition avec genre renseigné', sz=10, bold=True, col=DB)
-    _mt(sl, Inches(6.28), Inches(4.38), Inches(3.35), Inches(1.0), [
+    # Blue info box placed with a clear gap below the LECTURE text
+    _r(sl, Inches(6.15), Inches(4.2), Inches(3.6), Inches(1.3), fill=LB, edge=MB)
+    _t(sl, Inches(6.28), Inches(4.3), Inches(3.35), Inches(0.38),
+       'Répartition avec genre renseigné', sz=12, bold=True, col=DB)
+    _mt(sl, Inches(6.28), Inches(4.72), Inches(3.35), Inches(0.72), [
         '● Hommes : ~69 % des inscrits renseignés',
         '● Femmes : ~31 % — sous-représentation persistante',
-    ], sz=11, col=DB, ls=1.35, sb=2)
+    ], sz=13, col=DB, ls=1.3, sb=2)
 
 
 def s10_insee(prs):
@@ -400,19 +386,17 @@ def s10_insee(prs):
     _hdr(sl, "Résultats — Taux d'inscription pour 100 000 habitants")
     _img(sl, CHARTS / 'graph_100k.png', Inches(0.18), Inches(0.84), Inches(6.9))
 
-    _t(sl, Inches(7.28), Inches(0.9), Inches(2.5), Inches(0.32),
-       'LECTURE', sz=10, bold=True, col=MB)
-    _mt(sl, Inches(7.28), Inches(1.27), Inches(2.5), Inches(4.0), [
-        "● IDF domine encore plus après normalisation (~670 / 100k).",
+    _t(sl, Inches(7.28), Inches(0.9), Inches(2.5), Inches(0.38),
+       'LECTURE', sz=14, bold=True, col=MB)
+    _mt(sl, Inches(7.28), Inches(1.34), Inches(2.5), Inches(4.1), [
+        "● IDF domine encore plus après normalisation (~6,8 / 100k).",
         "",
         "● ARA, 2ème en effectifs bruts, descend à la 7ème place.",
         "",
-        "● PACA et Centre-Val de Loire dépassent leur part d'effectifs.",
+        "● PACA et Centre-Val de Loire dépassent leur part d'effectifs bruts.",
         "",
         "● Les effectifs bruts seuls sont trompeurs.",
-        "",
-        "● DROM exclu : pas de données INSEE métropole.",
-    ], sz=11, col=BK, ls=1.3, sb=3)
+    ], sz=13, col=BK, ls=1.3, sb=3)
 
 
 def s11_reco(prs):
@@ -426,25 +410,26 @@ def s11_reco(prs):
         ('02', 'Maintenir les incitations à la saisie du genre',
          "La tendance 41 % → 7 % est très positive. "
          "Maintenir les dispositifs qui ont produit cette amélioration."),
-        ('03', 'Traiter DROM comme segment à part',
-         "46 inscrits (1 %) — pas de benchmark INSEE disponible. "
-         "Nécessite une collecte spécifique pour un ratio fiable."),
+        ('03', "Analyser les disparités d'âge par région",
+         "Le mart contient AGE_GROUP × REGION sur 4 ans. "
+         "Certaines régions peuvent attirer des profils plus seniors ou juniors "
+         "— une heatmap révélerait des opportunités de ciblage."),
         ('04', 'Industrialiser le rebuild annuel',
          "À chaque nouveau fichier OCR ou mise à jour INSEE : "
          "run_all_imports.py + dbtf build. Le pipeline est prêt."),
     ]
-    rw = Inches(4.42); rh = Inches(1.92)
+    rw = Inches(4.42); rh = Inches(2.2)
     for i, (num, title, body) in enumerate(recs):
         rx = Inches(0.22) + (i % 2) * (rw + Inches(0.2))
-        ry = Inches(0.9) + (i // 2) * (rh + Inches(0.18))
+        ry = Inches(0.86) + (i // 2) * (rh + Inches(0.14))
         _r(sl, rx, ry, rw, rh, fill=LGR, edge=MB)
-        _r(sl, rx, ry, Inches(0.48), rh, fill=MB)
-        _t(sl, rx + Inches(0.06), ry + rh / 2 - Inches(0.2), Inches(0.38),
-           Inches(0.38), num, sz=13, bold=True, col=WH, align=PP_ALIGN.CENTER)
-        _t(sl, rx + Inches(0.56), ry + Inches(0.18), rw - Inches(0.65),
-           Inches(0.36), title, sz=10, bold=True, col=DB)
-        _t(sl, rx + Inches(0.56), ry + Inches(0.6), rw - Inches(0.65),
-           Inches(1.22), body, sz=9, col=BK)
+        _r(sl, rx, ry, Inches(0.58), rh, fill=MB)
+        _t(sl, rx + Inches(0.08), ry + rh / 2 - Inches(0.28), Inches(0.48),
+           Inches(0.48), num, sz=16, bold=True, col=WH, align=PP_ALIGN.CENTER)
+        _t(sl, rx + Inches(0.68), ry + Inches(0.2), rw - Inches(0.8),
+           Inches(0.46), title, sz=14, bold=True, col=DB)
+        _t(sl, rx + Inches(0.68), ry + Inches(0.74), rw - Inches(0.8),
+           Inches(1.35), body, sz=12, col=BK)
 
 
 def s12_livrables(prs):
@@ -454,7 +439,7 @@ def s12_livrables(prs):
 
     delivs = [
         ('1', 'CSV consolidé',
-         'mart_profil_sociodemographique.csv\nGrain : année × région × genre × âge\n1 741 lignes · 7 colonnes'),
+         'mart_profil_sociodemographique.csv\nGrain : année × région × genre × âge\n1 742 lignes · 7 colonnes'),
         ('2', 'Workflow dbt commenté',
          'GitHub + dbt Cloud opérationnel\nSQL commenté · tests justifiés\nDoc blocks dbt'),
         ('3', 'Cette présentation',
@@ -463,43 +448,38 @@ def s12_livrables(prs):
     dw = Inches(3.0)
     for i, (num, title, body) in enumerate(delivs):
         dx = Inches(0.22) + i * (dw + Inches(0.15))
-        _r(sl, dx, Inches(0.9), dw, Inches(1.72), fill=DB)
-        _r(sl, dx, Inches(0.9), dw, Inches(0.44), fill=MB)
-        _t(sl, dx + Inches(0.1), Inches(0.94), Inches(0.44), Inches(0.36),
-           num, sz=14, bold=True, col=WH, align=PP_ALIGN.CENTER)
-        _t(sl, dx + Inches(0.58), Inches(0.96), dw - Inches(0.7),
-           Inches(0.36), title, sz=10, bold=True, col=WH)
-        _t(sl, dx + Inches(0.12), Inches(1.4), dw - Inches(0.2),
-           Inches(1.1), body, sz=8.5, col=LB)
+        _r(sl, dx, Inches(0.86), dw, Inches(2.1), fill=DB)
+        _r(sl, dx, Inches(0.86), dw, Inches(0.56), fill=MB)
+        _t(sl, dx + Inches(0.1), Inches(0.9), Inches(0.56), Inches(0.48),
+           num, sz=18, bold=True, col=WH, align=PP_ALIGN.CENTER)
+        _t(sl, dx + Inches(0.7), Inches(0.92), dw - Inches(0.82),
+           Inches(0.46), title, sz=14, bold=True, col=WH)
+        _t(sl, dx + Inches(0.12), Inches(1.5), dw - Inches(0.2),
+           Inches(1.34), body, sz=12, col=LB)
 
-    _r(sl, Inches(0.22), Inches(2.78), Inches(9.56), Inches(0.5), fill=LB, edge=MB)
-    _t(sl, Inches(0.35), Inches(2.87), Inches(9.3), Inches(0.38),
+    _r(sl, Inches(0.22), Inches(3.1), Inches(9.56), Inches(0.6), fill=LB, edge=MB)
+    _t(sl, Inches(0.35), Inches(3.22), Inches(9.3), Inches(0.46),
        'Pipeline reproductible :   python scripts/run_all_imports.py   →   dbtf build',
-       sz=10, bold=True, col=DB, align=PP_ALIGN.CENTER)
+       sz=14, bold=True, col=DB, align=PP_ALIGN.CENTER)
 
-    _t(sl, Inches(0.22), Inches(3.4), Inches(9.56), Inches(0.25),
-       'QUESTIONS PROBABLES', sz=8, bold=True, col=MB)
+    _t(sl, Inches(0.22), Inches(3.84), Inches(9.56), Inches(0.35),
+       'QUESTIONS PROBABLES', sz=13, bold=True, col=MB)
 
     qa = [
         ('Valeurs manquantes ?',
-         "Genre → catégorie 'Non renseigné' documentée.  DROM → agrégat DOM."),
+         "Genre → catégorie 'Non renseigné' documentée — zéro NULL en sortie de staging."),
         ('Tests dbt ?',
          'Stratégie par couche + test singulier longitudinal + relationships.'),
         ('Reproductibilité ?',
          'Tests bloquants + seeds versionnés + dbtf build suffit.'),
     ]
     for i, (q, a) in enumerate(qa):
-        qy = Inches(3.7) + i * Inches(0.6)
-        _r(sl, Inches(0.22), qy, Inches(9.56), Inches(0.54), fill=WH, edge=LGR2)
-        _t(sl, Inches(0.35), qy + Inches(0.04), Inches(2.4), Inches(0.24),
-           f'Q : {q}', sz=8.5, bold=True, col=DB)
-        _t(sl, Inches(0.35), qy + Inches(0.28), Inches(9.2), Inches(0.24),
-           f'→  {a}', sz=8.5, col=BK)
-
-    _r(sl, 0, H - Inches(0.36), W, Inches(0.36), fill=DB)
-    _t(sl, Inches(0.25), H - Inches(0.33), Inches(9.5), Inches(0.3),
-       'Yukel Alexandre  ·  Projet 8  ·  Certification Data Analyst OCR  ·  Juin 2026',
-       sz=8.5, col=LB, align=PP_ALIGN.CENTER)
+        qy = Inches(4.24) + i * Inches(0.46)
+        _r(sl, Inches(0.22), qy, Inches(9.56), Inches(0.4), fill=WH, edge=LGR2)
+        _t(sl, Inches(0.35), qy + Inches(0.03), Inches(2.7), Inches(0.2),
+           f'Q : {q}', sz=11, bold=True, col=DB)
+        _t(sl, Inches(0.35), qy + Inches(0.22), Inches(9.2), Inches(0.2),
+           f'→  {a}', sz=11, col=BK)
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -514,21 +494,20 @@ def main():
     prs = Presentation(str(V1))
     global W, H
     W, H = prs.slide_width, prs.slide_height
-    print(f'Template: {len(prs.slides)} slides  |  {W.inches:.2f}" × {H.inches:.2f}"')
+    print(f'Template: {len(prs.slides)} slides  |  {W.inches:.2f}" x {H.inches:.2f}"')
 
     original = len(prs.slides)
     for fn in BUILDERS:
         fn(prs)
         print(f'  Built: {fn.__name__}')
 
-    # Remove original template slides from manifest
     sldIdLst = prs.slides._sldIdLst
     for _ in range(original):
         sldIdLst.remove(sldIdLst[0])
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     prs.save(str(OUT))
-    print(f'\nSaved → {OUT}')
+    print(f'\nSaved: {OUT}')
     print(f'Final: {len(prs.slides)} slides')
 
 
