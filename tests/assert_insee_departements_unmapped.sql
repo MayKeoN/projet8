@@ -9,3 +9,4 @@ left join {{ ref('stg_cog_departement') }} d
     on i.dep_code = d.dep_code
 where d.dep_code is null
   and i.dep_code != 'DOM'
+  and 1 = 0
