@@ -22,5 +22,7 @@ Thumbs.db
 # Deliverables — generated files, not source
 deliverables/
 
-# Jupyter checkpoints
-.ipynb_checkpoints/
+# Scripts utilitaires non versionnés
+scripts/package_livrables.py
+scripts/generate_charts.py
+scripts/build_presentation*.py
